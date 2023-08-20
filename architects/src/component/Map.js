@@ -7,6 +7,7 @@ const Map = () => {
         <img
           src="https://www.w3schools.com/w3images/map.jpg"
           className="w3-image"
+          alt="map"
           style={{ width: "100%" }}
         />
       </div>
