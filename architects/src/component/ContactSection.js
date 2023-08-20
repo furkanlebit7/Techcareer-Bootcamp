@@ -8,7 +8,7 @@ const ContactSection = () => {
           Contact
         </h3>
         <p>Lets get in touch and talk about your next project.</p>
-        <form action="/action_page.php" target="_blank">
+        <form action="/action_page.php" target="_blank" rel="noreferrer">
           <input
             className="w3-input w3-border"
             type="text"
