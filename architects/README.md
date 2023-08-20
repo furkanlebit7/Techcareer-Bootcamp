@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# 🏢 BR Architects Clone App with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Techcareer React module Projects : BR Architects Clone App
 
-## Available Scripts
+## ➡️ Live Demo
 
-In the project directory, you can run:
+Click Here to Go Live App : [BR Architects Clone App](https://furkanlebit7-architects-clone.netlify.app/#home)
 
-### `npm start`
+## :computer: Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository and install its features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm install or yarn install
+```
 
-### `npm test`
+2. Use the project locally (localhost).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start or yarn start
+```
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Ekran görüntüsü 2023-08-20 134947](https://github.com/furkanlebit7/Techcareer-Bootcamp/assets/59422278/27663d2b-f65e-47fb-adb8-6130214751ab)
+![Ekran görüntüsü 2023-08-20 135007](https://github.com/furkanlebit7/Techcareer-Bootcamp/assets/59422278/fc366267-55cd-469e-974b-19203d5d286e)
+![Ekran görüntüsü 2023-08-20 135024](https://github.com/furkanlebit7/Techcareer-Bootcamp/assets/59422278/a0dd1dea-5a76-47c0-844f-4fd7bf017b99)
+![Ekran görüntüsü 2023-08-20 135039](https://github.com/furkanlebit7/Techcareer-Bootcamp/assets/59422278/9509a496-35cf-447a-84d6-5f3aaff79fc1)
+![Ekran görüntüsü 2023-08-20 135102](https://github.com/furkanlebit7/Techcareer-Bootcamp/assets/59422278/32985806-71ec-4a5e-bb21-58e4ec5df4c3)
