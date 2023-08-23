@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="dark:bg-darkBg bg-bgMain">
       <Navbar />
-      <div className="p-4 mx-auto max-w-screen-xl min-h-[calc(100vh-4rem)] h-auto">
+      <div className="px-2 py-4 sm:p-4 mx-auto max-w-screen-xl min-h-[calc(100vh-4rem)] h-auto">
         <Outlet />
       </div>
       <ToastContainer
