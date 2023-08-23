@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 //Icons
 import { AiTwotoneHome } from "react-icons/ai";
-import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { BsFillMoonFill, BsFillSunFill, BsGithub } from "react-icons/bs";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
@@ -38,8 +38,17 @@ const Navbar = () => {
           <Link to={`add`} className="hover:text-blue-500">
             Add Customer
           </Link>
+          <li className="cursor-pointer text-lg animate-bounce">
+            <a
+              href="https://github.com/furkanlebit7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </a>
+          </li>
           <li
-            className="cursor-pointer hover:animate-spin"
+            className="cursor-pointer hover:animate-spin text-lg"
             onClick={() => handleTheme()}
           >
             {theme ? <BsFillMoonFill /> : <BsFillSunFill />}
