@@ -32,15 +32,15 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
         <Link
           to={"/"}
-          className="flex items-center dark:text-white text-2xl gap-3 hover:text-green-500"
+          className="flex items-center dark:text-white text-lg md:text-2xl gap-1 md:gap-3 hover:text-green-500"
         >
           <AiTwotoneHome />
           <span className="self-center  font-semibold whitespace-nowrap">
             Techcareer
           </span>
         </Link>
-        <ul className="dark:text-white flex items-center gap-10 font-medium">
-          <Link to={`add`} className="hover:text-blue-500">
+        <ul className="dark:text-white flex items-center gap-3 md:gap-10 font-medium">
+          <Link to={`add`} className="hover:text-blue-500 text-sm md:text-base">
             Add Customer
           </Link>
           <li className="cursor-pointer text-lg animate-bounce">
