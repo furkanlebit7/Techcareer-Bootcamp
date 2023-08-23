@@ -52,7 +52,6 @@ const CustomerTable = ({ customers, setLimit }) => {
             </th>
             <th className="py-3 px-4 font-semibold text-left">Street</th>
             <th className="py-3 px-4 font-semibold text-left">City</th>
-            <th className="py-3 px-4 font-semibold text-left">Detail</th>
           </tr>
         </thead>
         <tbody className="text-gray-600 dark:text-gray-200">
