@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 
 //Icons
 import { AiTwotoneHome } from "react-icons/ai";
-import { BsFillMoonFill, BsFillSunFill, BsGithub } from "react-icons/bs";
+import {
+  BsCodeSlash,
+  BsFillMoonFill,
+  BsFillSunFill,
+  BsGithub,
+} from "react-icons/bs";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
@@ -45,6 +50,15 @@ const Navbar = () => {
               rel="noreferrer"
             >
               <BsGithub />
+            </a>
+          </li>
+          <li className="cursor-pointer text-lg">
+            <a
+              href="https://github.com/furkanlebit7/Techcareer-Bootcamp/tree/main/customer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsCodeSlash />
             </a>
           </li>
           <li
