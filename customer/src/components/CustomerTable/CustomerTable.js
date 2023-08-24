@@ -30,6 +30,7 @@ const CustomerTable = ({ customers, setLimit }) => {
             onChange={(e) => setLimit(e.target.value)}
             className="bg-white  border border-gray-300 dark:bg-darkMain rounded px-2 py-1 text-sm focus:outline-none focus:ring focus:border-blue-300 cursor-pointer"
           >
+            <option value="">All</option>
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>

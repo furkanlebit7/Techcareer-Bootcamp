@@ -9,7 +9,7 @@ import Loading from "../components/Loading";
 
 const Customers = () => {
   const [customers, setCustomers] = useState([]);
-  const [limit, setLimit] = useState(5);
+  const [limit, setLimit] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
