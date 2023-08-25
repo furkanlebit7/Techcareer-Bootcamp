@@ -6,11 +6,14 @@ import axios from "axios";
 //Components
 import CustomerTable from "../components/CustomerTable/CustomerTable";
 import Loading from "../components/Loading";
+import Header from "../components/CustomerTable/Header";
+import Search from "../components/CustomerTable/Search";
 
 const Customers = () => {
   const [customers, setCustomers] = useState([]);
   const [limit, setLimit] = useState("");
   const [loading, setLoading] = useState(true);
+  const [text, setText] = useState("");
 
   useEffect(() => {
     async function getCustomers() {
@@ -22,13 +25,14 @@ const Customers = () => {
     }
     getCustomers();
   }, [limit]);
-
   return (
     <div>
+      <Header setLimit={setLimit} />
+      <Search text={text} setText={setText} />
       {loading ? (
         <Loading />
       ) : (
-        <CustomerTable customers={customers} setLimit={setLimit} />
+        <CustomerTable customers={customers} setLimit={setLimit} text={text} />
       )}
     </div>
   );
