@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../Components/Navbar";
-import { Carousel } from "flowbite-react";
 import { SlLocationPin } from "react-icons/sl";
 import { HiChevronDoubleDown } from "react-icons/hi";
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
   return (
     <div className="bg-header-bg h-screen  bg-cover">
       <div className="bg-white-gradient dark:bg-dark-gradient h-screen text-black dark:text-white text-center">
-        <div className="container mx-auto p-4 flex flex-col items-center h-full">
-          <Navbar />
-          <h1 className="text-4xl my-32 font-semibold font-mont text-center">
+        <div className="flex flex-col items-center h-full">
+          <Navbar scrolled={scrolled} setScrolled={setScrolled} />
+          <h1
+            className={`${
+              scrolled ? "mt-50" : "mt-32"
+            } text-4xl mb-32 font-semibold font-mont text-center`}
+          >
             Discover and Book the <br /> Hottest Events Worldwide
           </h1>
 
@@ -36,7 +40,10 @@ const Header = () => {
             </div>
           </div>
 
-          <button className="text-2xl animate-bounce">
+          <button
+            className="text-2xl animate-bounce mb-10 z-10"
+            onClick={() => window.scrollTo(0, 950)}
+          >
             <HiChevronDoubleDown />
           </button>
         </div>

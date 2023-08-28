@@ -8,7 +8,7 @@ import AllEventsButton from "../../Components/AllEventsButton";
 
 const FeaturedEvents = () => {
   return (
-    <div>
+    <div className="container mx-auto my-32 px-44">
       <SectionHeader />
       <Swiper
         autoplay={{
