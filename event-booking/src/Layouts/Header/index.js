@@ -7,7 +7,7 @@ import { HiChevronDoubleDown } from "react-icons/hi";
 const Header = () => {
   return (
     <div className="bg-header-bg h-screen  bg-cover">
-      <div className="bg-white-gradient h-screen text-white text-center">
+      <div className="bg-white-gradient dark:bg-dark-gradient h-screen text-black dark:text-white text-center">
         <div className="container mx-auto p-4 flex flex-col items-center h-full">
           <Navbar />
           <h1 className="text-4xl my-32 font-semibold font-mont text-center">
