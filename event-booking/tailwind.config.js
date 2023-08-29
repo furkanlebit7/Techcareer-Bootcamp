@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        "header-bg": "url('/src/assets/Images/main_bg.jpg')",
         "fullWidth-bg":
           "url('https://ovatheme.com/em4u/wp-content/uploads/2017/09/bg3.jpg')",
         "dark-gradient":
