@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../../Layouts/Header";
 import FeaturedEvents from "../../Layouts/FeaturedEvents";
 import FullWidthBgContent from "../../Components/FullWidthBgContent";
+import LatestNews from "../../Layouts/LatestNews";
+import Footer from "../../Layouts/Footer";
+import PopularEvents from "../../Layouts/PopularEvents";
 
 const HomePage = () => {
   return (
@@ -9,6 +12,9 @@ const HomePage = () => {
       <Header />
       <FeaturedEvents />
       <FullWidthBgContent />
+      <LatestNews />
+      <PopularEvents />
+      <Footer />
     </div>
   );
 };

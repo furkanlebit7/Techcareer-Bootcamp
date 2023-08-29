@@ -6,6 +6,7 @@ import { BsMusicPlayer } from "react-icons/bs";
 import { FaTheaterMasks } from "react-icons/fa";
 import { GiTheater } from "react-icons/gi";
 import { MdOutlineFestival } from "react-icons/md";
+import { ImTicket } from "react-icons/im";
 
 const FullWidthBgContent = () => {
   return (
@@ -31,6 +32,11 @@ const FullWidthBgContent = () => {
             icon={<MdOutlineFestival />}
             eventType={"FESTIVAL"}
             count={"3"}
+          />
+          <EventTypeStatistic
+            icon={<ImTicket />}
+            eventType={"OTHERS"}
+            count={"24"}
           />
         </div>
       </div>

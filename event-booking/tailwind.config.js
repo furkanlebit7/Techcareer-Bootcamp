@@ -15,6 +15,14 @@ module.exports = {
           "linear-gradient( rgba(237, 70, 144, 0.6) 0%, rgba(49, 49, 49, 1) 100%);",
         "white-gradient":
           "linear-gradient( rgba(237, 70, 144, 0.6) 0%, rgba(246, 246, 248, 1) 100%);",
+        "blight-gradient":
+          "linear-gradient( rgba(0, 0, 0, 0.0) 60%, rgba(0, 0, 0, 1) 100%);",
+      },
+      backgroundPosition: {
+        "left-4": "center left 1rem",
+      },
+      backgroundSize: {
+        "150%": "150%",
       },
       backgroundColor: {
         "gradient-blue": " rgba(85, 34, 204, 1)",
@@ -28,6 +36,7 @@ module.exports = {
         darkContent: "#262626",
         darkMain: "#313131",
         pinky: "#F53F7B",
+        bluecy: "0A075F",
       },
       width: {
         18: "70px",
