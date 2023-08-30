@@ -20,23 +20,29 @@ const Header = () => {
 
           <div className="flex-auto w-full">
             <div className="bg-gray-200 p-3 flex items-center justify-between w-2/3 mx-auto rounded-md text-black ">
-              <div className="w-1/3 flex items-center">
+              <div className="w-1/3 flex items-center text-xl">
                 <SlLocationPin />
                 <input
                   type="text"
                   placeholder="Zip Code or City"
-                  className="w-full border-r border-0 bg-transparent focus:outline-none focus:border-o"
+                  className="w-full border-r border-0 bg-transparent focus:outline-none focus:ring-0 text-xl"
                 />
               </div>
               <div className="w-1/3">
                 <input
                   type="date"
-                  className="w-full border-r border-0 bg-transparent focus:outline-none"
+                  className="w-full border-r border-0 bg-transparent focus:outline-none focus:ring-0 text-xl"
                 />
               </div>
               <div className="w-1/3">
-                <input type="date" className="w-full border-0 bg-transparent" />
+                <input
+                  type="date"
+                  className="w-full border-0 bg-transparent focus:ring-0 text-xl"
+                />
               </div>
+              <button className=" p-2 px-3 bg-pinky rounded-lg text-white dark:text-black">
+                Search
+              </button>
             </div>
           </div>
 
