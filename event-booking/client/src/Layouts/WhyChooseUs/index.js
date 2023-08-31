@@ -4,7 +4,7 @@ import SectionHeader from "../../Components/SectionHeader";
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg bg-white dark:bg-darkContent  py-20 pb-28 p-5 lg:p-0">
+    <div className="bg bg-white dark:bg-darkContent  py-20 pb-28 px-5 lg:px-0">
       <SectionHeader
         title={"Why Choose Us"}
         description={"Reasions why you Choose Us"}

@@ -48,7 +48,7 @@ const Header = () => {
 
           <button
             className="text-2xl animate-bounce mb-10 z-10"
-            onClick={() => window.scrollTo(0, 950)}
+            onClick={() => window.scrollTo(0, 970)}
           >
             <HiChevronDoubleDown />
           </button>

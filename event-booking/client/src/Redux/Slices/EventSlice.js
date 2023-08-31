@@ -15,7 +15,6 @@ export const EventSlice = createSlice({
     },
     [fetchEvents.fulfilled]: (state, action) => {
       state.data = action.payload;
-      console.log(action);
       state.status = "succeeded";
     },
     [fetchEvents.rejected]: (state, action) => {
