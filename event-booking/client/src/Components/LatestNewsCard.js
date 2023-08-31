@@ -8,7 +8,7 @@ import { FaRegCommentDots } from "react-icons/fa";
 
 const LatestNewsCard = () => {
   return (
-    <div className="bg-white dark:bg-darkContent dark:text-white text-black rounded-md backdrop-blur-md cursor-pointer border dark:border-gray-600 text-center group">
+    <div className="bg-white dark:bg-darkContent dark:text-white text-black rounded-md backdrop-blur-md cursor-pointer border dark:border-gray-600 text-center group 2xl:w-1/5 xl:w-1/4  lg:w-1/3 md:w-2/5 sm:w-1/2 w-full">
       <div className="relative">
         <img
           src={require("../assets/Images/festival.jpg")}

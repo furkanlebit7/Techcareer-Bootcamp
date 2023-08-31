@@ -8,7 +8,7 @@ import SeeAllButton from "../../Components/SeeAllButton";
 
 const FeaturedEvents = ({ events }) => {
   return (
-    <div className="container mx-auto my-32 px-44">
+    <div className="container mx-auto px-5 md:px-0 my-32 ">
       <SectionHeader
         title={"Featured Events"}
         description={
@@ -20,8 +20,17 @@ const FeaturedEvents = ({ events }) => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        slidesPerView={3}
-        spaceBetween={30}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          1000: { slidesPerView: 2 },
+          1200: { slidesPerView: 3 },
+          1400: {
+            slidesPerView: 4,
+          },
+        }}
+        spaceBetween={50}
         navigation={true}
         pagination={{
           clickable: true,

@@ -4,12 +4,12 @@ import SectionHeader from "../../Components/SectionHeader";
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg bg-white dark:bg-darkContent  py-20 pb-28 ">
+    <div className="bg bg-white dark:bg-darkContent  py-20 pb-28 p-5 lg:p-0">
       <SectionHeader
         title={"Why Choose Us"}
         description={"Reasions why you Choose Us"}
       />
-      <div className="container mx-auto grid grid-cols-3 grid-rows-2 gap-6 w-2/3">
+      <div className="lg:container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 xl:w-2/3">
         <WhyChooseCard />
         <WhyChooseCard />
         <WhyChooseCard />

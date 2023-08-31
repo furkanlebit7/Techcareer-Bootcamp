@@ -5,14 +5,15 @@ import SeeAllButton from "../../Components/SeeAllButton";
 
 const LatestNews = () => {
   return (
-    <div className="my-32 px-44 container mx-auto">
+    <div className="my-32 xl:container mx-auto px-5 md:p-0">
       <SectionHeader
         title={"Latest news"}
         description={
           "You can choose to display Latest News about, Upcoming, Past Events here"
         }
       />
-      <div className="flex items-center justify-center gap-10">
+      <div className="flex items-center justify-center lg:gap-10 gap-3 flex-wrap">
+        <LatestNewsCard />
         <LatestNewsCard />
         <LatestNewsCard />
         <LatestNewsCard />

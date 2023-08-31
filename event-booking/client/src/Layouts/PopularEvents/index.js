@@ -4,7 +4,7 @@ import PopularEventCard from "../../Components/PopularEventCard";
 
 const PopularEvents = () => {
   return (
-    <div className="container mx-auto my-32 px-44 ">
+    <div className="lg:container mx-auto my-32 p-5 lg:p-0 ">
       <SectionHeader
         title={"Most Popular Events"}
         description={"Browse Popular Events"}
@@ -16,10 +16,10 @@ const PopularEvents = () => {
         <div className="col-start-3 col-end-5 row-start-1 row-end-2">
           <PopularEventCard type={"festival"} />
         </div>
-        <div className="col-start-3 col-end-4 row-start-2 row-end-4">
+        <div className="col-start-3 sm:col-end-4 col-end-5 row-start-2 row-end-4">
           <PopularEventCard type={"theater"} />
         </div>
-        <div className="col-start-4 col-end-5 row-start-2 row-end-4">
+        <div className="col-start-4 col-end-5 row-start-2 row-end-4 hidden sm:inline-block">
           <PopularEventCard type={"cinema"} />
         </div>
       </div>

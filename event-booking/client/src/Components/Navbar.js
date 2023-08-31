@@ -6,6 +6,7 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
 const Navbar = ({ scrolled, setScrolled }) => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
+  const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -33,27 +34,39 @@ const Navbar = ({ scrolled, setScrolled }) => {
           : ""
       } w-full p-4 transition-all z-50`}
     >
-      <div className="container mx-auto z-50">
+      <div className="lg:container mx-auto z-50">
         <div className="flex items-center justify-between w-full">
           <p className="text-2xl">
             <span className="font-bold text-3xl">Event</span>ick
           </p>
-          <ul className="flex items-center gap-10 font-normal font-mont">
+          <ul
+            className={`absolute px-10 md:px-0 text-lg md:text-base bg-white dark:bg-darkMain md:dark:bg-transparent h-screen w-screen  md:h-auto md:w-auto md:bg-transparent md:relative md:items-center gap-3 transition-all  lg:gap-10 font-normal font-mont flex-col md:flex-row justify-evenly  md:flex ${
+              toggle ? "flex top-0 left-0" : "hidden -top-full"
+            }`}
+          >
+            <li
+              className="absolute top-5 right-4 inline-block md:hidden"
+              onClick={() => setToggle(!toggle)}
+            >
+              X
+            </li>
             <li>Schedule</li>
             <li>About</li>
             <li>Cinema</li>
             <li>Speakers</li>
             <li>Ticket</li>
-            <li className="mr-auto">Contact</li>
+            <li className="md:mr-auto">Contact</li>
             <li>Login</li>
           </ul>
 
-          <button onClick={() => handleTheme()}>
-            {theme ? <BsFillMoonFill /> : <BsFillSunFill />}
-          </button>
-          <button className="sm:hidden">
-            <GiHamburgerMenu />
-          </button>
+          <div className="flex items-center gap-10">
+            <button onClick={() => handleTheme()}>
+              {theme ? <BsFillMoonFill /> : <BsFillSunFill />}
+            </button>
+            <button className="md:hidden" onClick={() => setToggle(!toggle)}>
+              <GiHamburgerMenu />
+            </button>
+          </div>
         </div>
       </div>
     </div>

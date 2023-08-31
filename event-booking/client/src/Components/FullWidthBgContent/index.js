@@ -12,7 +12,7 @@ const FullWidthBgContent = () => {
   return (
     <div className="w-full bg-fullWidth-bg h-96 bg-fixed bg-no-repeat">
       <div className="w-full h-full bg-black bg-opacity-70 flex items-center">
-        <div className="flex items-center justify-evenly container mx-auto">
+        <div className="grid grid-cols-2 md:flex place-items-center gap-6 items-center justify-evenly container mx-auto">
           <EventTypeStatistic
             icon={<BsMusicPlayer />}
             eventType={"CONCERT"}
