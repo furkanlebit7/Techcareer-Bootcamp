@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import SeeAllButton from "../../Components/SeeAllButton";
 
-const FeaturedEvents = () => {
+const FeaturedEvents = ({ events }) => {
   return (
     <div className="container mx-auto my-32 px-44">
       <SectionHeader
@@ -29,7 +29,13 @@ const FeaturedEvents = () => {
         modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {events &&
+          events.data.map((event) => (
+            <SwiperSlide>
+              <HeaderSliderCard event={event} />
+            </SwiperSlide>
+          ))}
+        {/* <SwiperSlide>
           <HeaderSliderCard />
         </SwiperSlide>
         <SwiperSlide>
@@ -40,10 +46,7 @@ const FeaturedEvents = () => {
         </SwiperSlide>
         <SwiperSlide>
           <HeaderSliderCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeaderSliderCard />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <SeeAllButton text={"All Events"} />
     </div>

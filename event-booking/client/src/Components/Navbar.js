@@ -21,7 +21,6 @@ const Navbar = ({ scrolled, setScrolled }) => {
 
     localStorage.setItem("theme", theme);
   }, [theme]);
-  console.log(scrolled);
 
   const handleTheme = () => {
     setTheme(theme ? "" : "dark");

@@ -5,6 +5,10 @@ import reportWebVitals from "./reportWebVitals";
 
 //Packages
 import { RouterProvider } from "react-router-dom";
+import { Provider } from "react-redux";
+
+//Redux
+import { store } from "./Redux/store";
 
 //Router
 import { router } from "./Router/Router";
@@ -12,7 +16,9 @@ import { router } from "./Router/Router";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );
 
