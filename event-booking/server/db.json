@@ -2,13 +2,12 @@
   "events": [
     {
       "id": 5220,
-      "eventTypeId": 4,
+      "eventTypeId": 5,
       "eventName": "Yeniden Sinematek - Cennetten Gelen Çocuk / Cairo Conspiracy ",
       "eventEndDate": "2023-08-30T22:00:00",
       "eventSmallPicture": "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Thumb/20230623_161443_ic.jpg",
       "locationId": 213,
       "eventShortDescription": "Yeniden Sinematek \"Cennetten Gelen Çocuk / Cairo Conspiracy \" adlı film gösterimi 30 Ağustos 2023 aksamı saat 21.00'da Tarihi Havagazı Fabrikası'nda... \r\r",
-      "eventSalesLink": null,
       "eventPrice": "15-20₺",
       "eventPictures": [
         "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Kucuk/20230623_161434_etkinlik.jpg",
@@ -26,7 +25,6 @@
       "eventSmallPicture": "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Thumb/20230829_155036_ic.jpg",
       "locationId": 235,
       "eventShortDescription": "Seçilya Biçer Beşlisi konseri 02 Eylül 2023 tarihinde saat:19.00'da Urladam'da gerçekleşecektir.",
-      "eventSalesLink": null,
       "eventPrice": 0,
       "eventPictures": [
         "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Kucuk/20230829_155029_etkinlik.jpg",
@@ -37,7 +35,7 @@
     },
     {
       "id": 5277,
-      "eventType": 7,
+      "eventTypeId": 5,
       "eventName": "92. İEF- Afara / Bir Arabesk Müzikali ",
       "eventEndDate": "2023-09-03T23:00:00",
       "eventSmallPicture": "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Thumb/20230828_145526_ic.jpg",
@@ -60,7 +58,6 @@
       "eventSmallPicture": "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Thumb/20230711_170119_ic.jpg",
       "locationId": 231,
       "eventShortDescription": "Camda Antik İzmir Koleksiyon Sergisi 14 Temmuz - 31 Ağustos 2023 tarihleri arasında Ahmed Adnan Saygun Sanat Merkezi/Giriş Galeriler'de...",
-      "eventSalesLink": null,
       "eventPrice": "100-200₺",
       "eventPictures": "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Kucuk/20230711_170102_etkinlik.jpg",
       "eventUrl": "camda-antik-izmir-koleksiyon-sergisi",
@@ -68,13 +65,12 @@
     },
     {
       "id": 1,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Flashback 90'lar Türkçe Pop Gecesi",
       "eventEndDate": "2023-09-09T18:30:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/14062023153908-90lar_turkce_pop_passo.jpg",
       "locationId": 1,
       "eventShortDescription": "Flashback 90'lar Türkçe Pop Gecesi 9 Eylül'de Zorlu PSM Vestel Amfi Sahnesi'nde.",
-      "eventSalesLink": null,
       "eventPrice": "154₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/14062023153908-90lar_turkce_pop_passo.jpg",
@@ -85,13 +81,12 @@
     },
     {
       "id": 2,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "BabyConcerts ile Yaz Partisi (0+ yaş)",
       "eventEndDate": "2023-09-10T23:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/11072023184257-vestel_amfi_23_baby_concerts_passo.jpg",
       "locationId": 1,
       "eventShortDescription": "Türkiye’de ilk ve tek olan 0+ konseptiyle, 3 aylık ya da 3 yaşında fark etmeksizin tüm bebek ve çocuklar, aileleriyle canlı klasik müzik dinleme ve bir balerin ile hikaye anlatıcısı eşliğinde müzikal bir yolculuğa çıkma şansı buluyor. ",
-      "eventSalesLink": null,
       "eventPrice": "275₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/11072023184257-vestel_amfi_23_baby_concerts_passo.jpg",
@@ -102,13 +97,12 @@
     },
     {
       "id": 3,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Walkman 90'lar Türkçe Pop Gecesi",
       "eventEndDate": "2023-09-16T19:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28082023175940-passo_1920x1080.jpg",
       "locationId": 1,
       "eventShortDescription": "Türkiye’de ilk ve tek olan 0+ konseptiyle, 3 aylık ya da 3 yaşında fark etmeksizin tüm bebek ve çocuklar, aileleriyle canlı klasik müzik dinleme ve bir balerin ile hikaye anlatıcısı eşliğinde müzikal bir yolculuğa çıkma şansı buluyor. ",
-      "eventSalesLink": null,
       "eventPrice": "143₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28082023175940-passo_1920x1080.jpg",
@@ -125,7 +119,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/06072023130034-05122022113104-foals_1920x1080_psso.png",
       "locationId": 2,
       "eventShortDescription": "Yannis Philippakis, Jack Bevan ve Jimmy Smith üçlüsü FOALS, 2000'lerin sonunda müzikseverleri adeta hipnotize eden math rock ve atmosferik post-rock'tan etkilenen dengesiz bir indie rock ile ortaya çıktı. 2008 çıkışlı ilk albümleri ‘Antidotes’ ile başarılı bir müzik bileşeni ortaya koyduğunu ispatlayan FOALS,, memleketleri Birleşik Krallık'ta üç numaraya ulaştı. Sonraki on yılda, 2013'teki Holy Fire, 2019'daki Everything Not Save Will Be Lost, Pt. 1 ve Pt. 2 ve 2022 Life Is Yours ile epik müziklerini dinleyenleriyle buluşturmaya devam etti. ",
-      "eventSalesLink": null,
       "eventPrice": "605-880₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/06072023130034-05122022113104-foals_1920x1080_psso.png",
@@ -142,7 +135,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/19062023115310-gipsy_kings_piu.jpg",
       "locationId": 2,
       "eventShortDescription": "﻿GIPSY KINGS by Andre Reyes Albümleri 60 milyon satan, sahnede 30 yıllık başarılarla dolu bir müzik kariyerini geride bırakan Latin müziğinin en çok sevilen grubu, Grammy Ödüllü Gipsy Kings, Andre Reyes öncülüğünde 19 Eylül akşamı Zorlu PSM Turkcell Sahnesi’nde!",
-      "eventSalesLink": null,
       "eventPrice": "495-2.295₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/19062023115310-gipsy_kings_piu.jpg",
@@ -159,7 +151,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/27072023145028-psm_s11_altin_gun_passo.jpg",
       "locationId": 2,
       "eventShortDescription": "“Goca Dünya”, “Su Sızıyor”, “Doktor Civanım”, “Yüce Dağ Başında” gibi sevilen şarkılarıyla Altın Gün, 13 Ekim akşamı Turkcell Sahnesi’nde!Takdir toplayan Amsterdam merkezli Anadolu rock ve Türk Saykedelik Halk müziği grubu Altın Gün, pandemi dönemini stüdyoda geçirerek iki albüm yayınladı! Yol, Glitterbeat Records (Avrupa) ve ATO Records (Amerika) etiketiyle piyasaya sürüldü. Âlem ise hayır işleri için Bandcamp özel bir yayındır.Amsterdam merkezli Altın Gün, geçmişi ve bugünü birleştirerek muhteşem ve neşeli bir pop müziği yapma konusunda güçlü bir üne sahip oldu, bunun en güzel örneği Grammy adayı olan ikinci albümleri Gece ile görülmüştür. Yol, üç yılda üçüncü albümleri olma özelliğini taşıyor ve bir dizi sürpriz sesi ortaya koyuyor.",
-      "eventSalesLink": null,
       "eventPrice": "459₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/27072023145028-psm_s11_altin_gun_passo.jpg",
@@ -176,7 +167,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/06062023101719-psm_s10_mark_eliyahu_passo.jpg",
       "locationId": 2,
       "eventShortDescription": "Kamanche ustası Mark Eliyahu, çok sevdiği İstanbul seyiricisiyle bir kez daha buluşmak için “About Love Tour” kapsamında 30 Kasım akşamı Zorlu PSM Turkcell Sahnesi’ne geliyor!",
-      "eventSalesLink": null,
       "eventPrice": "385-935₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/06062023101719-psm_s10_mark_eliyahu_passo.jpg",
@@ -194,7 +184,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/25082023144605-lillypalmer_1920x1080_passo.png",
       "locationId": 2,
       "eventShortDescription": "Lilly Palmer, Raven Projekt sunumu ile 14 Ekim 2023 Cumartesi akşamı, Zorlu PSM'de!Techno sahnesinin son dönemde parlayan yıldızlarından olan Lilly Palmer, İstanbul'da unutulmaz bir gece için Zorlu PSM'de sahne alıyor. Bu yıl Tomorrowland ana sahnesinde olağanüstü bir performans sergileyerek adından sıkça söz ettiren Palmer, müziğiyle dinleyicilerine özgürlüğü ve derin duyguları hissettiriyor.",
-      "eventSalesLink": null,
       "eventPrice": "450₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/27072023145028-psm_s11_altin_gun_passo.jpg",
@@ -205,13 +194,12 @@
     },
     {
       "id": 9,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "TÜSİAD Cumhuriyetin 100. Yılı Kutlama Etkinliği",
       "eventEndDate": "2023-10-05T19:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023170944-passo_banner-4.jpg",
       "locationId": 2,
       "eventShortDescription": "TÜSİAD, Cumhuriyetin 100. yılı vesilesi ile 5 Ekim 2023 Perşembe günü, Zorlu PSM Turkcell Sahnesi’nde bir etkinlik düzenleyecektir. TÜSİAD Yönetim Kurulu Başkanı Orhan Turan'ın açış konuşmasını yapacağı etkinlikte konser bölümünde Sertab Erener ve orkestrası, piyanist Tuluğ Tırpan, Antakya Medeniyetler Korosu, genç sanatçılar ve konuklar sahne alacaktır.",
-      "eventSalesLink": null,
       "eventPrice": "7.000-18.765₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/2082023170944-passo_banner-4.jpg"
@@ -221,13 +209,12 @@
     },
     {
       "id": 10,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Single Circle presents: Kerem Görsev Trio",
       "eventEndDate": "2023-09-22T21:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22112022100326-kgt_1920x1080_psso.png",
       "locationId": 3,
       "eventShortDescription": "﻿Caz dünyasının önde gelen isimlerinden Kerem Görsev, kontrbasta Volkan Hürsever, davulda Ferit Odman’dan oluşan trio ekibiyle 22 Eylül'de touché’de!",
-      "eventSalesLink": null,
       "eventPrice": "330-385₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/22112022100326-kgt_1920x1080_psso.png"
@@ -237,13 +224,12 @@
     },
     {
       "id": 11,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "MIX Festival presented by %100 Müzik",
       "eventEndDate": "2023-11-03T19:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/27072023115414-passo_1920x1080.jpg",
       "locationId": 4,
       "eventShortDescription": "Müziğin sesini aç! 3-4 Kasım'da, %100 Müzik katkılarıyla, Zorlu PSM'de yedinci kez gerçekleşecek “çok sesli” MIX Festival, mottosuyla unutulmaz bir deneyime davet ediyor! Müzikseverlerin kalplerini fethedecek olan MIX Festival, yedi yıldır süregelen başarı ve coşku dolu geçmişini, yepyeni bir edisyonla taçlandırıyor.",
-      "eventSalesLink": null,
       "eventPrice": "1.100-1.375₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/27072023115414-passo_1920x1080.jpg",
@@ -254,13 +240,12 @@
     },
     {
       "id": 12,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "ELECTRONICA FESTIVAL ISTANBUL 2023",
       "eventEndDate": "2023-10-01T19:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/19072023135211-1920x1080_efi2.jpg",
       "locationId": 4,
       "eventShortDescription": "Nefesleri kesen bir elektronik müzik deneyimin geri sayımı tekrardan başlıyor; Electronica Festival 1 ve 2 Eylül'de, Zorlu PSM Istanbul’da!",
-      "eventSalesLink": null,
       "eventPrice": "600-1.150₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/19072023135211-1920x1080_efi2.jpg",
@@ -278,7 +263,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28082023182555-linet-konser-bileti-yeni-gazino-istanbul-passo.jpg",
       "locationId": 5,
       "eventShortDescription": "Linet, 2 Eylül'de Yeni sahnesinde dinleyicileri ile buluşacak...",
-      "eventSalesLink": null,
       "eventPrice": "2.500-8.000₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28082023182555-linet-konser-bileti-yeni-gazino-istanbul-passo.jpg",
@@ -295,7 +279,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/07082023114420-9.png",
       "locationId": 6,
       "eventShortDescription": "Sena Şener,  2 Eylül'de YBY Woods Yaşam ve Etkinlik Alanı'nda sizlerle...",
-      "eventSalesLink": null,
       "eventPrice": "350₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/07082023114420-9.png"
@@ -311,7 +294,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/07082023113720-8.png",
       "locationId": 6,
       "eventShortDescription": "Evrencan Gündüz,  3 Eylül'de YBY Woods Yaşam ve Etkinlik Alanı'nda sizlerle...",
-      "eventSalesLink": null,
       "eventPrice": 0,
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/07082023113720-8.png"
@@ -327,7 +309,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28072023132912-garou-1920x1080_passo.jpg",
       "locationId": 7,
       "eventShortDescription": "Bütün dünya ona hayranlık ile bakıyor, çoğu şarkısı ezbere biliniyor.Garou olağan üstü sesin çılgın karizma ile birleştiği eşi benzeri bulunmaz bir yetenektir. Paslı sesi ile romantik maço erkeği havası Dünya'nın dört bir yanındaki kadın dinleyicilerinin kalplerini fethediyor. 'Notre Dame de Paris' müzikalindeki Quasimodo rolü sayesinde dünya çapında bir star haline geldi. Bu rol onun kişiliğinin gerçek derinliğini ve kudretini ortaya koymuştur.",
-      "eventSalesLink": null,
       "eventPrice": "550-4.650₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28072023132912-garou-1920x1080_passo.jpg"
@@ -343,7 +324,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28122022135748-manga_eat.jpg",
       "locationId": 7,
       "eventShortDescription": "﻿Events Across Turkey’in bir kült haline gelen uluslararası ödüllü projesi  An Epic Symphony, ülkemizin en önemli rock gruplarından MANGA ‘yı Night Flight Symphony Orchestra & Choir eşliğinde yeniden ağırlıyor.",
-      "eventSalesLink": null,
       "eventPrice": "330-1.375₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28122022135748-manga_eat.jpg",
@@ -360,7 +340,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/09052023110546-hauser.jpg",
       "locationId": 8,
       "eventShortDescription": "Enstrümantalistlerin kötü çocuğu ve kısaca HAUSER olarak bilinen 2Cellos'un kurucu üyesi, merakla beklenen dünya çapındaki ilk solo turnesi “Rebel with a Cello” kapsamında İstanbul'da sahne alacak. Klasik müzik tutkusunu dinamizmiyle şekillendiren, sosyal medya platformlarında milyarlarca dinlenme ve video görüntülemesi olan Hırvat çellist, Epifoni organizasyonuyla 18 Kasım 2023 akşamı Ülker Arena'da hayranlarıyla buluşacak.",
-      "eventSalesLink": null,
       "eventPrice": "330-1.375₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/09052023110546-hauser.jpg",
@@ -377,7 +356,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/20062023134937-imany_piu_20062023.jpg",
       "locationId": 9,
       "eventShortDescription": "Soul müziğin Fransız divası Imany yoğun talep üzerine bir kez daha İstanbul’da, 7 Eylül’de Turkcell Vadi Açıkhava sahnesinde!İlk albümü “Shape of a Broken Heart” ile üç ülkede platin plak ödülü kazanarak geniş bir hayran kitlesi edinen, “You Will Never Know” ve “Don’t Be Shy” single’ları ile dünya çapında üne kavuşan Imany, şarkılarında aşkın yanısıra, kadın hakları, iklim değişikliği gibi gibi birçok konuda sevenlerinin sesi oluyor ve adeta bir hikaye anlatıcısı olarak günümüz dünyasını şarkılarıyla anlatıyor.2021 yılında çıkardığı cover albümü Voodoo-Cello’da seslendirdiği ikonik pop şarkılarını tiyatral ögelerle bezenmiş benzersiz bir görsel şov eşliğinde, 8 yetenekli çello sanatçısı ile birlikte seslendireceği bu muhteşem müzik şölenini kaçırmayın.",
-      "eventSalesLink": null,
       "eventPrice": "495-2.145₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/20062023134937-imany_piu_20062023.jpg",
@@ -388,13 +366,12 @@
     },
     {
       "id": 20,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Eat Like an Italian 2",
       "eventEndDate": "2023-09-16T15:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/10082023162624-1920x1080.png",
       "locationId": 10,
       "eventShortDescription": "Şeflerin etkinlik için hazırlayacağı özel İtalyan lezzetler gün boyu farklı istasyonlarda katılımcılara sunulurken müziğin ve büyüleyici manzaranın tadını özel kokteyller ve kokteyl workshopu ile çıkaracağız. Aperitiflerden, pizza, makarna çeşitlerine, salatalardan tatlılara bir çok sürpriz lezzet için Eat Like an Italian 2’de buluşalım. ",
-      "eventSalesLink": null,
       "eventPrice": "275₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/10082023162624-1920x1080.png",
@@ -405,13 +382,12 @@
     },
     {
       "id": 21,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "Watsons Gençlik Festivali",
       "eventEndDate": "2023-09-30T15:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023203953-passo_v01.png",
       "locationId": 11,
       "eventShortDescription": "﻿Watsons Gençlik Festivali kapılarını 30 Eylül Cumartesi günü Santral İstanbul'da açıyor. 'Watsons Gençlik Festivali,  şehrin tam ortasında sizlere benzersiz bir atmosfer sunuyor.Yaz biterken MaNga, Adamlar, Yaşlı Amca, Nova Norda ve Eftalya Yağcı ile benzersiz bir festival deneyimi yaşamaya hazır mısınız?Konserlerin yanı sıra tüm gün yarışmalar, eğlenceli aktiviteler, atölyeler ve sürpriz hediyelerle eğlenmenin doğru adresi, Watsons Gençlik Festivali.'",
-      "eventSalesLink": null,
       "eventPrice": "195₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/22082023203953-passo_v01.png",
@@ -422,13 +398,12 @@
     },
     {
       "id": 22,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "90'lar Dans Gecesi - 1 Eylül",
       "eventEndDate": "2023-09-01T21:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023203953-passo_v01.png",
       "locationId": 12,
       "eventShortDescription": "90'ların unutulmaz şarkıları Dj eşliğinde canlı performans olarak yeniden hayat buluyor.90'lar Dans Gecesi Her Cuma & Cumartesi 21.00-04.00 arasında Sanat Performance Sahnesi'nde..70’ler 80’ler 90’lardan günümüze Türkçe şarkılarla yeni bir hatıra yazıyoruz.Çocukluk anılarınız, ilk aşkınız, büyüdüğünüz yer, hayalleriniz, oyuncaklarınız, kasetler...Hepsi hala içinizde bir yerde hepsi bu festivalde.Bizleri büyüten, olgunlaştıran ve hayallerimizin içine yerleştirdiğimiz Türkçe ve Yabancı pop şarkılarında görüşmek üzere.",
-      "eventSalesLink": null,
       "eventPrice": "24₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/27032023144952-90lar.png",
@@ -445,7 +420,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/07042022165116-ayna-grubu-bilet-konser-passo.jpg",
       "locationId": 13,
       "eventShortDescription": "﻿1996′da çıktık yola, her zaman kullandığımız bir söz vardı, bekleyin sizin oraya da konsere geleceğiz, sizinle birlikte şarkılar söyleyeceğiz. Sonra gerçek oldu bütün bu söylenenler. Rekor dedi birileri. Biz rekordan ziyade şarkıları birlikte söylemiş olmanın hazzındayız.",
-      "eventSalesLink": null,
       "eventPrice": "275₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/07042022165116-ayna-grubu-bilet-konser-passo.jpg",
@@ -462,7 +436,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/21082023113007-1.jpg",
       "locationId": 13,
       "eventShortDescription": "﻿Azad Bedran, sevenleriyle Profilo Kültür Merkezi - Batı Ana Sahne'de buluşuyor!Azad Bedran, Şanlıurfa/Siverek'te doğdu.İlkokul  ve liseyi  Diyarbakır ‘ da bitirdi. Küçük yaştan beri müziğe ilgi duyan Bedran , 10 yaşında Dicle Fırat Kültür Merkezi'nde bağlama ve şan eğitimine başladı Azad Bedran ilk solo Albümü  “Réwiyén Şad”ı2016 yılında  yayınladı.2019 yılında '' Waye Waye “  ve birçok şarkılarıyla Youtube'da milyonlar izlenerek büyük çıkış sağladı.Son olarak “Evîna Azad” albümü dinleyicilerin beğenisine sunuldu. Halen kültürel çalışmalarını ve yaşamını Diyarbakır’ da yürütmektedir .",
-      "eventSalesLink": null,
       "eventPrice": "150-300₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/21082023113007-1.jpg",
@@ -479,7 +452,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/09082023112734-05062023144105-trym_1920x1080.png",
       "locationId": 14,
       "eventShortDescription": "TRYM 2 Aralık 2023 tarihinde Ora Arena'da sevenleriyle buluşuyor! TRYM HakkındaNorveçli DJ/Prodüktör TRYM, EDM sahnesinde büyük bir etki yaratmaktadır. Dünya genelindeki çeşitli festivallerde ve kulüplerde inanılmaz yeteneği ve benzersiz sesiyle dikkatleri üzerine çekmeyi başarmıştır. Kariyeri boyunca, TRYM birçok tanınmış EDM sanatçısıyla işbirliği yapmıştır. Flux Pavilion ile birlikte yaptığı 'Fire' adlı şarkıları, bugüne kadar en büyük başarılarından biri olarak Beatport Top 100 listesinde bir numaraya yükselmiştir. Ayrıca Illenium, Seven Lions ve birçok diğer başarılı sanatçıyla da çalışmıştır. Yeni müzikler üretmeye ve dünyanın farklı yerlerindeki başarılı prodüktörlerle işbirlikleri yapmaya devam etmektedir.",
-      "eventSalesLink": null,
       "eventPrice": "300-420₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/09082023112734-05062023144105-trym_1920x1080.png",
@@ -496,7 +468,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/09082022221230-umitbesen_pamela_kayikhane.jpg",
       "locationId": 15,
       "eventShortDescription": "Ümit Besen & Pamela, 15 Temmuz akşamı Moda Kayıkhane sahnesinde...",
-      "eventSalesLink": null,
       "eventPrice": "495-2.200₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/09082022221230-umitbesen_pamela_kayikhane.jpg",
@@ -513,7 +484,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/24062022200258-mary-jane-kayikhane.jpeg",
       "locationId": 15,
       "eventShortDescription": "Mary Jane, 8 Eylül Cuma akşamı Moda Kayıkhane sahnesinde... ",
-      "eventSalesLink": null,
       "eventPrice": "330-3.960₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/24062022200258-mary-jane-kayikhane.jpeg",
@@ -530,7 +500,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/21072023101656-1080.jpg",
       "locationId": 16,
       "eventShortDescription": "DJ MAG’de 5 kez dünyanın en iyi Dj’i seçilen ve 20 yıldan uzun süren müzik kariyerinde sürekli zirvede yer alan  Grammy ödüllü, Trance müziğin dünyadaki neferi ve EDM’in Dünyadaki en etkili figürü,",
-      "eventSalesLink": null,
       "eventPrice": "840-1.120₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/21072023101656-3.jpeg",
@@ -543,13 +512,12 @@
     },
     {
       "id": 29,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Karnaval İstanbul",
       "eventEndDate": "2023-09-01T16:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/23082023110929-asdasdasdasd.jpeg",
       "locationId": 16,
       "eventShortDescription": "KARNAVAL İSTANBUL 1 - 2 - 3 Eylül tarihlerinde Life Park İstanbul’da sizlerle!Lunaparktan, Xtreme Sirk’ e, Sokak lezzetlerinden , illüzyon gösterilerine Karnavalların olmazsa olmazları en etkileyici halleri, görsel şovları ve muhteşem dekorasyonu  ile 3 gün boyunca katılımcıları Harikalar Diyarına götürecek",
-      "eventSalesLink": null,
       "eventPrice": "165-385₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/21072023101656-3.jpeg",
@@ -562,13 +530,12 @@
     },
     {
       "id": 30,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "Live The Moment Festival 2023",
       "eventEndDate": "2023-09-10T15:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/18082023125811-ltm_passo_hd.jpg",
       "locationId": 16,
       "eventShortDescription": "LTM festival sunar :Istanbul en iyi mekanlarından birisinde açıkhava ve yemyeşil bir alanda harika ve büyük bir festival düzenliyoruz .Sarıyer ormanlarında LİFE PARK ana alanında 10 Eylül tarihinde beraberiz. PAZAR günü açılış öğlen saat 15:00'den akşam saat 24:00'e kadar farklı farklı eğlenceler ve ünlü DJ ler ile beraber huzurunuzdayız. ",
-      "eventSalesLink": null,
       "eventPrice": "700-1.550₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/18082023125811-ltm_passo_hd.jpg"
@@ -584,7 +551,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/17072023163616-mvoo.jpg",
       "locationId": 17,
       "eventShortDescription": "mor ve ötesi, 17 Eylül Pazar akşamı KüçükÇiftlik Park sahnesinde tarihi bir konser verecek! 2023 yılında İstanbul’da verecekleri bu ilk konserin hazırlıklarına şimdiden başlayan mor ve ötesi, devasa bir sahne prodüksiyonu ve ikonikleşmiş şarkılarından oluşan özel bir setlist ile hayranlarıyla buluşacak. ",
-      "eventSalesLink": null,
       "eventPrice": "700-1.550₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/17072023163616-mvoo.jpg"
@@ -600,7 +566,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/18052023114427-oscar_and_the_wolf.jpg",
       "locationId": 17,
       "eventShortDescription": "Ülkemizde de büyük bir hayran kitlesine sahip olan, her konserinin biletleri günler öncesinde tükenen ünlü Belçikalı grup Oscar and the Wolf,  Epifoni organizasyonu ile 21 Eylül gecesi İzmir Arena, 22 Eylül gecesi Ankara ODTU MD Vişnelik Çim Amfi, 23 Eylül'de ise İstanbul KüçükÇiftlik Park'ta sahne almak üzere ülkemize geliyor. Biletler, 22 Mayıs Pazartesi günü satışa çıkacak. ",
-      "eventSalesLink": null,
       "eventPrice": "550-2.000₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/18052023114427-oscar_and_the_wolf.jpg"
@@ -610,13 +575,12 @@
     },
     {
       "id": 33,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "KüçükÇiftlik Bark: Güneş - Jakuzi - Deniz Sipahi",
       "eventEndDate": "2023-09-17T19:30:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/21082023132138-passo-kcbark.jpg",
       "locationId": 17,
       "eventShortDescription": "Festivallerin vazgeçilmez adresi KüçükÇiftlik Park, bir kez daha kapılarını can dostlarımız yararına düzenlenen KüçükÇiftlik Bark için açıyor! URU organizasyonu ve BAC Team işbirliğinde gerçekleşecek festivalin bilet satışından elde edilecek tüm gelir, hayvan bakımevlerine bağışlanacak. Hayvan dostlarımızla ilgili söyleşi, eğitim ve atölye çalışmalarının yapılacağı festivalde gün boyu sürecek müzik yayınıyla katılımcılar hayvan dostlarıyla birlikte tamamen kendilerine adanmış bir gün yaşayacaklar. İlki 2021 yılında hayvan bakımevlerine düzenli olarak destek sağlanması amacıyla gerçekleştirilen festival, Güneş, Jakuzi ve Deniz Sipahi’nin ana sahnede vereceği konserlerle sona erecek. ",
-      "eventSalesLink": null,
       "eventPrice": "200₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/21082023132138-passo-kcbark.jpg"
@@ -626,13 +590,12 @@
     },
     {
       "id": 34,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "GarajFest Gençlik Festivali",
       "eventEndDate": "2023-09-17T19:30:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/23062023181556-kenan_dogulu.jpg",
       "locationId": 17,
       "eventShortDescription": "Usta sanatçımız Barış Manço’nun yıllar öncesinde dediği gibi “O yıl benim ülkem, Türkiye 100. yaşına basacak.” Bu anlamlı tarih vesilesiyle etkinliğimizle Ekim ayında sizlerleyiz.Müzik tutkunu gençler olarak, sizi müziğin büyülü dünyasına davet ediyoruz. Bu yıl festivalimizde Türk pop müziğinin en büyük yıldızlarından Kenan Doğulu'nun yanı sıra birbirinden yetenekli sanatçılar da sahne alacak. Bu üniversiteler arası muhteşem festival serüveninde dans edecek, şarkılara eşlik edecek ve unutulmaz anılar biriktireceksiniz.",
-      "eventSalesLink": null,
       "eventPrice": "280₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/23062023181556-kenan_dogulu.jpg"
@@ -648,7 +611,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/19052023211725-mehmet_erdem_eat.jpg",
       "locationId": 18,
       "eventShortDescription": "﻿Events Across Turkey’in bir kült haline gelen uluslararası ödüllü projesi An Epic Symphony, ülkemizin en önemli değerlerinden AHMET KAYA’yı MEHMET ERDEM’in sesiyle ilk kez Night Flight Symphony Orchestra & Choir eşliğinde ağırlıyor. İlk kez prömiyeri yapılacak bu özel projede kaçırmadan yerinizi ayırtın!!!",
-      "eventSalesLink": null,
       "eventPrice": "275-2.200₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/19052023211725-mehmet_erdem_eat.jpg"
@@ -664,7 +626,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/03042023132106-yildiztilbeharbiyepasso.jpg",
       "locationId": 18,
       "eventShortDescription": "Yıldız Tilbe, Bayhan Müzik Organizasyonuyla 18 Eylül 2023 akşamı  Harbiye Cemil Topuzlu Açık Hava Tiyatrosu’nda",
-      "eventSalesLink": null,
       "eventPrice": "339-2.260₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/03042023132106-yildiztilbeharbiyepasso.jpg"
@@ -680,7 +641,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/08062023011141-tan_tasci_yeni7_6.jpg",
       "locationId": 18,
       "eventShortDescription": "Yıldız Tilbe, Bayhan Müzik Organizasyonuyla 18 Eylül 2023 akşamı  Harbiye Cemil Topuzlu Açık Hava Tiyatrosu’nda",
-      "eventSalesLink": null,
       "eventPrice": "363-3.000₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/08062023011141-tan_tasci_yeni7_6.jpg"
@@ -696,7 +656,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/09082023110826-gazapizm_harbiye.jpg",
       "locationId": 18,
       "eventShortDescription": "Gazapizm, büyük ses getiren projesi Gazapizm Senfoni İstanbul 2023 projesi, DenizBank Açıkhava Etkinlikleri kapsamında, 26 Eylül’de ilk kez Harbiye Açıkhava’da!Gazapizm’in, Orhan Şallıel yönetimindeki 100’ü aşan Senfoni orkestrası ve koro ile gerçekleştireceği Senfoni İstanbul 2023 projesi, geçen yıl İstanbul ve İzmir’de ilk kez seyirciyle buluşmuş ve 2022 yazının en unutulmaz konserleri gerçekleşmişti.",
-      "eventSalesLink": null,
       "eventPrice": "318-840₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/09082023110826-gazapizm_harbiye.jpg"
@@ -712,7 +671,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/11082023133306-semicenk_istanbul_konserleri_festivalpark_kadikoy.jpeg",
       "locationId": 20,
       "eventShortDescription": "Semicenk 2 Eylül'de Festival Park Kadıköy sahnesinde.",
-      "eventSalesLink": null,
       "eventPrice": "300-480₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/11082023133306-semicenk_istanbul_konserleri_festivalpark_kadikoy.jpeg"
@@ -722,13 +680,12 @@
     },
     {
       "id": 40,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "İstanbul Rooftop Festival 2023",
       "eventEndDate": "2023-09-09T15:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/17052023102205-244787519_4282894885142899_7430465014390810517_n.jpeg",
       "locationId": 24,
       "eventShortDescription": "İstanbul’un klasiği haline gelen Rooftop Festival, 9 Eylül Cumartesi günü şehrin eşsiz manzaralarında 9. yaşını kutlamak için festival severler ile buluşuyor.Tek bilet ile gün boyunca, birbirinden farklı terasları deneyimleme imkanı sağlayan Rooftop Festival'de katılımcılar yerli ve yabancı bir çok ünlü sanatçının performanslarını dinlerken, yaratıcı workshoplar, imza kokteyller ve özel lezzetlerin tadını çıkaracak. ",
-      "eventSalesLink": null,
       "eventPrice": "400-450₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/17052023102214-245250999_4301780176587703_1129961681022438655_n.jpeg",
@@ -748,7 +705,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/08082023160737-memararat.jpg",
       "locationId": 25,
       "eventShortDescription": "Mem Ararat, 21 Ekim akşamı Ziz Müzik Organizasyonuyla Bostancı Gösteri Merkezi sahnesinde sevenleriyle buluşuyor!",
-      "eventSalesLink": null,
       "eventPrice": 0,
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/08082023160737-memararat.jpg",
@@ -765,7 +721,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28072023183919-adana.jpg",
       "locationId": 27,
       "eventShortDescription": "Rojda 8 Ekim Pazar Akşamı 01 Burda PGm Sahnesinde...",
-      "eventSalesLink": null,
       "eventPrice": "450₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28072023183919-adana.jpg"
@@ -781,7 +736,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/05072023163123-rewsan.jpg",
       "locationId": 27,
       "eventShortDescription": "Rewşan benzersiz performansıyla sizlerle...",
-      "eventSalesLink": null,
       "eventPrice": "224-392₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/05072023163123-rewsan.jpg"
@@ -797,7 +751,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023131943-sila.jpg",
       "locationId": 28,
       "eventShortDescription": "Sıla, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "339-1.412₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/22082023131943-sila.jpg"
@@ -813,7 +766,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023135314-ercetin.jpg",
       "locationId": 28,
       "eventShortDescription": "Candan Erçetin, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "678-1.018₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/22082023135314-ercetin.jpg"
@@ -823,13 +775,12 @@
     },
     {
       "id": 46,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Dünya Motokros Şampiyonası & Türkiye Motofest",
       "eventEndDate": "2023-08-30T12:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/03082023102227-afyonmotospor.jpeg",
       "locationId": 29,
       "eventShortDescription": "DÜNYA AFYONKARAHİSAR'DA BULUŞMAYA DEVAM EDİYOR Dünyanın en iyi motokros yarışçılarının yer alacağı Dünya Motokros Şampiyonası’nın (MXGP) Türkiye etabı 2-3 Eylül 2023’de ve Türkiye’nin 2023 yılındaki en büyük gençlik ve spor etkinliği Türkiye MOTOFEST 30 Ağustos - 3 Eylül 2023 tarihlerinde Afyonkarahisar’da yapılacak.",
-      "eventSalesLink": null,
       "eventPrice": "450-2.000₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/20062023121523-1.jpg",
@@ -850,7 +801,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/27042023182944-manga_eat_2023.jpg",
       "locationId": 31,
       "eventShortDescription": "﻿Events Across Turkey’in bir kült haline gelen uluslararası ödüllü projesi  An Epic Symphony,  ülkemizin en önemli rock gruplarından maNga ‘yı Night Flight Symphony Orchestra & Choir eşliğinde yeniden ağırlıyor. Ulu önder Mustafa Kemal Atatürk’ün ölüm yıldönümünde ATAMIZI beraber anıyoruz. Sonsuz saygı ve özlemle…",
-      "eventSalesLink": null,
       "eventPrice": "385-990₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/27042023182944-manga_eat_2023.jpg"
@@ -866,7 +816,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/29072023082910-indir_1.jpg",
       "locationId": 32,
       "eventShortDescription": "Athena   IF ve Atlantis Yapım iş birliğiyle Ankaralı müzikseverlerle buluşuyor. 3 Eylül Pazar akşamı Armada AVM Açıkhava sahnesinde.",
-      "eventSalesLink": null,
       "eventPrice": "190-275₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/29072023082910-indir_1.jpg"
@@ -882,7 +831,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/06072023091400-melike_sahin.jpg",
       "locationId": 32,
       "eventShortDescription": "Melike Şahin IF ve Atlantis Yapım iş birliğiyle Ankaralı müzikseverlerle buluşuyor. 17 Eylül 2023 Cumartesi akşamı Armada AVM Açıkhava sahnesinde.",
-      "eventSalesLink": null,
       "eventPrice": "440-770₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/06072023091400-melike_sahin.jpg"
@@ -898,7 +846,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/16052023222925-kenan.jpg",
       "locationId": 33,
       "eventShortDescription": "Kenan Doğulu, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "900-1200₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/16052023222925-kenan.jpg"
@@ -914,7 +861,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/10052023001027-sertab.jpg",
       "locationId": 33,
       "eventShortDescription": "Sertab Erener, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "340-1400₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/10052023001027-sertab.jpg"
@@ -924,13 +870,12 @@
     },
     {
       "id": 52,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "90'lar Partisi - Ankara",
       "eventEndDate": "2023-10-08T21:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/31082023185216-28072023202023-90mlar.jpg",
       "locationId": 34,
       "eventShortDescription": "Kapı Açılış: 17.00 Yabancı 90'lar Saati: 19.00 Turkce 90'lar Saati: 21.00 Herkes Katılım Sağlayabilir. Yas sınır yoktur.",
-      "eventSalesLink": null,
       "eventPrice": "132₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/31082023185216-28072023202023-90mlar.jpg"
@@ -946,7 +891,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/26062023123920-yildiz.jpg",
       "locationId": 35,
       "eventShortDescription": "Yıldız Tilbe Şek Organizasyon farkıyla Congresium Ankara 'da sizlerle buluşuyor",
-      "eventSalesLink": null,
       "eventPrice": "299-1.185₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/26062023123920-yildiz.jpg"
@@ -962,7 +906,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/17082023193346-mvo_antalya.jpg",
       "locationId": 36,
       "eventShortDescription": "Rock müzik dünyasının ülkemizdeki en popüler gruplarından mor ve ötesi, devasa bir sahne prodüksiyonu ve ikonikleşmiş şarkılarından oluşan özel bir setlist ile, 20 Ekim Cuma gecesi Agora Antalya Avm Açık Hava Sahnesi'nde Epifoni organizasyonuyla hayranlarıyla buluşacak. ",
-      "eventSalesLink": null,
       "eventPrice": "400-800₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/17082023193346-mvo_antalya.jpg"
@@ -978,7 +921,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/26082023181959-antalya1920.jpg",
       "locationId": 37,
       "eventShortDescription": "Türkiye müzik tarihinin yaşayan efsanelerinden Selda Bağcan, Musa Göçmen Senfoni Orkestrası eşliğinde, Umut Organizasyon ile 5 Kasım'da  Aktüel Açık Hava Sahnesi Antalya'da sizlerle.",
-      "eventSalesLink": null,
       "eventPrice": "336-840₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/26082023181959-antalya1920.jpg"
@@ -994,7 +936,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/29032023162543-hayko_cepkin_eat_2023.jpg",
       "locationId": 37,
       "eventShortDescription": "Events Across Turkey’in bir kült haline gelen uluslararası ödüllü projesi An Epic Symphony, Hafızalarda kalan Harbiye konserinden sonra ülkemizin en önemli seslerinden  HAYKO CEPKİN’i  Night Flight Symphony Orchestra & Choir eşliğinde yeniden ağırlıyor.",
-      "eventSalesLink": null,
       "eventPrice": "330-1320₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/29032023162543-hayko_cepkin_eat_2023.jpg"
@@ -1010,7 +951,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28072023183440-memararat.jpg",
       "locationId": 37,
       "eventShortDescription": "Mem Ararat,  22 Eylül akşamı Ziz Müzik Organizasyonuyla Aktüel Açık Hava Sahnesinde sevenleriyle buluşuyor! Mem Ararat,1981 yılında Mardin’in Derik İlçesine bağlı bir köyde dünyaya geldi.  “Quling Ewr û Baran” Turna Bulut ve Yağmur) isimli ilk stüdyo albümünü  2013 yılında paylaştı ve profesyonel müzik serüvenine bu albümle başladı. Daha sonraki yıllarda sırasıyla “Kurdîka”, “Xewna Bajarekî” (Bir Şehrin Rüyası) “Niştiman” (Memleket) ve “Pesna Evînê”(Aşka Övgü) adlı albüm çalışmalarını dinleyenleri ile paylaşan Mem Ararat çok geniş kesimlerce ilgiyle takip edilmeye başlandı.Geleneksel Kürt müziğini modern dokunuşlar ile icra eden Ararat ayrıca kendi yazdığı ve bestelediği şarkılarla dikkatleri üzerinde topladı. Yurtiçi  ve yurt dışında pek çok konserler verdi. Genç yaşına rağmen en çok dinlenen ,en çok bilinen Kürt müzisyenleri arasında yerini aldı.",
-      "eventSalesLink": null,
       "eventPrice": "280-500₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28072023183440-memararat.jpg"
@@ -1026,7 +966,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/24042023162316-ferhatgocer.jpg",
       "locationId": 38,
       "eventShortDescription": "Ferhat Göçer, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "282-1.412₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/24042023162316-ferhatgocer.jpg"
@@ -1042,7 +981,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/15052023134148-levekt_yuksel.jpg",
       "locationId": 38,
       "eventShortDescription": "Levent Yüksel, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "282-1.412₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/15052023134148-levekt_yuksel.jpg"
@@ -1052,13 +990,12 @@
     },
     {
       "id": 59,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "Bozcaada Caz Festivali - 8-9-10 Eylül",
       "eventEndDate": "2023-09-08T21:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/30052023101710-0.png",
       "locationId": 39,
       "eventShortDescription": "Eylül ayında bağlar bozulurken, Bozcaada Caz Festivali caz ritimleri eşliğinde hem kendimizle hem birbirimizle hem dünyayla yeni ve sağlam bağlar kurmaya davet ediyor bizi... Festivalin yedinci senesinde adanın özgün ruhunu cazla ve disiplinlerarası etkinliklerle keşfetmek için geri sayım başladı! 8-9-10 Eylül 2023 tarihleri arasında Paribu ana sponsorluğunda gerçekleşecek olan festival her yıl olduğu gibi bu yıl da katılımcılarına benzersiz bir deneyim yaşatmaya hazırlanıyor.",
-      "eventSalesLink": null,
       "eventPrice": "1.240-2.500₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/30052023101710-0.png"
@@ -1074,7 +1011,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/28072023225720-memararat.jpg",
       "locationId": 40,
       "eventShortDescription": "Mem Ararat,  22 Eylül akşamı Ziz Müzik Organizasyonuyla   Nihat Zeybekci Kültür Merkezi - Mehmet Gazi Salonu sahnesinde sevenleriyle buluşuyor!Mem Ararat,1981 yılında Mardin’in Derik İlçesine bağlı bir köyde dünyaya geldi.  “Quling Ewr û Baran” Turna Bulut ve Yağmur) isimli ilk stüdyo albümünü  2013 yılında paylaştı ve profesyonel müzik serüvenine bu albümle başladı. Daha sonraki yıllarda sırasıyla “Kurdîka”, “Xewna Bajarekî” (Bir Şehrin Rüyası) “Niştiman” (Memleket) ve “Pesna Evînê”(Aşka Övgü) adlı albüm çalışmalarını dinleyenleri ile paylaşan Mem Ararat çok",
-      "eventSalesLink": null,
       "eventPrice": "350-800₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/28072023225720-memararat.jpg"
@@ -1090,7 +1026,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/08072023093504-edis.png",
       "locationId": 41,
       "eventShortDescription": "Edis, Şek organizasyon farkı  ile 22 Eylül 2023 Cuma akşamı Denizli Açık Hava Tiyatrosu'nda.",
-      "eventSalesLink": null,
       "eventPrice": "345-985₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/08072023093504-edis.png"
@@ -1106,7 +1041,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/05072023100625-hadise.jpg",
       "locationId": 41,
       "eventShortDescription": "Hadise, Şek organizasyon farkı  ile 23 Eylül 2023 Cumartesi akşamı Denizli Açık Hava Tiyatrosu'nda.",
-      "eventSalesLink": null,
       "eventPrice": "345-985₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/05072023100625-hadise.jpg"
@@ -1122,7 +1056,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/11082023100600-melek-mosso-konser-bileti-anemon-hotel-eskisehir-passo.png",
       "locationId": 42,
       "eventShortDescription": "﻿Eskişehir açık hava konserleri Grand Anemon Otel Nazende Restaurant açık havuz bahçesinde sizleri bekliyor.Sevenleri Melek Mosso konserini heyecanla bekliyor. Sen de eğlence ve müzik dolu bu faaliyetlere katılmak istiyorsan doğru adrestesin.",
-      "eventSalesLink": null,
       "eventPrice": "550-4.400₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/11082023100600-melek-mosso-konser-bileti-anemon-hotel-eskisehir-passo.png"
@@ -1132,13 +1065,12 @@
     },
     {
       "id": 64,
-      "eventTypeId": 5,
+      "eventTypeId": 4,
       "eventName": "Eskişehir Kahve Festivali",
       "eventEndDate": "2023-09-29T11:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/14072023191519-gorselxxx.jpg",
       "locationId": 43,
       "eventShortDescription": "﻿Türkiye’nin en büyük konsept festivallerinden biri olma hedefiyle yola çıkan ve bu yıl üçüncüsü düzenlenen Eskişehir Kahve Festivali, 29-30 Eylül – 1 Ekim tarihlerinde sıra dışı atmosferiyle Vecihi Hürkuş Havacılık ve Teknoloji Parkı’nda Eskişehirli kahve severlerle buluşacak.Geleneksel Türk kahvesinin öncüleri, mikro kavurucular, yeni nesil nitelikli kahve akımının bilinen en iyi temsilcileri, makine ve ekipman tedarikçileri ve çok sayıda sektör profesyonelinin bir araya geleceği Eskişehir Kahve Festivali, yerel kahve dükkânlarının yanı sıra ulusal ve uluslararası çapta birçok markaya da ev sahipliği yapacak.",
-      "eventSalesLink": null,
       "eventPrice": "444₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/14072023191519-gorselxxx.jpg"
@@ -1148,13 +1080,12 @@
     },
     {
       "id": 65,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Meksika Açmazı - Eskişehir",
       "eventEndDate": "2023-10-27T18:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023165639-meksika_acmazi.jpg",
       "locationId": 44,
       "eventShortDescription": "Spotify, Karnaval.com, iTunes gibi podcast platformlarının gözbebeği, Türkiye'nin açık ara en çok dinlenen mizah programı Meksika Açmazı sahnede! Mesut Süre, Anlatanadam ve Fazlı Polat'ın benzersiz sahne performanslarıyla Meksika Açmazı, artık sadece podcast olarak değil canlı bir gösteri olarak da kesintisiz kahkaha vadediyor...",
-      "eventSalesLink": null,
       "eventPrice": "400-500₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/22082023165639-meksika_acmazi.jpg"
@@ -1170,7 +1101,6 @@
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/17072023094023-rewsan.jpg",
       "locationId": 45,
       "eventShortDescription": "Rewşan ile unutulmaz bir geceye hazır mısın? Sen de bu gece bizimle birlikte eğlenmek istiyorsan, bu fırsatı kaçırma. Rewşan Çeliker, Yenişehir Belediyesi Atatürk Kültür Merkezi'nde ",
-      "eventSalesLink": null,
       "eventPrice": "240-275₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/17072023094023-rewsan.jpg"
@@ -1180,19 +1110,78 @@
     },
     {
       "id": 67,
-      "eventTypeId": 7,
+      "eventTypeId": 5,
       "eventName": "Livaneli Şarkıları - Nükhet Duru - Mehmet Erdem - Ferhat Livaneli Orkestrası",
       "eventEndDate": "2023-10-17T18:00:00",
       "eventSmallPicture": "https://ippasso.mediatriple.net/event/21082023162951-xxx.jpg",
       "locationId": 45,
       "eventShortDescription": "“Her insanın hikayesi bizi kendi başımızdan geçen olaylar kadar ilgilendirir. Bizim başımıza gelmedikçe veya tanık olmadıkça herkes kendi gerçekliğinde yaşıyor ve diğerlerini unutuyor” der Serenad kitabında büyük üstat.",
-      "eventSalesLink": null,
       "eventPrice": "392-784₺",
       "eventPictures": [
         "https://ippasso.mediatriple.net/event/21082023162951-xxx.jpg"
       ],
       "eventUrl": "rewsan_mersin",
       "eventStartDate": "2023-10-17T21:30:00"
+    },
+    {
+      "id": 68,
+      "eventTypeId": 2,
+      "eventName": "Richard",
+      "eventEndDate": "2023-09-06T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/28102022180018-capturerichard.jpg",
+      "locationId": 2,
+      "eventShortDescription": "Yıl 2012. Kral III. Richard'ın kemikleri Leicester'da bir otoparkta bulunur. Kemiklerin adli tıp uzmanlarınca araştırılıp, kanıtlanması uzun bir zaman alacaktır. Londra’da çoğunlukla sıra dışı sanat oyunları üreten küçük bir tiyatro ise aynı dönemde istek üzerine III. Richard oynayacaktır. Bu arada tiyatroya sığınan ve polis tarafından aranan kimliksiz kriminal bir adam vardır. Tiyatroya sığınan “Richard” önce oyundaki Richard rolünü, daha sonra da oyunun sahneye konuluşunu üstlenir. “Bozuk yapısı” gereği var olan düzene devletin ya da tiyatronun yapısına karşıdır. Bir yandan hoşgörülü ve demokrat sanatçıların desteğini alırken, diğer yandan tiyatrodaki yapıyı bozmakta, sanatın kurumsal etik ya da hiyerarşik her şeyine karşı gelerek, ortaya alışılagelmemiş bir Richard prodüksiyonu çıkarmaktadır. Drag Queen showlarından, moda defilelerinden ilham almakta, oyuncu olmayan insanları oyuna yerleştirmekte tiyatronun çatısından, insanların özel hayatlarına kadar maddi manevi her şeyi yıkmaktadır. Tiyatro bir facia ile sarsılır. Bu sırada Krallık, III. Richard’ın cenaze törenine hazırlanmaktadır.Okan Bayülgen, bu yeni yüzyılın ilk çeyreğinden bakıyor Shakespeare’in Richard’ına. Modern filozofların yaklaşımlarıyla ele alarak Richard’ın gerçekliğini, Shakespeare’in Richard’ı hikâyeleştirmesini tartışmaya açıyor. Yabancı olmayı, yalnızlaşmayı, vahşileşmeyi tartışırken hayali bir tiyatro kumpanyası Shakespeare’in III. Richard’ını tekrar oynuyor.",
+      "eventPrice": "275-650₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/28102022180018-capturerichard.jpg"
+      ],
+      "eventUrl": "richard",
+      "eventStartDate": "2023-09-06T21:30:00"
+    },
+    {
+      "id": 69,
+      "eventTypeId": 2,
+      "eventName": "Otomatik Portakal",
+      "eventEndDate": "2023-09-28T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/31072023153353-otomatikportakal_1920x1080_passo.png",
+      "locationId": 2,
+      "eventShortDescription": "“Tüm hayvanların en zekisi, iyiliğin ne demek olduğunu bilen insanoğluna bir baskı yöntemi uygulayarak onu otomatik işleyen bir makine haline getirenlere kılıç kadar keskin olan kalemimle saldırmaktan başka hiçbir şey yapamıyorum.” ",
+      "eventPrice": "330-715₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/31072023153353-otomatikportakal_1920x1080_passo.png"
+      ],
+      "eventUrl": "otomatik_portakal",
+      "eventStartDate": "2023-09-28T21:30:00"
+    },
+    {
+      "id": 70,
+      "eventTypeId": 2,
+      "eventName": "Çifte Cinayet",
+      "eventEndDate": "2023-11-14T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/31082023122451-cifte.jpg",
+      "locationId": 2,
+      "eventShortDescription": "Çağımızın önde gelen koreograflarından Hofesh Shechter, nefes kesici bu ikili programında çağdaş dans aracılığıyla günümüze ışık tutuyor. Programın ilk bölümü şiddete karşı giderek artan duyarsızlığımıza iğneleyici bir biçimde yaklaşarak eğlence adı altında ne kadar ileri gidebileceğimizi sorgularken ikinci bölümü ise sevecenliğiyle, sığınabileceğimiz bir şefkat alanı yaratıyor. Shechter Çifte Cinayet’te topluluğunun eşsiz dansçıları ve kendisinin bestelediği müzikleriyle duygularımızın en derinlerine dalıyor.",
+      "eventPrice": "10-950₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/31082023122451-cifte.jpg"
+      ],
+      "eventUrl": "cifte_cinayet",
+      "eventStartDate": "2023-11-14T21:30:00"
+    },
+    {
+      "id": 71,
+      "eventTypeId": 5,
+      "eventName": "Tuna Kalınsaz Stand Up",
+      "eventEndDate": "2023-10-26T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/21082023185044-30092022143516-tuna_1920x1080_psso.png",
+      "locationId": 3,
+      "eventShortDescription": "Tuna Kalınsaz Stand Up 26 Eylül'de touche'de.",
+      "eventPrice": "198₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/21082023185044-30092022143516-tuna_1920x1080_psso.png"
+      ],
+      "eventUrl": "tuna_kalinsaz_stand_up",
+      "eventStartDate": "2023-10-26T21:30:00"
     }
   ],
   "locations": [
@@ -1611,7 +1600,14 @@
       "lon": "28.88638463215901",
       "city": "İstanbul",
       "address": "Altıntepsi, Yeni Çiftlik Cd., 34035",
-      "state": "Bayrampaşa/İstanbul"
+      "state": "Bayrampaşa/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/21102022164436-1.jpg",
+        "https://ippasso.mediatriple.net/venue/21102022164436-2.jpg",
+        "https://ippasso.mediatriple.net/venue/25052023113750-maxresdefault_1.jpg",
+        "https://ippasso.mediatriple.net/venue/25052023113750-maxresdefault_2.jpg",
+        "https://ippasso.mediatriple.net/venue/25052023113750-maxresdefault.jpg"
+      ]
     },
     {
       "id": 13,
@@ -1620,7 +1616,10 @@
       "lon": "29.001647903324834",
       "city": "İstanbul",
       "address": "Gülbağ Mah. Cemal Sahir Sk. No:33 Profilo Avm İçi Profilo Kültür Merkezi ZA/34 ",
-      "state": "Şişli / İstanbul"
+      "state": "Şişli / İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/16092021001400-profilo-kultur-merkezi.jpg"
+      ]
     },
     {
       "id": 12,
@@ -1629,7 +1628,12 @@
       "lon": "28.975346689829635",
       "city": "İstanbul",
       "address": "Nevizade, Kameriye Sk. No:13, 34435",
-      "state": "Beyoğlu / İstanbul"
+      "state": "Beyoğlu / İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/06042023104056-1.jpg",
+        "https://ippasso.mediatriple.net/venue/06042023104056-2.jpg",
+        "https://ippasso.mediatriple.net/venue/06042023104056-3.jpg"
+      ]
     },
     {
       "id": 11,
@@ -1638,7 +1642,12 @@
       "lon": "28.94648536099582",
       "city": "İstanbul",
       "address": "Eski Silahtarağa Elektrik Santrali Kazım Karabekir Cad. No:2  34060",
-      "state": "Eyüpsultan/İstanbul"
+      "state": "Eyüpsultan/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/31102022155359-2.jpg",
+        "https://ippasso.mediatriple.net/venue/31102022155359-3.jpg",
+        "https://ippasso.mediatriple.net/venue/31102022155359-4.jpg"
+      ]
     },
     {
       "id": 10,
@@ -1647,7 +1656,10 @@
       "lon": "28.99204463215889",
       "city": "İstanbul",
       "address": "Suzer Plaza Askerocagi Caddessi, Elmadağ Cd. No:6, 34367",
-      "state": "Şişli/İstanbul"
+      "state": "Şişli/İstanbul",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/29/57/7f/hotel-exterior.jpg?w=700&h=-1&s=1"
+      ]
     },
     {
       "id": 9,
@@ -1656,7 +1668,15 @@
       "lon": "28.985924632162188",
       "city": "İstanbul",
       "address": "Ayazağa Mahallesi. Cendere Caddesi 1. Apt No:109 İç Kapı No: 254 ",
-      "state": "Sarıyer/ İstanbul"
+      "state": "Sarıyer/ İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/02112022140317-1.jpg",
+        "https://ippasso.mediatriple.net/venue/02112022140317-2.jpg",
+        "https://ippasso.mediatriple.net/venue/02112022140317-3.jpg",
+        "https://ippasso.mediatriple.net/venue/02112022140317-4.jpg",
+        "https://ippasso.mediatriple.net/venue/02112022140317-5.jpg",
+        "https://ippasso.mediatriple.net/venue/02112022140317-6.jpg"
+      ]
     },
     {
       "id": 8,
@@ -1665,7 +1685,13 @@
       "lon": "29.1049032883556",
       "city": "İstanbul",
       "address": "Barbaros Mah, Ihlamur Bv, 34746",
-      "state": "Ataşehir/İstanbul"
+      "state": "Ataşehir/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/04102022165015-1.jpg",
+        "https://ippasso.mediatriple.net/venue/04102022165015-2.jpg",
+        "https://ippasso.mediatriple.net/venue/04102022165015-3.jpg",
+        "https://ippasso.mediatriple.net/venue/04102022165015-4.jpg"
+      ]
     },
     {
       "id": 7,
@@ -1674,7 +1700,12 @@
       "lon": "29.007338419590937",
       "city": "İstanbul",
       "address": "Huzur Mh., Maslak Ayazağa Cd. 4/A, 34396 ",
-      "state": "Sarıyer/İstanbul"
+      "state": "Sarıyer/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/27072021132653-wa2.jpg",
+        "https://ippasso.mediatriple.net/venue/27072021132653-Volkswagen-Arena-1.jpg",
+        "https://ippasso.mediatriple.net/venue/27072021132653-DzdH16PX0AI-UkX.jpg"
+      ]
     },
     {
       "id": 6,
@@ -1683,7 +1714,8 @@
       "lon": "28.890813842328885",
       "city": "İstanbul",
       "address": "Göktürk Merkez, Kemerburgaz Kent Ormanı, Pirinççi Köyü Kemerburgaz Yolu, 34076",
-      "state": "Eyüpsultan/İstanbul"
+      "state": "Eyüpsultan/İstanbul",
+      "images": ["https://ippasso.mediatriple.net/venue/21072023164352-1.png"]
     },
     {
       "id": 5,
@@ -1692,7 +1724,11 @@
       "lon": "29.008556757671116",
       "city": "İstanbul",
       "address": "Maslak, Taş Yoncası Sok. Ağaoğlu Maslak 1453 Sitesi O D Blok No: 12, 34485",
-      "state": "Sarıyer/İstanbul"
+      "state": "Sarıyer/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/01112022135733-1.jpg",
+        "https://ippasso.mediatriple.net/venue/01112022135733-2.jpg"
+      ]
     },
     {
       "id": 4,
@@ -1701,7 +1737,14 @@
       "lon": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul"
+      "state": "Beşiktaş/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/28022023155420-0.jpg",
+        "https://ippasso.mediatriple.net/venue/28022023155420-1.jpg",
+        "https://ippasso.mediatriple.net/venue/28022023155420-2.jpg",
+        "https://ippasso.mediatriple.net/venue/28022023155444-3.jpg",
+        "https://ippasso.mediatriple.net/venue/28022023155514-6.jpg"
+      ]
     },
     {
       "id": 3,
@@ -1710,7 +1753,12 @@
       "lon": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul"
+      "state": "Beşiktaş/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/20042021094811-1.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021094811-2.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021094811-3.jpg"
+      ]
     },
     {
       "id": 2,
@@ -1719,7 +1767,13 @@
       "lon": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul"
+      "state": "Beşiktaş/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/20042021092353-1.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021092353-2.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021092353-3.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021092353-4.jpg"
+      ]
     },
     {
       "id": 1,
@@ -1728,7 +1782,12 @@
       "lon": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul"
+      "state": "Beşiktaş/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/20042021094046-1.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021094046-2.jpg",
+        "https://ippasso.mediatriple.net/venue/20042021094046-3.jpg"
+      ]
     },
     {
       "id": 213,
@@ -1737,7 +1796,11 @@
       "lon": "27.15155480366978",
       "city": "İzmir",
       "address": "Alsancak, Umurbey Mahallesi,35000",
-      "state": "Konak/İzmir"
+      "state": "Konak/İzmir",
+      "images": [
+        "https://www.izmir.bel.tr/YuklenenDosyalar/Projeler/Kucuk/05012018_15210_0.jpg",
+        "https://visitizmiryonetim.izmir.bel.tr/YuklenenDosyalar/DestinasyonFotograflari/1024/15012021123456026.jpg"
+      ]
     },
     {
       "id": 235,
@@ -1746,7 +1809,11 @@
       "lon": " 26.36598963438233",
       "city": "İzmir",
       "address": "Alaçatı, 35930",
-      "state": "Çeşme/İzmir"
+      "state": "Çeşme/İzmir",
+      "images": [
+        "https://www.izmir.art/imgServ/img/uploads/image-73f5bf3a6dcf2c34d18a7a912d5175e92d6a7d1b.png",
+        "https://cesmebook.com/wp-content/uploads/2019/05/jjalacati2.jpg"
+      ]
     },
     {
       "id": 222,
@@ -1755,7 +1822,11 @@
       "lon": "27.147975565617667",
       "city": "İzmir",
       "address": "Akdeniz, Fuar Alanı, 35210",
-      "state": "Konak/İzmir"
+      "state": "Konak/İzmir",
+      "images": [
+        "https://www.izmir.art/imgServ/img/uploads/image-ac0640f39e42dbda9bceca19e4453c16ae587fea.png",
+        "https://www.izmir.art/imgServ/img/uploads/image-ab8786bf3860cd14269c867377b44a9d8dae068c.png"
+      ]
     },
     {
       "id": 231,
@@ -1764,7 +1835,11 @@
       "lon": "27.077859688906454",
       "city": "İzmir",
       "address": "Mehmet Ali Akman, Mahallesi, Mithatpaşa Cd. No:1087, 35290",
-      "state": "Konak/İzmir"
+      "state": "Konak/İzmir",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8b/7f/4c/ahmed-adnan-saygun-sanat.jpg?w=1200&h=1200&s=1",
+        "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1110000/1111484.jpg"
+      ]
     }
   ],
   "comments": [
@@ -1788,18 +1863,10 @@
     },
     {
       "id": 4,
-      "name": "SİNEMA"
-    },
-    {
-      "id": 5,
       "name": "FESTİVAL"
     },
     {
-      "id": 6,
-      "name": "KONFERANS"
-    },
-    {
-      "id": 7,
+      "id": 5,
       "name": "DİĞER"
     }
   ]
