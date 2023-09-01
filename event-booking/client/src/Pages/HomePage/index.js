@@ -11,7 +11,10 @@ import LatestNews from "../../Layouts/LatestNews";
 import Footer from "../../Layouts/Footer";
 import PopularEvents from "../../Layouts/PopularEvents";
 import WhyChooseUs from "../../Layouts/WhyChooseUs";
+
+//Redux
 import { fetchEvents } from "../../Redux/Services/EventService";
+import { getAllEvents } from "../../Redux/Slices/EventSlice";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -20,12 +23,12 @@ const HomePage = () => {
     dispatch(fetchEvents());
   }, []);
 
-  const events = useSelector((state) => state.event);
+  const events = useSelector(getAllEvents);
 
   console.log(events);
 
   return (
-    <div className="bg-whiteMain dark:bg-darkMain ">
+    <div>
       <Header />
       <FeaturedEvents events={events} />
       <FullWidthBgContent />

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 //Icons
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ scrolled, setScrolled }) => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
@@ -36,13 +37,14 @@ const Navbar = ({ scrolled, setScrolled }) => {
     >
       <div className="lg:container mx-auto z-50">
         <div className="flex items-center justify-between w-full">
-          <p className="text-2xl">
+          <Link to={"/"} className="text-2xl">
             <span className="font-bold text-3xl">Event</span>ick
-          </p>
+          </Link>
           <ul
-            className={`absolute px-10 md:px-0 text-lg md:text-base bg-white dark:bg-darkMain md:dark:bg-transparent h-screen w-screen  md:h-auto md:w-auto md:bg-transparent md:relative md:items-center gap-3 transition-all  lg:gap-10 font-normal font-mont flex-col md:flex-row justify-evenly  md:flex ${
+            className={`absolute px-10 md:px-0 text-lg md:text-base bg-white dark:bg-darkMain md:dark:bg-transparent h-screen w-screen  md:h-auto md:w-auto md:bg-transparent md:relative md:items-center gap-3   lg:gap-10 font-normal font-mont flex-col md:flex-row justify-evenly  md:flex ${
               toggle ? "flex top-0 left-0" : "hidden -top-full"
             }`}
+            //Bir şey olursa transition-all silindi buradan
           >
             <li
               className="absolute top-5 right-4 inline-block md:hidden"

@@ -2,13 +2,15 @@ import React from "react";
 import { SlLocationPin } from "react-icons/sl";
 import moment from "moment";
 import "moment/locale/tr"; // without this line it didn't work
+import { Link } from "react-router-dom";
 moment.locale("tr");
 
 const HeaderSliderCard = ({ event }) => {
-  console.log(moment(event.eventStartDate).format("ll").split(" ")[0]);
-
   return (
-    <div className="bg-white dark:bg-darkContent dark:text-white text-black rounded-md backdrop-blur-md cursor-pointer border dark:border-gray-600 min-h-[600px] flex flex-col justify-between flex-1 self-stretch">
+    <Link
+      to={`event/${event.eventUrl}`}
+      className="bg-white dark:bg-darkContent dark:text-white text-black rounded-md backdrop-blur-md cursor-pointer border dark:border-gray-600 min-h-[600px] flex flex-col justify-between flex-1 self-stretch"
+    >
       <div className="relative h-52">
         <img
           src={event.eventSmallPicture}
@@ -48,7 +50,7 @@ const HeaderSliderCard = ({ event }) => {
           {event.eventPrice ? event.eventPrice : "Ücretsiz"}
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -29,6 +29,7 @@ module.exports = {
       },
       fontFamily: {
         mont: "'Montserrat', sans-serif",
+        poppins: "'Poppins', sans-serif",
       },
       colors: {
         glass: "rgba(255, 255, 255, 0.24);",
@@ -45,6 +46,7 @@ module.exports = {
         18: "70px",
       },
       margin: {
+        26: "108px",
         50: "196px",
       },
       boxShadow: {

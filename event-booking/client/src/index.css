@@ -1,6 +1,6 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* TAILWIND */
 @tailwind base;
 @tailwind components;
@@ -25,4 +25,28 @@ input:focus {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* SCROLLBAR */
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
+.scrolllll::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+.scrolllll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.scrolllll::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
 }
