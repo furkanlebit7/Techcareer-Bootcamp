@@ -8,8 +8,8 @@ const EventDetailTabs = () => {
   const [activeTab, setActiveTab] = useState(1);
   const cls = "border-b-2 pb-3 border-dashed border-pinky";
   return (
-    <div>
-      <ul className="flex items-center justify-around border-b-2 p-8 font-bold text-gray-400 text-sm cursor-pointer">
+    <div className="min-h-[50vh] bg-white dark:bg-darkContent rounded-md">
+      <ul className="flex items-center justify-around border-b-2 p-4 sm:p-8 font-bold text-gray-400 text-sm cursor-pointer">
         <li
           className={activeTab === 1 ? cls : ""}
           onClick={() => setActiveTab(1)}

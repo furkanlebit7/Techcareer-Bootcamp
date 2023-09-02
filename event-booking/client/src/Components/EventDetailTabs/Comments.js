@@ -37,17 +37,17 @@ const Comments = () => {
           </li>
         ))}
       </ul>
-      <div className="flex items-center mt-10 gap-5">
+      <div className="flex flex-col sm:flex-row items-center mt-10 gap-5">
         <textarea
           value={comment}
           onChange={(e) => setComment(e.target.value)}
           rows="3"
           type="text"
           placeholder="Yorumunuzu Buraya Yazınız "
-          className="flex-1 dark:bg-darkMain rounded-lg focus:outline-none focus:ring-0  ring-0 outline-none border-0 bg-whiteMain"
+          className="flex-1 w-full sm:w-auto dark:bg-darkMain rounded-lg focus:outline-none focus:ring-0  ring-0 outline-none border-0 bg-whiteMain"
         ></textarea>
         <button
-          className="p-2 px-3 bg-pinky text-white rounded-lg "
+          className="p-2 px-3 bg-pinky text-white rounded-lg w-full sm:w-auto"
           onClick={() => {
             handleComment();
           }}

@@ -5,12 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { getEventByUrl } from "../../Redux/Slices/EventSlice";
 import { fetchEventByUrl } from "../../Redux/Services/EventService";
 import BreadCrumb from "../../Components/BreadCrumb";
-import Loading from "../../Components/Loading";
-import { BsFillShareFill } from "react-icons/bs";
-import { GrFacebookOption, GrTwitter } from "react-icons/gr";
-import { FaWhatsapp } from "react-icons/fa";
 import EventDetailTabs from "../../Components/EventDetailTabs";
 import Footer from "../../Layouts/Footer";
+import EventGeneral from "../../Components/EventDetail/EventGeneral";
+import EventDetail from "../../Components/EventDetail/EventDetail";
+import Organizers from "../../Components/EventDetailTabs/Organizers";
 
 const Event = () => {
   const dispatch = useDispatch();
@@ -34,9 +33,9 @@ const Event = () => {
               <div
                 className={`${
                   scrolled ? "mt-26" : "mt-10"
-                } text-white  font-poppins container 2xl:w-2/3 mx-auto text-start`}
+                } text-white  font-poppins container 2xl:w-2/3 mr-auto px-2 sm:px-5 xl:mx-auto text-start`}
               >
-                <h1 className=" text-6xl uppercase font-semibold  mb-5">
+                <h1 className=" text-3xl md:text-5xl lg:text-6xl uppercase font-semibold  mb-5">
                   {event.data.eventName}
                 </h1>
 
@@ -50,66 +49,19 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="container flex mx-auto 2xl:w-2/3 -mt-28 gap-20">
-          <div className="w-8/12 flex flex-col gap-10">
-            <div className=" bg-white dark:bg-darkContent p-8 rounded-md">
-              {event.status === "succeeded" ? (
-                <div className="h-[50vh]">
-                  <img
-                    loading="lazy"
-                    alt="banner"
-                    className="w-full h-full object-cover rounded-t-md"
-                    src={event.data.eventSmallPicture}
-                  />
-                </div>
-              ) : (
-                <Loading />
-              )}
-              <div className="mt-10 pb-10 border-b">
-                <p className="font-poppins text-sm text-gray-500 mb-2 dark:text-gray-300 text-justify">
-                  {event.data.eventShortDescription}
-                </p>
-                <p className="font-poppins text-sm text-gray-500 dark:text-gray-300 text-justify">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Neque harum distinctio vel, error at optio quidem molestiae
-                  molestias! Saepe, porro quae. In ut consequuntur recusandae
-                  deserunt beatae distinctio necessitatibus, eveniet, corporis
-                  ea dolorum rerum odit ipsum a velit iusto, cum accusamus! Eos
-                  expedita aut et ab autem aspernatur, quam ratione aliquid
-                  adipisci. Libero, vitae ullam! Cupiditate omnis temporibus quo
-                  libero fuga illo, numquam animi doloremque veniam quam
-                  similique saepe repudiandae perspiciatis ipsa consectetur
-                  eligendi praesentium placeat neque! Quae repellat, provident
-                  nisi accusantium id a odio quo. Quod, nihil. Mollitia iste
-                  repellendus neque dignissimos tempora ipsum officia
-                  consequuntur ut accusantium illo!
-                </p>
-              </div>
-              <div className="pt-8 font-semibold flex items-center justify-between gap-2">
-                {event && event.data && event.data.eventType && (
-                  <p className="text-pinky">{event.data.eventType.name}</p>
-                )}
-                <div className="flex items-center gap-4">
-                  <BsFillShareFill className=" text-pinky" />
-                  <span className="text-black dark:text-white">Share</span>
-                  <div className="flex items-center gap-2 ml-5  text-gray-400 hover:cursor-pointer">
-                    <GrFacebookOption className="hover:text-pinky" />
-                    <GrTwitter className="hover:text-pinky" />
-                    <FaWhatsapp className="hover:text-pinky" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="min-h-[50vh] bg-white dark:bg-darkContent rounded-md">
-              <EventDetailTabs />
-            </div>
+        <div className="xl:container px-2 sm:px-5 flex flex-col lg:flex-row mx-auto w-full 2xl:w-2/3 -mt-28 gap-10 xl:gap-20">
+          <div className="w-full lg:w-8/12 flex flex-col gap-10">
+            <EventGeneral event={event} />
+            <EventDetailTabs />
           </div>
-          <div className="w-4/12 px-8">
-            <div>
-              <button className="bg-pinky hover:bg-pink-700 w-full p-6 rounded-md text-xl  text-white">
-                ŞİMDİ BİLET AL
-              </button>
-            </div>
+          <div className="w-full lg:w-4/12 lg:px-8 flex flex-col gap-20">
+            <button className="bg-pinky hover:bg-pink-700 w-full p-6 rounded-md text-base sm:text-lg md:text-xl  text-white">
+              ŞİMDİ BİLET AL
+            </button>
+            {event && event.data && event.data.location && (
+              <EventDetail event={event} />
+            )}
+            <Organizers />
           </div>
         </div>
       </div>
