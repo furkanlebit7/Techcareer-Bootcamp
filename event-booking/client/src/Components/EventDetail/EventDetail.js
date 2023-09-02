@@ -13,38 +13,38 @@ const EventDetail = ({ event }) => {
       </div>
       <div className="py-8 ">
         <ul className="flex flex-col gap-4">
-          <li className="flex items-center justify-between">
+          <li className="flex items-center justify-between gap-5">
             <span className="text-sm font-medium ">Lokasyon</span>
-            <span className="opacity-70 text-xs">
+            <span className="opacity-70 text-xs text-right">
               {event.data.location.locationName}
             </span>
           </li>
-          <li className="flex items-center justify-between">
+          <li className="flex items-center justify-between gap-5">
             <span className="text-sm font-medium ">Şehir</span>
-            <span className="opacity-70 text-xs">
+            <span className="opacity-70 text-xs text-right">
               {event.data.location.city}
             </span>
           </li>
-          <li className="flex items-center justify-between">
+          <li className="flex items-center justify-between gap-5">
             <span className="text-sm font-medium ">Adres</span>
-            <span className="opacity-70 text-xs">
+            <span className="opacity-70 text-xs text-right">
               {event.data.location.address}
             </span>
           </li>
-          <li className="flex items-center justify-between">
+          <li className="flex items-center justify-between gap-5">
             <span className="text-sm font-medium ">Başlama Tarihi:</span>
-            <span className="opacity-70 text-xs">
+            <span className="opacity-70 text-xs text-right">
               {moment(event.data.eventEndDate).format("LLL")}
             </span>
           </li>
-          <li className="flex items-center justify-between">
+          <li className="flex items-center justify-between gap-5">
             <span className="text-sm font-medium ">Bitiş Tarihi:</span>
-            <span className="opacity-70 text-xs">
+            <span className="opacity-70 text-xs text-right">
               {moment(event.data.eventStartDate).format("LLL")}
             </span>
           </li>
           <li>
-            <span className="text-sm font-medium w-full ">Map:</span>
+            <span className="text-sm font-medium w-full ">Harita:</span>
             <Map location={event.data.location} />
           </li>
           <li className="text-center hover:bg-pinky rounded-md">

@@ -20,6 +20,7 @@ const Event = () => {
   const event = useSelector(getEventByUrl);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     dispatch(fetchEventByUrl(eventUrl));
   }, []);
 
@@ -52,9 +53,9 @@ const Event = () => {
         <div className="xl:container px-2 sm:px-5 flex flex-col lg:flex-row mx-auto w-full 2xl:w-3/4 -mt-28 gap-10 xl:gap-20">
           <div className="w-full lg:w-8/12 flex flex-col gap-10">
             <EventGeneral event={event} />
-            <EventDetailTabs />
+            <EventDetailTabs event={event} />
           </div>
-          <div className="w-full lg:w-4/12 lg:px-8 flex flex-col gap-20">
+          <div className="w-full lg:w-4/12 2xl:px-2 flex flex-col gap-20">
             <button className="bg-pinky hover:bg-pink-700 w-full p-6 rounded-md text-base sm:text-lg md:text-xl  text-white">
               ŞİMDİ BİLET AL
             </button>

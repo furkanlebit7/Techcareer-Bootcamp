@@ -30,20 +30,20 @@ const Organizers = ({ event }) => {
             </span>
           </li>
           <li className="flex items-center justify-between">
-            <span className="text-sm font-medium ">Email</span>
+            <span className="text-sm font-medium mr-4">Email</span>
             <span className="opacity-70 text-xs">{user && user.email} </span>
           </li>
           <li className="flex items-center justify-between">
-            <span className="text-sm font-medium ">Phone</span>
+            <span className="text-sm font-medium mr-4">Telefon</span>
             <span className="opacity-70 text-xs">{user && user.phone} </span>
           </li>
           <li className="flex items-center justify-between">
-            <span className="text-sm font-medium ">Website</span>
+            <span className="text-sm font-medium mr-4">Web Sitesi</span>
             <span className="opacity-70 text-xs">www.passo.com.tr</span>
           </li>
           <li className="flex  justify-between items-start">
-            <span className="text-sm font-medium mr-5">Description</span>
-            <span className="opacity-70 text-xs text-justify">
+            <span className="text-sm font-medium mr-4">Açıklama</span>
+            <span className="opacity-70 text-xs text-justify ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
               reiciendis odit neque similique maiores facere vel eveniet sequi
               esse porro!{" "}

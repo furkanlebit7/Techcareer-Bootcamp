@@ -39,7 +39,7 @@ const FeaturedEvents = ({ events }) => {
         className="mySwiper"
       >
         {events &&
-          events.data.slice(0, 12).map((event) => (
+          events.data.slice(4, 16).map((event) => (
             <SwiperSlide>
               <HeaderSliderCard event={event} />
             </SwiperSlide>
@@ -57,7 +57,7 @@ const FeaturedEvents = ({ events }) => {
           <HeaderSliderCard />
         </SwiperSlide> */}
       </Swiper>
-      <SeeAllButton text={"All Events"} />
+      <SeeAllButton text={"All Events"} link={"/events"} />
     </div>
   );
 };

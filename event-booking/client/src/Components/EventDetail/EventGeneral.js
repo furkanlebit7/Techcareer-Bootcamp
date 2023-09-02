@@ -11,12 +11,6 @@ const EventGeneral = ({ event }) => {
       {event.status === "succeeded" ? (
         <div className="h-[50vh]">
           <EventImageSlider event={event} />
-          {/* <img
-            loading="lazy"
-            alt="banner"
-            className="w-full h-full object-cover rounded-t-md"
-            src={event.data.eventSmallPicture}
-          /> */}
         </div>
       ) : (
         <Loading />

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Navbar = ({ scrolled, setScrolled }) => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
@@ -47,10 +48,10 @@ const Navbar = ({ scrolled, setScrolled }) => {
             //Bir şey olursa transition-all silindi buradan
           >
             <li
-              className="absolute top-5 right-4 inline-block md:hidden"
+              className="absolute top-6 right-4 inline-block md:hidden"
               onClick={() => setToggle(!toggle)}
             >
-              X
+              <AiOutlineCloseCircle />
             </li>
             <li>
               <Link to={"/"}>Anasayfa</Link>
@@ -62,7 +63,6 @@ const Navbar = ({ scrolled, setScrolled }) => {
             <li>Speakers</li>
             <li>Ticket</li>
             <li className="md:mr-auto">Contact</li>
-            <li>Login</li>
           </ul>
 
           <div className="flex items-center gap-10">

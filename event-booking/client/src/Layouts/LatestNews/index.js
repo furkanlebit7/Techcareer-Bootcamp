@@ -18,7 +18,7 @@ const LatestNews = () => {
         <LatestNewsCard />
         <LatestNewsCard />
       </div>
-      <SeeAllButton text={"All News"} />
+      <SeeAllButton text={"All News"} link={"/blogs"} />
     </div>
   );
 };

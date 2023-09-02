@@ -4,7 +4,7 @@ import Sss from "./Sss";
 import Comments from "./Comments";
 import Contact from "./Contact";
 
-const EventDetailTabs = () => {
+const EventDetailTabs = ({ event }) => {
   const [activeTab, setActiveTab] = useState(1);
   const cls = "border-b-2 pb-3 border-dashed border-pinky";
   return (
@@ -36,7 +36,7 @@ const EventDetailTabs = () => {
         </li>
       </ul>
       <div className=" p-8">
-        {activeTab === 1 && <TicketPrice />}
+        {activeTab === 1 && <TicketPrice event={event} />}
         {activeTab === 2 && <Sss />}
         {activeTab === 3 && <Comments />}
         {activeTab === 4 && <Contact />}

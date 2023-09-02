@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 //Packages
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 //Components
 import Header from "../../Layouts/Header";
@@ -13,16 +13,9 @@ import PopularEvents from "../../Layouts/PopularEvents";
 import WhyChooseUs from "../../Layouts/WhyChooseUs";
 
 //Redux
-import { fetchEvents } from "../../Redux/Services/EventService";
 import { getAllEvents } from "../../Redux/Slices/EventSlice";
 
 const HomePage = () => {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(fetchEvents());
-  }, []);
-
   const events = useSelector(getAllEvents);
 
   console.log(events);

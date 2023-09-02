@@ -52,6 +52,9 @@ module.exports = {
       boxShadow: {
         glass: "0 4px 30px rgba(0, 0, 0, 0.1)",
       },
+      screens: {
+        xs: "400px",
+      },
     },
   },
   plugins: [require("flowbite/plugin")],

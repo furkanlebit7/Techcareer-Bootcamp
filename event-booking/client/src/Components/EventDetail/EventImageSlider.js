@@ -34,7 +34,7 @@ const EventImageSlider = ({ event }) => {
             <img
               loading="lazy"
               alt="banner"
-              className="w-full h-full object-cover rounded-t-md"
+              className="w-full h-full object-cover rounded-t-md "
               src={picture}
             />
           </SwiperSlide>
@@ -42,13 +42,48 @@ const EventImageSlider = ({ event }) => {
 
         {event.data.eventTypeId === 1 && (
           <SwiperSlide>
-            {" "}
             <img
               loading="lazy"
               alt="banner"
               className="w-full h-full object-cover rounded-t-md"
               src={
-                " https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uY2VydCUyMGNyb3dkfGVufDB8fDB8fHww&w=1000&q=80"
+                "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uY2VydCUyMGNyb3dkfGVufDB8fDB8fHww&w=1000&q=80"
+              }
+            />
+          </SwiperSlide>
+        )}
+        {event.data.eventTypeId === 2 && (
+          <SwiperSlide>
+            <img
+              loading="lazy"
+              alt="banner"
+              className="w-full h-full object-cover rounded-t-md"
+              src={
+                "https://kultur.istanbul/gorsel/2020/01/tiyatro-festivali-2020-1.jpg"
+              }
+            />
+          </SwiperSlide>
+        )}
+        {event.data.eventTypeId === 3 && (
+          <SwiperSlide>
+            <img
+              loading="lazy"
+              alt="banner"
+              className="w-full h-full object-cover rounded-t-md"
+              src={
+                "https://www.sixt.com.tr/storage/images/shares/haberler/istanbulmodern.jpg"
+              }
+            />
+          </SwiperSlide>
+        )}
+        {event.data.eventTypeId >= 4 && (
+          <SwiperSlide>
+            <img
+              loading="lazy"
+              alt="banner"
+              className="w-full h-full object-cover rounded-t-md"
+              src={
+                "https://blog.biletino.com/file/2022/03/festival-nedir-festival-ne-demek-biletino-blog-235289.jpg"
               }
             />
           </SwiperSlide>
