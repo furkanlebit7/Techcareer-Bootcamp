@@ -33,7 +33,7 @@ const Event = () => {
               <div
                 className={`${
                   scrolled ? "mt-26" : "mt-10"
-                } text-white  font-poppins container 2xl:w-2/3 mr-auto px-2 sm:px-5 xl:mx-auto text-start`}
+                } text-white  font-poppins container 2xl:w-3/4 mr-auto px-2 sm:px-5 xl:mx-auto text-start`}
               >
                 <h1 className=" text-3xl md:text-5xl lg:text-6xl uppercase font-semibold  mb-5">
                   {event.data.eventName}
@@ -49,7 +49,7 @@ const Event = () => {
             </div>
           </div>
         </div>
-        <div className="xl:container px-2 sm:px-5 flex flex-col lg:flex-row mx-auto w-full 2xl:w-2/3 -mt-28 gap-10 xl:gap-20">
+        <div className="xl:container px-2 sm:px-5 flex flex-col lg:flex-row mx-auto w-full 2xl:w-3/4 -mt-28 gap-10 xl:gap-20">
           <div className="w-full lg:w-8/12 flex flex-col gap-10">
             <EventGeneral event={event} />
             <EventDetailTabs />

@@ -3,18 +3,20 @@ import Loading from "../Loading";
 import { BsFillShareFill } from "react-icons/bs";
 import { GrFacebookOption, GrTwitter } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
+import EventImageSlider from "./EventImageSlider";
 
 const EventGeneral = ({ event }) => {
   return (
     <div className=" bg-white dark:bg-darkContent p-4 sm:p-8 rounded-md">
       {event.status === "succeeded" ? (
         <div className="h-[50vh]">
-          <img
+          <EventImageSlider event={event} />
+          {/* <img
             loading="lazy"
             alt="banner"
             className="w-full h-full object-cover rounded-t-md"
             src={event.data.eventSmallPicture}
-          />
+          /> */}
         </div>
       ) : (
         <Loading />
@@ -45,9 +47,33 @@ const EventGeneral = ({ event }) => {
           <BsFillShareFill className=" text-pinky" />
           <span className="text-black dark:text-white">Share</span>
           <div className="flex items-center gap-2 ml-5  text-gray-400 hover:cursor-pointer">
-            <GrFacebookOption className="hover:text-pinky" />
-            <GrTwitter className="hover:text-pinky" />
-            <FaWhatsapp className="hover:text-pinky" />
+            <GrFacebookOption
+              className="hover:text-pinky"
+              onClick={() => {
+                window.open(
+                  `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`,
+                  "_blank"
+                );
+              }}
+            />
+            <GrTwitter
+              className="hover:text-pinky"
+              onClick={() => {
+                window.open(
+                  `https://twitter.com/intent/tweet?url=${window.location.href}`,
+                  "_blank"
+                );
+              }}
+            />
+            <FaWhatsapp
+              className="hover:text-pinky"
+              onClick={() => {
+                window.open(
+                  `https://api.whatsapp.com/send?&text=${window.location.href}`,
+                  "_blank"
+                );
+              }}
+            />
           </div>
         </div>
       </div>

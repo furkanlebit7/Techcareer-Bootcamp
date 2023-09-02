@@ -10,7 +10,7 @@ const containerStyle = {
 function Map({ location }) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyAhuIhDwbXgr6VRTvzqvgm6ZhWdWT5GtuM",
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
   });
 
   const center = {
@@ -18,19 +18,8 @@ function Map({ location }) {
     lng: parseFloat(location.lng),
   };
 
-  const [map, setMap] = React.useState(null);
-
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null);
-  }, []);
-
   return isLoaded ? (
-    <GoogleMap
-      mapContainerStyle={containerStyle}
-      center={center}
-      zoom={12}
-      onUnmount={onUnmount}
-    >
+    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={12}>
       <Marker position={center} />
     </GoogleMap>
   ) : (

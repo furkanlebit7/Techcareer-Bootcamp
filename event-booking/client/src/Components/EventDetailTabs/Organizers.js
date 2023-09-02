@@ -15,8 +15,6 @@ const Organizers = ({ event }) => {
       });
   }, []);
 
-  console.log(user);
-
   return (
     <div className="bg-white dark:bg-darkContent p-6 rounded-md">
       <div className="flex items-center justify-between text-xl text-gray-600">

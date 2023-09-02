@@ -49,7 +49,9 @@ const EventDetail = ({ event }) => {
           </li>
           <li className="text-center hover:bg-pinky rounded-md">
             <a
-              href="https://www.google.com/maps"
+              href={`https://www.google.com/maps/dir/?api=1&destination=${event.data.location.lat},${event.data.location.lng}`}
+              target="_blank"
+              rel="noreferrer"
               className="flex items-center justify-center rounded-md gap-3 font-semibold text-black hover:text-white  dark:text-white border  py-3"
             >
               <FaLocationArrow className="text-blue-800" />

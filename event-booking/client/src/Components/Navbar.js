@@ -41,7 +41,7 @@ const Navbar = ({ scrolled, setScrolled }) => {
             <span className="font-bold text-3xl">Event</span>ick
           </Link>
           <ul
-            className={`absolute px-10 md:px-0 text-lg md:text-base bg-white dark:bg-darkMain md:dark:bg-transparent h-screen w-screen  md:h-auto md:w-auto md:bg-transparent md:relative md:items-center gap-3   lg:gap-10 font-normal font-mont flex-col md:flex-row justify-evenly  md:flex ${
+            className={`absolute px-10 md:px-0 text-lg md:text-base bg-white dark:bg-darkMain md:dark:bg-transparent h-screen w-screen  md:h-auto md:w-auto md:bg-transparent md:relative md:items-center gap-3 font-medium  lg:gap-10  font-mont flex-col md:flex-row justify-evenly  md:flex ${
               toggle ? "flex top-0 left-0" : "hidden -top-full"
             }`}
             //Bir şey olursa transition-all silindi buradan
@@ -52,8 +52,12 @@ const Navbar = ({ scrolled, setScrolled }) => {
             >
               X
             </li>
-            <li>Schedule</li>
-            <li>About</li>
+            <li>
+              <Link to={"/"}>Anasayfa</Link>
+            </li>
+            <li>
+              <Link to={"/events"}>Etkinlikler</Link>
+            </li>
             <li>Cinema</li>
             <li>Speakers</li>
             <li>Ticket</li>
