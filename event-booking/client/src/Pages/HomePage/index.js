@@ -18,8 +18,6 @@ import { getAllEvents } from "../../Redux/Slices/EventSlice";
 const HomePage = () => {
   const events = useSelector(getAllEvents);
 
-  console.log(events);
-
   return (
     <div>
       <Header />

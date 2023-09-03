@@ -42,9 +42,21 @@ const EventCard = ({ event }) => {
           </div>
         </div>
         <h2 className="font-medium mt-10">{event.eventName}</h2>
-        <p className="my-5 text-blue-500 dark:text-blue-400 text-sm">
-          Upcoming
-        </p>
+        {moment(event.eventEndDate).isAfter(
+          moment().format("YYYY-MM-DD"),
+          "h:mma"
+        ) && (
+          <p className="my-5 text-blue-500 dark:text-blue-400 text-sm">
+            Yakında
+          </p>
+        )}
+        {moment(event.eventEndDate).isBefore(
+          moment().format("YYYY-MM-DD"),
+          "h:mma"
+        ) && (
+          <p className="my-5 text-red-500 dark:text-red-400 text-sm">Geçmiş</p>
+        )}
+
         <p className="my-10 text-gray-500 text-sm">
           {event.eventShortDescription.slice(0, 75) + "..."}
         </p>

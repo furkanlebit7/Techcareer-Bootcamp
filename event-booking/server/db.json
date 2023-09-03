@@ -59,7 +59,9 @@
       "locationId": 231,
       "eventShortDescription": "Camda Antik İzmir Koleksiyon Sergisi 14 Temmuz - 31 Ağustos 2023 tarihleri arasında Ahmed Adnan Saygun Sanat Merkezi/Giriş Galeriler'de...",
       "eventPrice": "100-200₺",
-      "eventPictures": "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Kucuk/20230711_170102_etkinlik.jpg",
+      "eventPictures": [
+        "https://kultursanat.izmir.bel.tr/YuklenenDosyalar/Etkinlikler/Kucuk/20230711_170102_etkinlik.jpg"
+      ],
       "eventUrl": "camda_antik_izmir_koleksiyon_sergisi",
       "eventStartDate": "2023-07-14T09:30:00"
     },
@@ -186,7 +188,7 @@
       "eventShortDescription": "Lilly Palmer, Raven Projekt sunumu ile 14 Ekim 2023 Cumartesi akşamı, Zorlu PSM'de!Techno sahnesinin son dönemde parlayan yıldızlarından olan Lilly Palmer, İstanbul'da unutulmaz bir gece için Zorlu PSM'de sahne alıyor. Bu yıl Tomorrowland ana sahnesinde olağanüstü bir performans sergileyerek adından sıkça söz ettiren Palmer, müziğiyle dinleyicilerine özgürlüğü ve derin duyguları hissettiriyor.",
       "eventPrice": "450₺",
       "eventPictures": [
-        "https://ippasso.mediatriple.net/event/27072023145028-psm_s11_altin_gun_passo.jpg",
+        "https://ippasso.mediatriple.net/event/25082023144605-lillypalmer_1920x1080_passo.png",
         "https://imageprod.passo.com.tr/event/07062023125531-1.jpg"
       ],
       "eventUrl": "raven_projekt_presents_lilly_palmer",
@@ -202,7 +204,7 @@
       "eventShortDescription": "TÜSİAD, Cumhuriyetin 100. yılı vesilesi ile 5 Ekim 2023 Perşembe günü, Zorlu PSM Turkcell Sahnesi’nde bir etkinlik düzenleyecektir. TÜSİAD Yönetim Kurulu Başkanı Orhan Turan'ın açış konuşmasını yapacağı etkinlikte konser bölümünde Sertab Erener ve orkestrası, piyanist Tuluğ Tırpan, Antakya Medeniyetler Korosu, genç sanatçılar ve konuklar sahne alacaktır.",
       "eventPrice": "7.000-18.765₺",
       "eventPictures": [
-        "https://ippasso.mediatriple.net/event/2082023170944-passo_banner-4.jpg"
+        "https://ippasso.mediatriple.net/event/22082023170944-passo_banner-4.jpg"
       ],
       "eventUrl": "tusiad_cumhuriyetin_100_yili_kutlama_etkinligi",
       "eventStartDate": "2023-10-14T23:30:00"
@@ -899,7 +901,7 @@
       "eventStartDate": "2023-10-06T23:30:00"
     },
     {
-      "id": 53,
+      "id": 54,
       "eventTypeId": 1,
       "eventName": "mor ve ötesi - Antalya",
       "eventEndDate": "2023-10-06T21:00:00",
@@ -914,7 +916,7 @@
       "eventStartDate": "2023-10-06T23:30:00"
     },
     {
-      "id": 54,
+      "id": 55,
       "eventTypeId": 1,
       "eventName": "Selda Bağcan - Senforock Musa Göçmen - Antalya",
       "eventEndDate": "2023-10-06T21:00:00",
@@ -929,7 +931,7 @@
       "eventStartDate": "2023-10-06T23:30:00"
     },
     {
-      "id": 55,
+      "id": 56,
       "eventTypeId": 1,
       "eventName": "An Epic Symphony & Hayko Cepkin - Antalya",
       "eventEndDate": "2023-10-06T21:00:00",
@@ -944,7 +946,7 @@
       "eventStartDate": "2023-10-06T23:30:00"
     },
     {
-      "id": 56,
+      "id": 57,
       "eventTypeId": 1,
       "eventName": "Mem Ararat - Antalya",
       "eventEndDate": "2023-10-07T21:00:00",
@@ -959,7 +961,7 @@
       "eventStartDate": "2023-10-07T23:30:00"
     },
     {
-      "id": 57,
+      "id": 58,
       "eventTypeId": 1,
       "eventName": "Ferhat Göçer - Bursa",
       "eventEndDate": "2023-10-07T21:00:00",
@@ -974,7 +976,7 @@
       "eventStartDate": "2023-10-07T23:30:00"
     },
     {
-      "id": 58,
+      "id": 59,
       "eventTypeId": 1,
       "eventName": "Levent Yüksel - Bursa",
       "eventEndDate": "2023-10-08T21:00:00",
@@ -989,7 +991,7 @@
       "eventStartDate": "2023-10-08T23:30:00"
     },
     {
-      "id": 59,
+      "id": 60,
       "eventTypeId": 4,
       "eventName": "Bozcaada Caz Festivali - 8-9-10 Eylül",
       "eventEndDate": "2023-09-08T21:00:00",
@@ -1004,7 +1006,7 @@
       "eventStartDate": "2023-09-10T23:30:00"
     },
     {
-      "id": 60,
+      "id": 61,
       "eventTypeId": 1,
       "eventName": "Mem Ararat - Denizli",
       "eventEndDate": "2023-09-08T21:00:00",
@@ -1019,7 +1021,7 @@
       "eventStartDate": "2023-09-10T23:30:00"
     },
     {
-      "id": 61,
+      "id": 62,
       "eventTypeId": 1,
       "eventName": "Edis - Denizli",
       "eventEndDate": "2023-09-08T21:00:00",
@@ -1034,7 +1036,7 @@
       "eventStartDate": "2023-09-10T23:30:00"
     },
     {
-      "id": 62,
+      "id": 63,
       "eventTypeId": 1,
       "eventName": "Hadise - Denizli",
       "eventEndDate": "2023-09-09T21:00:00",
@@ -1049,7 +1051,7 @@
       "eventStartDate": "2023-09-09T23:30:00"
     },
     {
-      "id": 63,
+      "id": 64,
       "eventTypeId": 1,
       "eventName": "Melek Mosso",
       "eventEndDate": "2023-09-15T21:00:00",
@@ -1064,7 +1066,7 @@
       "eventStartDate": "2023-09-15T23:30:00"
     },
     {
-      "id": 64,
+      "id": 65,
       "eventTypeId": 4,
       "eventName": "Eskişehir Kahve Festivali",
       "eventEndDate": "2023-09-29T11:00:00",
@@ -1079,7 +1081,7 @@
       "eventStartDate": "2023-10-01T18:30:00"
     },
     {
-      "id": 65,
+      "id": 66,
       "eventTypeId": 5,
       "eventName": "Meksika Açmazı - Eskişehir",
       "eventEndDate": "2023-10-27T18:00:00",
@@ -1094,7 +1096,7 @@
       "eventStartDate": "2023-10-27T21:30:00"
     },
     {
-      "id": 66,
+      "id": 67,
       "eventTypeId": 1,
       "eventName": "Rewşan - Mersin",
       "eventEndDate": "2023-10-25T18:00:00",
@@ -1109,7 +1111,7 @@
       "eventStartDate": "2023-10-25T21:30:00"
     },
     {
-      "id": 67,
+      "id": 68,
       "eventTypeId": 5,
       "eventName": "Livaneli Şarkıları - Nükhet Duru - Mehmet Erdem - Ferhat Livaneli Orkestrası",
       "eventEndDate": "2023-10-17T18:00:00",
@@ -1124,7 +1126,7 @@
       "eventStartDate": "2023-10-17T21:30:00"
     },
     {
-      "id": 68,
+      "id": 69,
       "eventTypeId": 2,
       "eventName": "Richard",
       "eventEndDate": "2023-09-06T18:00:00",
@@ -1139,7 +1141,7 @@
       "eventStartDate": "2023-09-06T21:30:00"
     },
     {
-      "id": 69,
+      "id": 70,
       "eventTypeId": 2,
       "eventName": "Otomatik Portakal",
       "eventEndDate": "2023-09-28T18:00:00",
@@ -1154,7 +1156,7 @@
       "eventStartDate": "2023-09-28T21:30:00"
     },
     {
-      "id": 70,
+      "id": 71,
       "eventTypeId": 2,
       "eventName": "Çifte Cinayet",
       "eventEndDate": "2023-11-14T18:00:00",
@@ -1169,7 +1171,7 @@
       "eventStartDate": "2023-11-14T21:30:00"
     },
     {
-      "id": 71,
+      "id": 72,
       "eventTypeId": 5,
       "eventName": "Tuna Kalınsaz Stand Up",
       "eventEndDate": "2023-10-26T18:00:00",
@@ -1182,9 +1184,125 @@
       ],
       "eventUrl": "tuna_kalinsaz_stand_up",
       "eventStartDate": "2023-10-26T21:30:00"
+    },
+    {
+      "id": 73,
+      "eventTypeId": 5,
+      "eventName": "Doğu Demirkol",
+      "eventEndDate": "2023-08-26T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/22082023160540-dogu_demirkol.png",
+      "locationId": 46,
+      "eventShortDescription": "Türkiye, Avrupa ve Amerika’da ve dünyanın farklı şehirlerinde gerçekleştirdiği tek kişilik gösterisinde kendi yaşamından ve bu topraklarda güldürü niteliği taşıyan her olaydan beslenen Doğu Demirkol, bu sezon da seyircisi ile buluşmaya devam ediyor.",
+      "eventPrice": "330-500₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/22082023160540-dogu_demirkol.png",
+        "https://i.ytimg.com/vi/YZj28memeSw/maxresdefault.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwhUvbkYtSNhtyzDcr5Ji7d9oj3eU6GY9FMgN1VxQCKyRKfcKf1PjeiGBFB2MB_gdJSII&usqp=CAU"
+      ],
+      "eventUrl": "dogu_demirkol_stand_up",
+      "eventStartDate": "2023-08-26T21:30:00"
+    },
+    {
+      "id": 74,
+      "eventTypeId": 5,
+      "eventName": "Bir Baba Hamlet",
+      "eventEndDate": "2023-08-26T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/11082023132553-bir_baba_hamlet.jpg",
+      "locationId": 46,
+      "eventShortDescription": "Emrah Eren'in yönettiği Bir Baba Hamlet oyunu, izleyicisiyle buluşmaya devam ediyor.Oturun yanımıza. Size bir rezillik anlatacağız. Ama öyle böyle değil. Hazır olun. Kalaslarından dekor, heveslerinden oyun yapmak üzere yola çıkmış iki cüretkar oyuncu, gözlerine Shakespeare'in başyapıtı Hamlet'i kestirmiş. Cesur olduklarını söylememize gerek var mı? Keşke her şey perde arkasında kalsaydı fakat asıl hikaye burada başlıyor. Seyircinin karşısına geçerek Hamlet’i oynamaya çalışan bu ikiliden biri, Shakespeare uzmanı gibi davranan yarım porsiyon aktör; diğeri de şarkı söyleme hevesiyle dilinden müzikal kelimesini eksik etmeyen bir şaşkın...",
+      "eventPrice": "330-500₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/11082023132553-bir_baba_hamlet.jpg",
+        "https://www.bodrumlife.com/wp-content/uploads/2022/10/izmir-pamucak-sahilinde-ilk-tiyatro-oyunu-bir-baba-hamlat.webp",
+        "https://www.mansetizmir.com/images/haberler/2018/03/bir-baba-hamlet-e-tam-not.jpg"
+      ],
+      "eventUrl": "bir_baba_hamlet",
+      "eventStartDate": "2023-08-26T21:30:00"
+    },
+    {
+      "id": 75,
+      "eventTypeId": 5,
+      "eventName": "Doğu Demirkol",
+      "eventEndDate": "2023-08-22T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/11082023132553-bir_baba_hamlet.jpg",
+      "locationId": 47,
+      "eventShortDescription": "BKM Yaz Etkinlikleri Maximum Uniq Açıkhava’da!Doğu Demirkol, 5 Eylül Salı saat 21:00’de Maxımum Uniq Açıkhava’da! Son dönemin yükselen stand-up’çılarından, hem ödüllü oyuncu, hem komedyen 10 parmağında 10 marifet Doğu Demirkol, tek kişilik gösterisi ile Maximum Uniq çıkhava’da! Ahlat Ağacı, Ölümlü Dünya, Bayi Toplantısı filmlerindeki başarılı performansının ardından, ‘Doğu’ dizisiyle de geniş kitlelere ulaşan komedyen stand-up gösterisiyle seyirciyle buluşmaya devam ediyor.",
+      "eventPrice": "318-630₺",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/22082023160540-dogu_demirkol.png",
+        "https://i.ytimg.com/vi/YZj28memeSw/maxresdefault.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwhUvbkYtSNhtyzDcr5Ji7d9oj3eU6GY9FMgN1VxQCKyRKfcKf1PjeiGBFB2MB_gdJSII&usqp=CAU"
+      ],
+      "eventUrl": "dogu_demirkol_2",
+      "eventStartDate": "2023-08-22T21:30:00"
+    },
+    {
+      "id": 76,
+      "eventTypeId": 5,
+      "eventName": "Aydınlıkevler",
+      "eventEndDate": "2023-08-12T19:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/08062023212520-aydinlikevler_uniq_bkm.jpg",
+      "locationId": 47,
+      "eventShortDescription": "Yaşamak, zemheriye ve yokluğa direnmek ve Amerika’yla baş etmek üzerine dar gelirli ama zengin bir öykü… Burası Aydınlıkevler ve babaannem Amerika’ya karşı!!!",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/08062023212520-aydinlikevler_uniq_bkm.jpg",
+        "https://ippasso.mediatriple.net/event/08062023212520-1.jpg",
+        "https://ippasso.mediatriple.net/event/08062023212520-2.jpg",
+        "https://ippasso.mediatriple.net/event/08062023212520-3.jpg",
+        "https://ippasso.mediatriple.net/event/08062023212544-4.jpg",
+        "https://ippasso.mediatriple.net/event/08062023212544-5.jpg",
+        "https://ippasso.mediatriple.net/event/08062023212544-6.jpg"
+      ],
+      "eventPrice": "266-577₺",
+      "eventUrl": "aydinlikevler",
+      "eventStartDate": "2023-08-12T21:30:00"
+    },
+    {
+      "id": 77,
+      "eventTypeId": 5,
+      "eventName": "Broadway in İstanbul Vol.2",
+      "eventEndDate": "2023-08-22T18:00:00",
+      "eventSmallPicture": "https://ippasso.mediatriple.net/event/15082023130352-broadway_bkm_gorsel.jpg",
+      "locationId": 47,
+      "eventShortDescription": "“BROADWAY IN ISTANBUL VOL.2” projesi 19 Eylül tarihinde Uniq Açıkhava’da güçlü bir kadroyla tek gala olarak seyircisiyle buluşmaya hazırlanıyor.Mayıs ayında  ilk kez sahnelendiğinde dakikalarca ayakta alkışlanan “Broadway in Istanbul” projesi gördüğü yoğun ilgiden dolayı “Broadway in Istanbul Vol.2” başlığıyla bu kez Uniq Açıkhava’da yine, yeni, yeniden seyircisine unutulmaz bir Broadway yolculuğu vadediyor.",
+      "eventPictures": [
+        "https://ippasso.mediatriple.net/event/15082023130352-broadway_bkm_gorsel.jpg",
+        "https://static.daktilo.com/sites/856/uploads/2023/04/10/large/b3-1681113866.jpg",
+        "https://www.all.com.tr/wp-content/uploads/2022/09/616f823645d2a0b2540240ed.jpeg"
+      ],
+      "eventPrice": "370-1.850₺",
+      "eventUrl": "broadway_in_istanbul_vol2",
+      "eventStartDate": "2023-08-22T21:30:00"
     }
   ],
   "locations": [
+    {
+      "id": 47,
+      "locationName": "Maximum UNIQ Açıkhava",
+      "lat": "41.108092506829124",
+      "lng": "29.005508174491197",
+      "city": "İstanbul",
+      "address": "Huzur Mah. Maslak Ayazağa Cad. No.4",
+      "state": "Sarıyer/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/29082023103538-0.jpeg",
+        "https://ippasso.mediatriple.net/venue/29082023103538-1.jpg"
+      ]
+    },
+    {
+      "id": 46,
+      "locationName": "Kadıköy Bel. Özgürlük Parkı Amfi Tiyatro",
+      "lat": "40.97963791483883",
+      "lng": "29.054505445649152",
+      "city": "İstanbul",
+      "address": "Göztepe, Mustafa Mazhar Bey Sokağı No:2, 34730",
+      "state": "Kadıköy/İstanbul",
+      "images": [
+        "https://ippasso.mediatriple.net/venue/14062023110407-0.jpg",
+        "https://ippasso.mediatriple.net/venue/14062023110407-1.jpg",
+        "https://ippasso.mediatriple.net/venue/14062023110407-2.jpg"
+      ]
+    },
     {
       "id": 45,
       "locationName": "Mersin Yenişehir Belediyesi Atatürk Kültür Merkezi",

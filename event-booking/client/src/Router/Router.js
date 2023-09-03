@@ -7,6 +7,7 @@ import ErrorPage from "../Pages/ErrorPage";
 import HomePage from "../Pages/HomePage";
 import Events from "../Pages/Events";
 import Event from "../Pages/Event";
+import Locations from "../Pages/Locations";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/events",
         element: <Events />,
+      },
+      {
+        path: "/locations",
+        element: <Locations />,
       },
     ],
   },

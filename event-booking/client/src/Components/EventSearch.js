@@ -1,8 +1,8 @@
 import React from "react";
 
-const EventFilter = ({ search, setSearch }) => {
+const EventSearch = ({ search, setSearch }) => {
   return (
-    <div>
+    <div className="px-2">
       <div>
         <input
           value={search}
@@ -16,4 +16,4 @@ const EventFilter = ({ search, setSearch }) => {
   );
 };
 
-export default EventFilter;
+export default EventSearch;

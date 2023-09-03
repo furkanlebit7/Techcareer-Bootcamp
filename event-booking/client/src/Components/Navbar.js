@@ -59,7 +59,9 @@ const Navbar = ({ scrolled, setScrolled }) => {
             <li>
               <Link to={"/events"}>Etkinlikler</Link>
             </li>
-            <li>Cinema</li>
+            <li>
+              <Link to={"/locations"}>Mekanlar</Link>
+            </li>
             <li>Speakers</li>
             <li>Ticket</li>
             <li className="md:mr-auto">Contact</li>

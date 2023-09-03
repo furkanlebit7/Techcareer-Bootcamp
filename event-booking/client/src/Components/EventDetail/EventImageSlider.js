@@ -12,7 +12,6 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const EventImageSlider = ({ event }) => {
-  console.log(event);
   return (
     <>
       <Swiper

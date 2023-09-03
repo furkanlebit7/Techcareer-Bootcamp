@@ -1,23 +1,48 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../Components/Navbar";
 import "moment/locale/tr"; // without this line it didn't work
 import { getAllEvents } from "../../Redux/Slices/EventSlice";
 import { useSelector } from "react-redux";
 import Footer from "../../Layouts/Footer";
 import EventCard from "../../Components/EventCard";
+import EventSearch from "../../Components/EventSearch";
 import EventFilter from "../../Components/EventFilter";
-import { BsChevronDoubleDown } from "react-icons/bs";
+import moment from "moment";
+
+moment.locale("tr");
+
 const Events = () => {
   const [scrolled, setScrolled] = useState(false);
   const [search, setSearch] = useState("");
+  const [isDisabled, setIsDisabled] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
-  const [eventTypes, setEventTypes] = useState([]); // ["Konser", "Spor", "Tiyatro"
+  const [eventTypes, setEventTypes] = useState([1, 2, 3, 4, 5]);
+  const [date, setDate] = useState({
+    startDate: moment().format("YYYY-MM-DD"),
+    endDate: moment().add(1, "y").format("YYYY-MM-DD"),
+  });
+  const [eventStatus, setEventStatus] = useState("future");
   const events = useSelector(getAllEvents);
 
+  const checkStatus = (event) => {
+    const stat =
+      moment(event.eventEndDate).isAfter(date.startDate, "day") &&
+      moment(event.eventStartDate).isBefore(date.endDate, "day");
+
+    return stat;
+  };
+
+  const checkTypes = (event) => {
+    return eventTypes.includes(event.eventTypeId);
+  };
+
   const filteredEvents = events.data.filter((event) => {
-    return event.eventName.toLowerCase().includes(search.toLowerCase());
+    return (
+      event.eventName.toLowerCase().includes(search.toLowerCase()) &&
+      checkStatus(event) &&
+      checkTypes(event)
+    );
   });
-  console.log(filteredEvents);
 
   return (
     <div>
@@ -39,141 +64,22 @@ const Events = () => {
           </div>
         </div>
         <div className="container mx-auto mt-10 transition-all duration-1000">
-          <EventFilter search={search} setSearch={setSearch} />
-          <div className="mb-10 mt-3">
-            <button
-              className="flex items-center w-full animate-bounce justify-center"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              <BsChevronDoubleDown />
-            </button>
-            <div className={isOpen ? "grid grid-cols-3 my-5 gap-5 " : "hidden"}>
-              <div className="dark:bg-darkContent dark:border-gray-7000 bg-white border p-2 px-3 rounded-md flex items-center justify-between">
-                <div className="flex items-center">
-                  <input
-                    type="checkbox"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Konser
-                  </label>
-                </div>
-                <div className="flex items-center">
-                  <input
-                    type="checkbox"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Tiyatro
-                  </label>
-                </div>
-                <div className="flex items-center">
-                  <input
-                    type="checkbox"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Sergi
-                  </label>
-                </div>
-                <div className="flex items-center">
-                  <input
-                    type="checkbox"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Festival
-                  </label>
-                </div>
-                <div className="flex items-center">
-                  <input
-                    type="checkbox"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Diğer
-                  </label>
-                </div>
-              </div>
-              <div className="dark:bg-darkContent dark:border-gray-7000 bg-white border p-2 px-3 rounded-md flex items-center justify-between">
-                <input
-                  type="date"
-                  className="p-0 bg-transparent w-full border-none focus:outline-none focus:ring-0"
-                />
-                <span className="mx-10">to</span>
-                <input
-                  type="date"
-                  className="p-0 bg-transparent w-full border-none focus:outline-none focus:ring-0"
-                />
-              </div>
-              <div className="dark:bg-darkContent dark:border-gray-7000 bg-white border p-2 px-3 rounded-md flex items-center justify-between">
-                <div className="flex items-center">
-                  <input
-                    type="radi"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Hepsi
-                  </label>
-                </div>
-                <div className="flex items-center">
-                  <input
-                    type="radio"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Gelecek
-                  </label>
-                </div>
-                <div className="flex items-center">
-                  <input
-                    type="radio"
-                    value=""
-                    className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                  />
-                  <label
-                    for="default-checkbox"
-                    className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Geçmiş
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
+          <EventSearch search={search} setSearch={setSearch} />
+          <EventFilter
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+            setEventTypes={setEventTypes}
+            eventTypes={eventTypes}
+            eventStatus={eventStatus}
+            setEventStatus={setEventStatus}
+            date={date}
+            setDate={setDate}
+            isDisabled={isDisabled}
+            setIsDisabled={setIsDisabled}
+          />
           <div className="grid px-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 gap-y-8">
             {filteredEvents.map((event) => (
-              <EventCard event={event} />
+              <EventCard event={event} key={event.id} />
             ))}
           </div>
         </div>
