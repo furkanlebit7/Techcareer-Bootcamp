@@ -197,7 +197,7 @@ const EventFilter = ({
         <div
           className={`${
             isDisabled ? "hidden" : "block"
-          } dark:bg-darkContent dark:border-gray-7000 col-start-1 col-end-2 md:col-start-1 md:col-end-3 xl:col-start-3 xl:col-end-4 border p-2 px-3 rounded-md flex items-center justify-between`}
+          } dark:bg-darkContent bg-white dark:border-gray-700 col-start-1 col-end-2 md:col-start-1 md:col-end-3 xl:col-start-3 xl:col-end-4 border p-2 px-3 rounded-md flex items-center justify-between`}
         >
           <input
             type="date"

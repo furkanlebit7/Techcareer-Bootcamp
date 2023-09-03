@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import SeeAllButton from "../../Components/SeeAllButton";
+import Loading from "../../Components/Loading";
 
 const FeaturedEvents = ({ events }) => {
   return (
@@ -38,9 +39,10 @@ const FeaturedEvents = ({ events }) => {
         modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
+        {events.data === "loading" && <Loading />}
         {events &&
-          events.data.slice(4, 16).map((event) => (
-            <SwiperSlide>
+          events.data.slice(4, 16).map((event, index) => (
+            <SwiperSlide key={index}>
               <HeaderSliderCard event={event} />
             </SwiperSlide>
           ))}

@@ -28,9 +28,13 @@ const Event = () => {
     <div>
       <div className="mb-16">
         <div className="bg-[url('https://www.headlinesecurity.com/wp-content/uploads/2016/04/metallicaconcertbanner-1.jpg')] h-[45vh]  bg-cover  ">
-          <div className="bg-black bg-opacity-70 h-full text-black dark:text-white text-center ">
+          <div className="bg-black bg-opacity-70 h-full text-black dark:text-white text-center">
             <div className="flex flex-col items-center h-full">
-              <Navbar scrolled={scrolled} setScrolled={setScrolled} />
+              <Navbar
+                scrolled={scrolled}
+                setScrolled={setScrolled}
+                white={true}
+              />
               <div
                 className={`${
                   scrolled ? "mt-26" : "mt-10"

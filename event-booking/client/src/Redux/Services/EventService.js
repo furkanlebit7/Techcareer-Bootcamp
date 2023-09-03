@@ -17,3 +17,12 @@ export const fetchEventByUrl = createAsyncThunk(
     return data;
   }
 );
+export const fetchEventTypes = createAsyncThunk(
+  "event/getEventTypes",
+  async () => {
+    const { data } = await axios.get(
+      `http://localhost:4000/eventTypes?_embed=events`
+    );
+    return data;
+  }
+);

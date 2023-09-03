@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const EventImageSlider = ({ event }) => {
+const LocationImageSlider = ({ location }) => {
   return (
     <>
       <Swiper
@@ -28,7 +28,7 @@ const EventImageSlider = ({ event }) => {
         modules={[Autoplay, Pagination, Navigation]}
         className="h-full"
       >
-        {event.data.eventPictures.map((picture, index) => (
+        {location.data.images.map((picture, index) => (
           <SwiperSlide key={index}>
             <img
               loading="lazy"
@@ -43,4 +43,4 @@ const EventImageSlider = ({ event }) => {
   );
 };
 
-export default EventImageSlider;
+export default LocationImageSlider;

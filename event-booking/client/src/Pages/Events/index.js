@@ -44,19 +44,27 @@ const Events = () => {
     );
   });
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <div className="mb-16">
         <div className="bg-[url('https://images6.alphacoders.com/303/303014.jpg')] h-[45vh]  bg-cover bg-bottom ">
-          <div className="dark:bg-black bg-white bg-opacity-20 dark:bg-opacity-20 h-full text-black dark:text-white text-center ">
+          <div className="bg-black bg-opacity-20 h-full text-black dark:text-white text-center ">
             <div className="flex flex-col items-center h-full">
-              <Navbar scrolled={scrolled} setScrolled={setScrolled} />
+              <Navbar
+                scrolled={scrolled}
+                setScrolled={setScrolled}
+                white={true}
+              />
               <div
                 className={`${
                   scrolled ? "mt-26" : "mt-10"
                 } text-white  font-poppins container  mx-auto px-2 sm:px-5 text-center`}
               >
-                <h1 className=" text-3xl md:text-5xl lg:text-7xl xl:text7xl xl:text-9xl text-black dark:text-white uppercase font-semibold  mb-5">
+                <h1 className=" text-3xl md:text-5xl lg:text-7xl xl:text7xl xl:text-9xl text-white uppercase font-semibold  mb-5">
                   ETKİNLİKLER
                 </h1>
               </div>

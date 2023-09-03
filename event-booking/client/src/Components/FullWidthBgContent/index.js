@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import EventTypeStatistic from "./EventTypeStatistic";
 //ICONS
@@ -7,36 +7,40 @@ import { FaTheaterMasks } from "react-icons/fa";
 import { GiTheater } from "react-icons/gi";
 import { MdOutlineFestival } from "react-icons/md";
 import { ImTicket } from "react-icons/im";
+import { useSelector } from "react-redux";
+import { getEventTypes } from "../../Redux/Slices/EventSlice";
 
 const FullWidthBgContent = () => {
+  const { data } = useSelector(getEventTypes);
+
   return (
     <div className="w-full bg-fullWidth-bg h-96 bg-fixed bg-no-repeat">
       <div className="w-full h-full bg-black bg-opacity-70 flex items-center">
         <div className="grid grid-cols-2 md:flex place-items-center gap-6 items-center justify-evenly container mx-auto">
           <EventTypeStatistic
             icon={<BsMusicPlayer />}
-            eventType={"CONCERT"}
-            count={"2464"}
+            eventType={"KONSER"}
+            count={data[0]?.events?.length}
           />
           <EventTypeStatistic
             icon={<FaTheaterMasks />}
-            eventType={"THEATER"}
-            count={"643"}
+            eventType={"TİYATRO"}
+            count={data[1]?.events?.length}
           />
           <EventTypeStatistic
             icon={<GiTheater />}
-            eventType={"CINEMA"}
-            count={"321"}
+            eventType={"SERGİ"}
+            count={data[2]?.events?.length}
           />
           <EventTypeStatistic
             icon={<MdOutlineFestival />}
-            eventType={"FESTIVAL"}
-            count={"3"}
+            eventType={"FESTİVAL"}
+            count={data[3]?.events?.length}
           />
           <EventTypeStatistic
             icon={<ImTicket />}
-            eventType={"OTHERS"}
-            count={"24"}
+            eventType={"DİĞER"}
+            count={data[4]?.events?.length}
           />
         </div>
       </div>

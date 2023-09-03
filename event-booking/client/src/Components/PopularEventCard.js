@@ -1,13 +1,13 @@
 import React from "react";
 
-const PopularEventCard = ({ type }) => {
+const PopularEventCard = ({ type, count }) => {
   let cl = "";
-  if (type === "concert") {
+  if (type === "konser") {
     cl = "bg-[url('/src/assets/Images/popular_concert.jpg')]";
-  } else if (type === "theater") {
+  } else if (type === "tiyatro") {
     cl = "bg-[url('/src/assets/Images/popular_theater.jpg')]";
-  } else if (type === "cinema") {
-    cl = "bg-[url('/src/assets/Images/popular_cinema.jpg')]";
+  } else if (type === "sergi") {
+    cl = "bg-[url('/src/assets/Images/sergi.jpg')]";
   } else if (type === "festival") {
     cl = "bg-[url('/src/assets/Images/popular_festival.jpg')]";
   }
@@ -20,7 +20,7 @@ const PopularEventCard = ({ type }) => {
           {type}
         </p>
         <p className="absolute -bottom-5 left-1/2 -translate-x-1/2 transition-all duration-1000 group-hover:bottom-6 ">
-          6 Events
+          {count} Events
         </p>
       </div>
     </div>

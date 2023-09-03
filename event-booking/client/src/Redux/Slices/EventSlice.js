@@ -1,11 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchEventByUrl, fetchEvents } from "../Services/EventService";
+import {
+  fetchEventByUrl,
+  fetchEventTypes,
+  fetchEvents,
+} from "../Services/EventService";
 
 export const EventSlice = createSlice({
   name: "events",
   initialState: {
     allEvents: { data: [], status: "idle" },
     eventByUrl: { data: {}, status: "idle" },
+    eventTypes: { data: [], status: "idle" },
   },
   reducers: {},
   extraReducers: {
@@ -17,9 +22,10 @@ export const EventSlice = createSlice({
       state.allEvents.data = action.payload;
       state.allEvents.status = "succeeded";
     },
-    [fetchEvents.rejected]: (state, action) => {
+    [fetchEvents.rejected]: (state) => {
       state.allEvents.status = "failed";
     },
+
     //Fetch Event By Url
     [fetchEventByUrl.pending]: (state) => {
       state.eventByUrl.status = "loading";
@@ -28,16 +34,26 @@ export const EventSlice = createSlice({
       state.eventByUrl.data = action.payload[0];
       state.eventByUrl.status = "succeeded";
     },
-    [fetchEventByUrl.rejected]: (state, action) => {
+    [fetchEventByUrl.rejected]: (state) => {
       state.eventByUrl.status = "failed";
+    },
+
+    //Fetch EventTypes
+    [fetchEventTypes.pending]: (state) => {
+      state.eventTypes.status = "loading";
+    },
+    [fetchEventTypes.fulfilled]: (state, action) => {
+      state.eventTypes.data = action.payload;
+      state.eventTypes.status = "succeeded";
+    },
+    [fetchEventTypes.rejected]: (state) => {
+      state.eventTypes.status = "failed";
     },
   },
 });
 export default EventSlice.reducer;
 
-//Actions
-// export const { changTheme } = WeatherSlice.actions;
-
 //Selectors
 export const getAllEvents = (state) => state.events.allEvents;
 export const getEventByUrl = (state) => state.events.eventByUrl;
+export const getEventTypes = (state) => state.events.eventTypes;

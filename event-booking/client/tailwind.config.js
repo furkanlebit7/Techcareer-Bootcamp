@@ -55,6 +55,9 @@ module.exports = {
       screens: {
         xs: "400px",
       },
+      fontSize: {
+        "2xs": ".65rem",
+      },
     },
   },
   plugins: [require("flowbite/plugin")],

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../../Components/Navbar";
-import { SlLocationPin } from "react-icons/sl";
 import { HiChevronDoubleDown } from "react-icons/hi";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   return (
-    <div className="bg-header-bg h-screen  bg-cover">
-      <div className="bg-white-gradient dark:bg-dark-gradient h-screen text-black dark:text-white text-center">
+    <div className="bg-header-bg h-[60vh]  bg-cover">
+      <div className="bg-white-gradient dark:bg-dark-gradient h-[61vh] text-black dark:text-white text-center">
         <div className="flex flex-col items-center h-full">
           <Navbar scrolled={scrolled} setScrolled={setScrolled} />
           <h1
@@ -18,7 +17,7 @@ const Header = () => {
             Discover and Book the <br /> Hottest Events Worldwide
           </h1>
 
-          <div className="flex-auto w-full px-5 lg:px-0">
+          {/* <div className="flex-auto w-full px-5 lg:px-0">
             <div className="bg-gray-200 p-3 flex flex-col md:flex-row items-center justify-between w-full lg:w-2/3 mx-auto rounded-md text-black ">
               <div className="w-full md:w-1/3 flex items-center text-lg md:text-xl pr-3">
                 <SlLocationPin className="order-1 md:order-none" />
@@ -44,11 +43,11 @@ const Header = () => {
                 Search
               </button>
             </div>
-          </div>
+          </div> */}
 
           <button
             className="text-2xl animate-bounce mb-10 z-10"
-            onClick={() => window.scrollTo(0, 970)}
+            onClick={() => window.scrollTo(0, 600)}
           >
             <HiChevronDoubleDown />
           </button>

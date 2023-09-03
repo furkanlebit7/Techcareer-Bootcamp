@@ -6,7 +6,7 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
-const Navbar = ({ scrolled, setScrolled }) => {
+const Navbar = ({ scrolled, setScrolled, white }) => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
   const [toggle, setToggle] = useState(false);
 
@@ -33,6 +33,10 @@ const Navbar = ({ scrolled, setScrolled }) => {
       className={`${
         scrolled
           ? "bg-white dark:bg-darkContent dark:text-white fixed top-0 w-screen mx-auto "
+          : !white
+          ? ""
+          : !toggle
+          ? "text-white"
           : ""
       } w-full p-4 transition-all z-50`}
     >

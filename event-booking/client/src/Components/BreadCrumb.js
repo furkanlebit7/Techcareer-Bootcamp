@@ -13,7 +13,7 @@ const BreadCrumb = ({ eventType, eventName }) => {
         <p>Anasayfa</p>
       </Link>
       <BsChevronRight className="font-bold" />
-      <Link to="/" className="flex items-center gap-2">
+      <Link to="/events" className="flex items-center gap-2">
         <p>{eventType}</p>
       </Link>
       <BsChevronRight className="font-bold" />
