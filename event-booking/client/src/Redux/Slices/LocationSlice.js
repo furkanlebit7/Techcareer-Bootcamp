@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchLocations } from "../Services/LocationService";
+import { fetchLocationById, fetchLocations } from "../Services/LocationService";
 
 export const LocationSlice = createSlice({
   name: "locations",
@@ -19,6 +19,18 @@ export const LocationSlice = createSlice({
     },
     [fetchLocations.rejected]: (state) => {
       state.allLocations.status = "failed";
+    },
+
+    //Fetch Location By Id
+    [fetchLocationById.pending]: (state) => {
+      state.locationById.status = "loading";
+    },
+    [fetchLocationById.fulfilled]: (state, action) => {
+      state.locationById.data = action.payload;
+      state.locationById.status = "succeeded";
+    },
+    [fetchLocationById.rejected]: (state) => {
+      state.locationById.status = "failed";
     },
   },
 });

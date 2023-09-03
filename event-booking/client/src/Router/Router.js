@@ -8,6 +8,7 @@ import HomePage from "../Pages/HomePage";
 import Events from "../Pages/Events";
 import Event from "../Pages/Event";
 import Locations from "../Pages/Locations";
+import Location from "../Pages/Location";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/locations",
         element: <Locations />,
+      },
+      {
+        path: "/location/:locationId",
+        element: <Location />,
       },
     ],
   },
