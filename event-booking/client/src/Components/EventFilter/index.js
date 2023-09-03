@@ -1,6 +1,6 @@
 import React from "react";
 import moment from "moment";
-import { BsChevronDoubleDown } from "react-icons/bs";
+import { BsChevronDoubleDown, BsChevronDoubleUp } from "react-icons/bs";
 moment.locale("tr");
 
 const EventFilter = ({
@@ -32,7 +32,7 @@ const EventFilter = ({
             setIsOpen(!isOpen);
           }}
         >
-          <BsChevronDoubleDown />
+          {isOpen ? <BsChevronDoubleUp /> : <BsChevronDoubleDown />}
         </button>
       </div>
       <div

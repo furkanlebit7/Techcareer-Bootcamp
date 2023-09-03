@@ -1283,7 +1283,7 @@
       "lng": "29.005508174491197",
       "city": "İstanbul",
       "address": "Huzur Mah. Maslak Ayazağa Cad. No.4",
-      "state": "Sarıyer/İstanbul",
+      "state": "Sarıyer",
       "images": [
         "https://ippasso.mediatriple.net/venue/29082023103538-0.jpeg",
         "https://ippasso.mediatriple.net/venue/29082023103538-1.jpg"
@@ -1296,7 +1296,7 @@
       "lng": "29.054505445649152",
       "city": "İstanbul",
       "address": "Göztepe, Mustafa Mazhar Bey Sokağı No:2, 34730",
-      "state": "Kadıköy/İstanbul",
+      "state": "Kadıköy",
       "images": [
         "https://ippasso.mediatriple.net/venue/14062023110407-0.jpg",
         "https://ippasso.mediatriple.net/venue/14062023110407-1.jpg",
@@ -1310,7 +1310,7 @@
       "lng": "34.58707907243536",
       "city": "Mersin",
       "address": "Limonluk, 13. Cd. No: 11, 33120",
-      "state": "Yenişehir/Mersin",
+      "state": "Yenişehir",
       "images": [
         "https://ippasso.mediatriple.net/venue/29122022134843-ataturk_cultural_center_in_mersin.jpg"
       ]
@@ -1322,7 +1322,7 @@
       "lng": "30.593671716752763",
       "city": "Eskişehir",
       "address": "71 Evler, 26080",
-      "state": "Odunpazarı/Eskişehir",
+      "state": "Odunpazarı",
       "images": [
         "https://ippasso.mediatriple.net/venue/31012023170042-95d4bd2b9198bf21347c4395867ab8ad.jpg"
       ]
@@ -1334,7 +1334,7 @@
       "lng": "30.498409305110094",
       "city": "Eskişehir",
       "address": "Yenibağlar Mahallesi, Uludağ Sk. No:10",
-      "state": "Tepebaşı/Eskişehir",
+      "state": "Tepebaşı",
       "images": ["https://ippasso.mediatriple.net/venue/02082023160739-0.jpeg"]
     },
     {
@@ -1344,7 +1344,7 @@
       "lng": "30.475437759083093",
       "city": "Eskişehir",
       "address": "Çamlıca Mahallesi Mustafa Paşa Sokak No:61 26180 ",
-      "state": "Tepebaşı/Eskişehir",
+      "state": "Tepebaşı",
       "images": [
         "https://ippasso.mediatriple.net/venue/11112022101821-1.jpg",
         "https://ippasso.mediatriple.net/venue/11112022101821-2.jpg",
@@ -1359,7 +1359,7 @@
       "lng": "29.08452363199913",
       "city": "Denizli",
       "address": "Mehmetçik Mahallesi, Çamlık Bulvarı",
-      "state": "Merkez/Denizli",
+      "state": "Merkez",
       "images": ["https://ippasso.mediatriple.net/venue/28032023113854-1.jpg"]
     },
     {
@@ -1369,7 +1369,7 @@
       "lng": "29.096192174328444",
       "city": "Denizli",
       "address": "İncilipınar Mah. 3385 Sokak No: 2/A",
-      "state": "Pamukkale/Denizli",
+      "state": "Pamukkale",
       "images": [
         "https://ippasso.mediatriple.net/venue/21112022112459-1.jpg",
         "https://ippasso.mediatriple.net/venue/21112022112459-2.jpg",
@@ -1383,7 +1383,7 @@
       "lng": "26.014630259084626",
       "city": "Çanakkale",
       "address": "Cumhuriyet mahallesi, Ayazma mevki küme evler no 8",
-      "state": "Bozcaada/Çanakkale",
+      "state": "Bozcaada",
       "images": [
         "https://ippasso.mediatriple.net/venue/07042023165934-0.jpg",
         "https://ippasso.mediatriple.net/venue/07042023165934-0-0.jpg"
@@ -1396,7 +1396,7 @@
       "lng": "29.041588733965686",
       "city": "Bursa",
       "address": "Kültürpark İçi Çekirge",
-      "state": "Osmangazi/Bursa",
+      "state": "Osmangazi",
       "images": ["https://ippasso.mediatriple.net/venue/31032023104228-o.jpg"]
     },
     {
@@ -1406,7 +1406,7 @@
       "lng": "30.582942503125874",
       "city": "Antalya",
       "address": "Fatih Mahallesi,3410 Sokak 07080",
-      "state": "Kepez/Antalya",
+      "state": "Kepez",
       "images": [
         "https://ippasso.mediatriple.net/venue/23032023190424-1.jpg",
         "https://ippasso.mediatriple.net/venue/23032023190424-2.jpg"
@@ -1419,7 +1419,7 @@
       "lng": "30.772193647302434",
       "city": "Antalya",
       "address": "Altınova Sinan, Çağdaş Sk. No:5, 07170",
-      "state": "Kepez/Antalya",
+      "state": "Kepez",
       "images": [
         "https://ippasso.mediatriple.net/venue/13092022172328-1.jpg",
         "https://ippasso.mediatriple.net/venue/13092022172328-2.jpg",
@@ -1434,7 +1434,7 @@
       "lng": "32.80343754744496",
       "city": "Ankara",
       "address": "Söğütözü Caddesi No:1/A, 06510",
-      "state": "Çankaya/Ankara",
+      "state": "Çankaya",
       "images": [
         "https://ippasso.mediatriple.net/venue/03062021165351-Congresium-3-Copy_bxdxlc.jpg",
         "https://ippasso.mediatriple.net/venue/03062021165351-panaromik-teras.jpg",
@@ -1449,7 +1449,7 @@
       "lng": "32.84720910141929",
       "city": "Ankara",
       "address": "Anafartalar, Altınsoy Cd. No:3, 06101 Sıhhıye",
-      "state": "Altındağ/Ankara",
+      "state": "Altındağ",
       "images": ["https://ippasso.mediatriple.net/venue/23062023165357-1.jpg"]
     },
     {
@@ -1459,7 +1459,7 @@
       "lng": "32.725603530255675",
       "city": "Ankara",
       "address": "Kızılcaşar Mahallesi, 06830 İncek",
-      "state": "Gölbaşı/Ankara",
+      "state": "Gölbaşı",
       "images": [
         "https://ippasso.mediatriple.net/venue/24052023105255-1.jpg",
         "https://ippasso.mediatriple.net/venue/24052023105255-2.jpg",
@@ -1473,7 +1473,7 @@
       "lng": "32.80889644559616",
       "city": "Ankara",
       "address": "Eskişehir Yolu No:6 06560",
-      "state": "Söğütözü/Ankara",
+      "state": "Söğütözü",
       "images": [
         "https://ippasso.mediatriple.net/venue/12072021123535-02052016155553.jpg"
       ]
@@ -1485,7 +1485,7 @@
       "lng": "32.84668207628201",
       "city": "Ankara",
       "address": "Anafartalar, 06250",
-      "state": "Altındağ/Ankara",
+      "state": "Altındağ",
       "images": [
         "https://ippasso.mediatriple.net/venue/28042023134009-0.jpg",
         "https://ippasso.mediatriple.net/venue/28042023134010-1.jpg"
@@ -1498,7 +1498,7 @@
       "lng": "30.481512174377198",
       "city": "Ankara",
       "address": "Mehmet Akif Ersoy, Nazım Hikmet Kültür Mrk. İç Yolu, 06200 ",
-      "state": "Yenimahalle/Ankara",
+      "state": "Yenimahalle",
       "images": [
         "https://ippasso.mediatriple.net/venue/22022023183745-1.jpg",
         "https://ippasso.mediatriple.net/venue/22022023183745-2.jpg",
@@ -1513,7 +1513,7 @@
       "lng": "30.481512174377198",
       "city": "Afyonkarahisar",
       "address": "Dörtyol Mah. Turgut Özal Cad., Afyon Yeni Şehir Stadyumu Yanı, 03200",
-      "state": "Merkez/Afyonkarahisar",
+      "state": "Merkez",
       "images": [
         "https://ippasso.mediatriple.net/venue/29082023164016-0.jpeg",
         "https://ippasso.mediatriple.net/venue/29082023164016-1.jpeg"
@@ -1526,7 +1526,7 @@
       "lng": "35.358918885940184",
       "city": "Adana",
       "address": "Gültepe, Çukurova Ünv., 01250 ",
-      "state": "Sarıçam/Adana",
+      "state": "Sarıçam",
       "images": ["https://ippasso.mediatriple.net/venue/12052023183543-0.jpg"]
     },
     {
@@ -1536,7 +1536,7 @@
       "lng": "35.3071446147728",
       "city": "Adana",
       "address": "Ahmet Remzi Yüreğir Mah. Erdal Acet Cad.NO:1",
-      "state": "Seyhan/Adana",
+      "state": "Seyhan",
       "images": [
         "https://ippasso.mediatriple.net/venue/20042021121227-01burdapgm-adana-etkinlik-passo.jpg",
         "https://ippasso.mediatriple.net/venue/11102022171124-4.jpg"
@@ -1549,7 +1549,7 @@
       "lng": "28.974085987980523",
       "city": "İstanbul",
       "address": "Asmalı Mescit, Şehbender Sk. no:3, 34430 ",
-      "state": "Beyoğlu/İstanbul",
+      "state": "Beyoğlu",
       "images": [
         "https://ippasso.mediatriple.net/venue/14072022114311-nc-4024.jpg",
         "https://ippasso.mediatriple.net/venue/14072022114311-nc-4027.jpg",
@@ -1565,7 +1565,7 @@
       "lng": "29.09998687263474",
       "city": "İstanbul",
       "address": "Bostanlar Arası Sk. No:8 Bostancı",
-      "state": "Kadıköy/İstanbul",
+      "state": "Kadıköy",
       "images": [
         "https://ippasso.mediatriple.net/venue/02112022111808-1.jpg",
         "https://ippasso.mediatriple.net/venue/02112022111808-2.jpg"
@@ -1578,7 +1578,7 @@
       "lng": "28.992791703323444",
       "city": "İstanbul",
       "address": "Çeşitli Teraslar, İstanbul",
-      "state": "Çeşitli Teraslar/İstanbul",
+      "state": "Çeşitli Teraslar",
       "images": [
         "https://ippasso.mediatriple.net/venue/15052023173654-0.jpg",
         "https://ippasso.mediatriple.net/venue/15052023173654-2.jpg"
@@ -1591,7 +1591,7 @@
       "lng": "28.992791703323444",
       "city": "İstanbul",
       "address": "Vişnezade, Acısu Sokaği No:19, 34357",
-      "state": "Beşiktaş/İstanbul",
+      "state": "Beşiktaş",
       "images": [
         "https://ippasso.mediatriple.net/venue/15052023173654-0.jpg",
         "https://ippasso.mediatriple.net/venue/15052023173654-2.jpg"
@@ -1604,7 +1604,7 @@
       "lng": "28.99898771681792",
       "city": "İstanbul",
       "address": "Fulya mah. Büyükder cad. Quasar Tower. No: 76",
-      "state": "Şişli/İstanbul",
+      "state": "Şişli",
       "images": [
         "https://ippasso.mediatriple.net/venue/19102022170726-1.jpg",
         "https://ippasso.mediatriple.net/venue/19102022170726-2.jpg",
@@ -1619,7 +1619,7 @@
       "lng": "28.98294694565204",
       "city": "İstanbul",
       "address": "Kurabiye Sok. No: 8, Kat:1, Fitaş Pasajı",
-      "state": "Taksim/İstanbul",
+      "state": "Taksim",
       "images": [
         "https://ippasso.mediatriple.net/venue/31122021125819-08112021172035-venuelogo.jpg"
       ]
@@ -1631,7 +1631,7 @@
       "lng": "29.016921687978712",
       "city": "İstanbul",
       "address": "Caferağa Mh, Rıhtım Cd. No:1, 34710 Kadıköy/İstanbul",
-      "state": "Kadıköy/İstanbul",
+      "state": "Kadıköy",
       "images": [
         "https://ippasso.mediatriple.net/venue/19102022102129-2.jpeg",
         "https://ippasso.mediatriple.net/venue/19102022102129-3.jpeg",
@@ -1647,7 +1647,7 @@
       "lng": "28.93898606099248",
       "city": "İstanbul",
       "address": "Aksaray, Kennedy Cd. No:46, 34096",
-      "state": "Fatih/İstanbul",
+      "state": "Fatih",
       "images": ["https://ippasso.mediatriple.net/venue/20102022121501-1.jpg"]
     },
     {
@@ -1657,7 +1657,7 @@
       "lng": "28.987868218665824",
       "city": "İstanbul",
       "address": "Harbiye, Taşkışla Cd. No:8, 34367 ",
-      "state": "Şişli/İstanbul",
+      "state": "Şişli",
       "images": [
         "https://ippasso.mediatriple.net/venue/24062021150345-harbiye-cemil-topuzlu-acik-hava-tiyatrosu-bilet-passo-3.jpg",
         "https://ippasso.mediatriple.net/venue/08042022180524-14072021140441-harbiye-acikhava-etkinlik-bilet-passo.jpg",
@@ -1671,7 +1671,7 @@
       "lng": "28.993330276336852",
       "city": "İstanbul",
       "address": "Harbiye Mh. Kadırgalar Cd. No 4",
-      "state": "Şişli/İstanbul",
+      "state": "Şişli",
       "images": [
         "https://ippasso.mediatriple.net/venue/24082021115459-kucukciftlikpark.jpeg",
         "https://ippasso.mediatriple.net/venue/24082021115459-kucukciftlik1.jpg",
@@ -1685,7 +1685,7 @@
       "lng": "29.000508801480812",
       "city": "İstanbul",
       "address": "Kazım Karabekir Paşa, Bahçeköy Cd. No:114, 34473",
-      "state": "Sarıyer/İstanbul",
+      "state": "Sarıyer",
       "images": [
         "https://ippasso.mediatriple.net/venue/01022023144749-lifepark8.jpeg",
         "https://ippasso.mediatriple.net/venue/01022023144748-lifepark1.jpeg",
@@ -1704,7 +1704,7 @@
       "lng": "29.034989903321893",
       "city": "İstanbul",
       "address": "Caferağa, Moda Cd. No:194, 34710",
-      "state": "Kadıköy/İstanbul",
+      "state": "Kadıköy",
       "images": [
         "https://ippasso.mediatriple.net/venue/19102022165023-2.jpg",
         "https://ippasso.mediatriple.net/venue/19102022165023-3.png",
@@ -1718,7 +1718,7 @@
       "lng": "28.88638463215901",
       "city": "İstanbul",
       "address": "Altıntepsi, Yeni Çiftlik Cd., 34035",
-      "state": "Bayrampaşa/İstanbul",
+      "state": "Bayrampaşa",
       "images": [
         "https://ippasso.mediatriple.net/venue/21102022164436-1.jpg",
         "https://ippasso.mediatriple.net/venue/21102022164436-2.jpg",
@@ -1734,7 +1734,7 @@
       "lng": "29.001647903324834",
       "city": "İstanbul",
       "address": "Gülbağ Mah. Cemal Sahir Sk. No:33 Profilo Avm İçi Profilo Kültür Merkezi ZA/34 ",
-      "state": "Şişli / İstanbul",
+      "state": "Şişli",
       "images": [
         "https://ippasso.mediatriple.net/venue/16092021001400-profilo-kultur-merkezi.jpg"
       ]
@@ -1746,7 +1746,7 @@
       "lng": "28.975346689829635",
       "city": "İstanbul",
       "address": "Nevizade, Kameriye Sk. No:13, 34435",
-      "state": "Beyoğlu / İstanbul",
+      "state": "Beyoğlu",
       "images": [
         "https://ippasso.mediatriple.net/venue/06042023104056-1.jpg",
         "https://ippasso.mediatriple.net/venue/06042023104056-2.jpg",
@@ -1760,7 +1760,7 @@
       "lng": "28.94648536099582",
       "city": "İstanbul",
       "address": "Eski Silahtarağa Elektrik Santrali Kazım Karabekir Cad. No:2  34060",
-      "state": "Eyüpsultan/İstanbul",
+      "state": "Eyüpsultan",
       "images": [
         "https://ippasso.mediatriple.net/venue/31102022155359-2.jpg",
         "https://ippasso.mediatriple.net/venue/31102022155359-3.jpg",
@@ -1774,7 +1774,7 @@
       "lng": "28.99204463215889",
       "city": "İstanbul",
       "address": "Suzer Plaza Askerocagi Caddessi, Elmadağ Cd. No:6, 34367",
-      "state": "Şişli/İstanbul",
+      "state": "Şişli",
       "images": [
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/29/57/7f/hotel-exterior.jpg?w=700&h=-1&s=1"
       ]
@@ -1786,7 +1786,7 @@
       "lng": "28.985924632162188",
       "city": "İstanbul",
       "address": "Ayazağa Mahallesi. Cendere Caddesi 1. Apt No:109 İç Kapı No: 254 ",
-      "state": "Sarıyer/ İstanbul",
+      "state": "Sarıyer",
       "images": [
         "https://ippasso.mediatriple.net/venue/02112022140317-1.jpg",
         "https://ippasso.mediatriple.net/venue/02112022140317-2.jpg",
@@ -1803,7 +1803,7 @@
       "lng": "29.1049032883556",
       "city": "İstanbul",
       "address": "Barbaros Mah, Ihlamur Bv, 34746",
-      "state": "Ataşehir/İstanbul",
+      "state": "Ataşehir",
       "images": [
         "https://ippasso.mediatriple.net/venue/04102022165015-1.jpg",
         "https://ippasso.mediatriple.net/venue/04102022165015-2.jpg",
@@ -1818,7 +1818,7 @@
       "lng": "29.007338419590937",
       "city": "İstanbul",
       "address": "Huzur Mh., Maslak Ayazağa Cd. 4/A, 34396 ",
-      "state": "Sarıyer/İstanbul",
+      "state": "Sarıyer",
       "images": [
         "https://ippasso.mediatriple.net/venue/27072021132653-wa2.jpg",
         "https://ippasso.mediatriple.net/venue/27072021132653-Volkswagen-Arena-1.jpg",
@@ -1832,7 +1832,7 @@
       "lng": "28.890813842328885",
       "city": "İstanbul",
       "address": "Göktürk Merkez, Kemerburgaz Kent Ormanı, Pirinççi Köyü Kemerburgaz Yolu, 34076",
-      "state": "Eyüpsultan/İstanbul",
+      "state": "Eyüpsultan",
       "images": ["https://ippasso.mediatriple.net/venue/21072023164352-1.png"]
     },
     {
@@ -1842,7 +1842,7 @@
       "lng": "29.008556757671116",
       "city": "İstanbul",
       "address": "Maslak, Taş Yoncası Sok. Ağaoğlu Maslak 1453 Sitesi O D Blok No: 12, 34485",
-      "state": "Sarıyer/İstanbul",
+      "state": "Sarıyer",
       "images": [
         "https://ippasso.mediatriple.net/venue/01112022135733-1.jpg",
         "https://ippasso.mediatriple.net/venue/01112022135733-2.jpg"
@@ -1855,7 +1855,7 @@
       "lng": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul",
+      "state": "Beşiktaş",
       "images": [
         "https://ippasso.mediatriple.net/venue/28022023155420-0.jpg",
         "https://ippasso.mediatriple.net/venue/28022023155420-1.jpg",
@@ -1871,7 +1871,7 @@
       "lng": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul",
+      "state": "Beşiktaş",
       "images": [
         "https://ippasso.mediatriple.net/venue/20042021094811-1.jpg",
         "https://ippasso.mediatriple.net/venue/20042021094811-2.jpg",
@@ -1885,12 +1885,11 @@
       "lng": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul",
+      "state": "Beşiktaş",
       "images": [
         "https://ippasso.mediatriple.net/venue/20042021092353-1.jpg",
         "https://ippasso.mediatriple.net/venue/20042021092353-2.jpg",
-        "https://ippasso.mediatriple.net/venue/20042021092353-3.jpg",
-        "https://ippasso.mediatriple.net/venue/20042021092353-4.jpg"
+        "https://ippasso.mediatriple.net/venue/20042021092353-3.jpg"
       ]
     },
     {
@@ -1900,7 +1899,7 @@
       "lng": "29.01630490572438",
       "city": "İstanbul",
       "address": "Levazım, Koru Sok. No:2, 34340",
-      "state": "Beşiktaş/İstanbul",
+      "state": "Beşiktaş",
       "images": [
         "https://ippasso.mediatriple.net/venue/20042021094046-1.jpg",
         "https://ippasso.mediatriple.net/venue/20042021094046-2.jpg",
@@ -1914,7 +1913,7 @@
       "lng": "27.15155480366978",
       "city": "İzmir",
       "address": "Alsancak, Umurbey Mahallesi,35000",
-      "state": "Konak/İzmir",
+      "state": "Konak",
       "images": [
         "https://www.izmir.bel.tr/YuklenenDosyalar/Projeler/Kucuk/05012018_15210_0.jpg",
         "https://visitizmiryonetim.izmir.bel.tr/YuklenenDosyalar/DestinasyonFotograflari/1024/15012021123456026.jpg"
@@ -1927,7 +1926,7 @@
       "lng": " 26.36598963438233",
       "city": "İzmir",
       "address": "Alaçatı, 35930",
-      "state": "Çeşme/İzmir",
+      "state": "Çeşme",
       "images": [
         "https://www.izmir.art/imgServ/img/uploads/image-73f5bf3a6dcf2c34d18a7a912d5175e92d6a7d1b.png",
         "https://cesmebook.com/wp-content/uploads/2019/05/jjalacati2.jpg"
@@ -1940,7 +1939,7 @@
       "lng": "27.147975565617667",
       "city": "İzmir",
       "address": "Akdeniz, Fuar Alanı, 35210",
-      "state": "Konak/İzmir",
+      "state": "Konak",
       "images": [
         "https://www.izmir.art/imgServ/img/uploads/image-ac0640f39e42dbda9bceca19e4453c16ae587fea.png",
         "https://www.izmir.art/imgServ/img/uploads/image-ab8786bf3860cd14269c867377b44a9d8dae068c.png"
@@ -1953,7 +1952,7 @@
       "lng": "27.077859688906454",
       "city": "İzmir",
       "address": "Mehmet Ali Akman, Mahallesi, Mithatpaşa Cd. No:1087, 35290",
-      "state": "Konak/İzmir",
+      "state": "Konak",
       "images": [
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8b/7f/4c/ahmed-adnan-saygun-sanat.jpg?w=1200&h=1200&s=1",
         "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1110000/1111484.jpg"
