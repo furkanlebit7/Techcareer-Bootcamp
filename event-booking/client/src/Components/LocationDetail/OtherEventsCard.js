@@ -61,7 +61,7 @@ const OtherEventsCard = ({ event }) => {
           {event.eventShortDescription.slice(0, 50) + "..."}
         </p>
       </div>
-      <button className="absolute -bottom-4 rounded-full dark:bg-darkMain bg-white group-hover:border group-hover:border-blue-500 group-hover:dark:border-blue-400 p-1 px-5 text-sm font-medium left-1/2 -translate-x-1/2 transition-all  hover:text-pinky">
+      <button className="absolute -bottom-4 rounded-full dark:bg-darkContent bg-white group-hover:border group-hover:border-blue-500 group-hover:dark:border-blue-400 p-1 px-5 text-sm font-medium left-1/2 -translate-x-1/2 transition-all  hover:text-pinky">
         Detaylar
       </button>
     </Link>
