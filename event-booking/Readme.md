@@ -23,10 +23,11 @@ npm start or yarn start
 
 ## 💾 Data Setup
 
-1. Go to server directory.
+1. Go to server directory and install its features.
 
 ```
 cd server
+npm install or yarn install
 ```
 
 2. Use the project locally (localhost).
@@ -35,7 +36,7 @@ cd server
 npm start or yarn start
 ```
 
-## 🗝️ Ortam Değişkenleri
+## 🗝️ Environment Variables
 
 To run this project you will need to add the following environment variables to your .env file in the client directory.
 
