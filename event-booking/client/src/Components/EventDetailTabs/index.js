@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+
+//Components
 import TicketPrice from "./TicketPrice";
 import Sss from "./Sss";
 import Comments from "./Comments";

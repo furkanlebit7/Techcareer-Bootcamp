@@ -1,9 +1,13 @@
 import React from "react";
+
+//Components
 import Loading from "../Loading";
+import LocationImageSlider from "./LocationImageSlider";
+
+//Icons
 import { BsFillShareFill } from "react-icons/bs";
 import { GrFacebookOption, GrTwitter } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
-import LocationImageSlider from "./LocationImageSlider";
 
 const LocationGeneral = ({ location }) => {
   return (

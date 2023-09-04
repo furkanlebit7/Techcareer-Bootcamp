@@ -1,9 +1,15 @@
 import React from "react";
+
+//Packages
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+
+//Components
 import SectionHeader from "../../Components/SectionHeader";
 import PopularEventCard from "../../Components/PopularEventCard";
-import { useSelector } from "react-redux";
+
+//Redux
 import { getEventTypes } from "../../Redux/Slices/EventSlice";
-import { Link } from "react-router-dom";
 
 const PopularEvents = () => {
   const { data } = useSelector(getEventTypes);

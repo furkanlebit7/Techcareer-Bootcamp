@@ -1,8 +1,16 @@
 import React from "react";
+
+//Packages
 import { Link } from "react-router-dom";
 import moment from "moment";
+
+//Components
 import LocationCardSlider from "./LocationCardSlider";
+
+//Icons
 import { FaLocationDot } from "react-icons/fa6";
+
+//Locals
 moment.locale("tr");
 
 const LocationCard = ({ location }) => {

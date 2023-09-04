@@ -1,15 +1,13 @@
 import React from "react";
 
-// Import Swiper React components
+//Packages
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-// Import Swiper styles
+//CSS
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const LocationCardSlider = ({ location }) => {
   return (

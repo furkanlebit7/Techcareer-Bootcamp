@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { BiDetail } from "react-icons/bi";
-import moment from "moment";
-import { FaLocationArrow } from "react-icons/fa";
+
+//Icons
 import { BsFillPersonFill } from "react-icons/bs";
 
 const Organizers = ({ event }) => {

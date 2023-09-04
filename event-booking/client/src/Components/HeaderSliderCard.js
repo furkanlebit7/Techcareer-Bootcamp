@@ -1,8 +1,14 @@
 import React from "react";
-import { SlLocationPin } from "react-icons/sl";
+
+//Packages
 import moment from "moment";
-import "moment/locale/tr"; // without this line it didn't work
 import { Link } from "react-router-dom";
+
+//Icons
+import { SlLocationPin } from "react-icons/sl";
+
+//Locals
+import "moment/locale/tr"; // without this line it didn't work
 moment.locale("tr");
 
 const HeaderSliderCard = ({ event }) => {

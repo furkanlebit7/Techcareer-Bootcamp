@@ -1,6 +1,12 @@
 import React from "react";
+
+//Packages
 import moment from "moment";
+
+//Icons
 import { BsChevronDoubleDown, BsChevronDoubleUp } from "react-icons/bs";
+
+//Locals
 moment.locale("tr");
 
 const LocationFilter = ({

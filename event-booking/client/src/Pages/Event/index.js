@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../Components/Navbar";
+
+//Packages
 import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { getEventByUrl } from "../../Redux/Slices/EventSlice";
-import { fetchEventByUrl } from "../../Redux/Services/EventService";
+
+//Components
+import Navbar from "../../Components/Navbar";
 import BreadCrumb from "../../Components/BreadCrumb";
 import EventDetailTabs from "../../Components/EventDetailTabs";
 import Footer from "../../Layouts/Footer";
 import EventGeneral from "../../Components/EventDetail/EventGeneral";
 import EventDetail from "../../Components/EventDetail/EventDetail";
 import Organizers from "../../Components/EventDetailTabs/Organizers";
+
+//Redux
+import { useDispatch, useSelector } from "react-redux";
+import { getEventByUrl } from "../../Redux/Slices/EventSlice";
+import { fetchEventByUrl } from "../../Redux/Services/EventService";
 
 const Event = () => {
   const dispatch = useDispatch();

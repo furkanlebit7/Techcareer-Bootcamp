@@ -1,6 +1,6 @@
 import React from "react";
 
-//ICONS
+//Icons
 import { BiImage } from "react-icons/bi";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { SlCalender } from "react-icons/sl";

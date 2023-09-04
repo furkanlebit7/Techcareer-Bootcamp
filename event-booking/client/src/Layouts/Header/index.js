@@ -1,5 +1,9 @@
 import React, { useState } from "react";
+
+//Components
 import Navbar from "../../Components/Navbar";
+
+//Icons
 import { HiChevronDoubleDown } from "react-icons/hi";
 
 const Header = () => {

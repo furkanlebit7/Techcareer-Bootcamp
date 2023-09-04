@@ -1,6 +1,10 @@
 import React from "react";
+
+//Packages
 import { Link } from "react-router-dom";
 import moment from "moment";
+
+//Locals
 moment.locale("tr");
 
 const EventCard = ({ event }) => {

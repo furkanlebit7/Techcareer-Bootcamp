@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 
+//Packages
+import { Link } from "react-router-dom";
+
 //Icons
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Navbar = ({ scrolled, setScrolled, white }) => {

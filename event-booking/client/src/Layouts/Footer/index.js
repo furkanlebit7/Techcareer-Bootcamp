@@ -1,6 +1,6 @@
 import React from "react";
 
-//ICONS
+//Icons
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
 

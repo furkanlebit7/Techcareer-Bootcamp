@@ -1,9 +1,13 @@
 import React from "react";
-import { BiDetail } from "react-icons/bi";
+
+//Packages
 import moment from "moment";
 import Map from "./Map";
-import { FaLocationArrow } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
+//Icons
+import { BiDetail } from "react-icons/bi";
+import { FaLocationArrow } from "react-icons/fa";
 
 const EventDetail = ({ event }) => {
   return (

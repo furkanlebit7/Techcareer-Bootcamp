@@ -1,17 +1,23 @@
-import React, { useEffect, useState } from "react";
-import Navbar from "../../Components/Navbar";
-import "moment/locale/tr"; // without this line it didn't work
-import { getAllEvents } from "../../Redux/Slices/EventSlice";
-import { useSelector } from "react-redux";
-import Footer from "../../Layouts/Footer";
-import EventCard from "../../Components/EventCard";
-import EventSearch from "../../Components/EventSearch";
-import EventFilter from "../../Components/EventFilter";
-import moment from "moment";
-import LocationCard from "../../Components/LocationCard";
-import { getAllLocations } from "../../Redux/Slices/LocationSlice";
-import LocationFilter from "../../Components/LocationFilter.js";
+import React, { useState } from "react";
 
+//Packages
+import { useSelector } from "react-redux";
+import moment from "moment";
+
+//Components
+import Navbar from "../../Components/Navbar";
+import Footer from "../../Layouts/Footer";
+import EventSearch from "../../Components/EventSearch";
+import LocationCard from "../../Components/LocationCard";
+import LocationFilter from "../../Components/LocationFilter.js";
+import Loading from "../../Components/Loading";
+import EventNotFound from "../../Components/EventNotFound";
+
+//Redux
+import { getAllLocations } from "../../Redux/Slices/LocationSlice";
+
+//Locals
+import "moment/locale/tr"; // without this line it didn't work
 moment.locale("tr");
 
 const Locations = () => {
@@ -80,6 +86,12 @@ const Locations = () => {
             state={state}
             setState={setState}
           />
+          {locations.status === "loading" && <Loading />}
+          {filteredLocations.length === 0 && (
+            <EventNotFound
+              text={"Aradığınız özelliklerde etkinlik alanı bulunmamaktadır"}
+            />
+          )}
           <div className="grid px-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 gap-y-8">
             {filteredLocations.map((location) => (
               <LocationCard location={location} key={location.id} />

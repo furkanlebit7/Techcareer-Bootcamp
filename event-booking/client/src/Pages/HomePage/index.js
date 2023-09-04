@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from "react-redux";
 import Header from "../../Layouts/Header";
 import FeaturedEvents from "../../Layouts/FeaturedEvents";
 import FullWidthBgContent from "../../Components/FullWidthBgContent";
-import LatestNews from "../../Layouts/LatestNews";
 import Footer from "../../Layouts/Footer";
 import PopularEvents from "../../Layouts/PopularEvents";
 import WhyChooseUs from "../../Layouts/WhyChooseUs";

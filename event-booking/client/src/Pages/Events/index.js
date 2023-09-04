@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../../Components/Navbar";
-import "moment/locale/tr"; // without this line it didn't work
-import { getAllEvents } from "../../Redux/Slices/EventSlice";
+
+//Packages
 import { useSelector } from "react-redux";
+import moment from "moment";
+
+//Components
+import Navbar from "../../Components/Navbar";
 import Footer from "../../Layouts/Footer";
 import EventCard from "../../Components/EventCard";
 import EventSearch from "../../Components/EventSearch";
 import EventFilter from "../../Components/EventFilter";
-import moment from "moment";
+import Loading from "../../Components/Loading";
+import EventNotFound from "../../Components/EventNotFound";
 
+//Redux
+import { getAllEvents } from "../../Redux/Slices/EventSlice";
+
+//Locals
+import "moment/locale/tr"; // without this line it didn't work
 moment.locale("tr");
 
 const Events = () => {
@@ -85,6 +94,13 @@ const Events = () => {
             isDisabled={isDisabled}
             setIsDisabled={setIsDisabled}
           />
+          {events.status === "loading" && <Loading />}
+          {filteredEvents.length === 0 && (
+            <EventNotFound
+              text={"Yakın zamanda bu tarz bir etkinlik bulunmamaktadır"}
+            />
+          )}
+
           <div className="grid px-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 gap-y-8">
             {filteredEvents.map((event) => (
               <EventCard event={event} key={event.id} />

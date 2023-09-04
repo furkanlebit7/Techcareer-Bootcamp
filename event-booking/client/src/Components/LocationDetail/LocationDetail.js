@@ -1,7 +1,10 @@
 import React from "react";
-import { BiDetail } from "react-icons/bi";
-import moment from "moment";
+
+//Packages
 import Map from "../EventDetail/Map";
+
+//Icons
+import { BiDetail } from "react-icons/bi";
 import { FaLocationArrow } from "react-icons/fa";
 
 const LocationDetail = ({ location }) => {

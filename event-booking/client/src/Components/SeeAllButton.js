@@ -1,6 +1,10 @@
 import React from "react";
-import { BiSolidChevronRightCircle } from "react-icons/bi";
+
+//Packages
 import { Link } from "react-router-dom";
+
+//Icons
+import { BiSolidChevronRightCircle } from "react-icons/bi";
 
 const SeeAllButton = ({ text, link }) => {
   return (

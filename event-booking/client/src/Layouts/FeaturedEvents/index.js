@@ -1,9 +1,12 @@
 import React from "react";
+
+//Packages
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
+
+//Components
 import SectionHeader from "../../Components/SectionHeader";
 import HeaderSliderCard from "../../Components/HeaderSliderCard.js";
-import { Swiper, SwiperSlide } from "swiper/react";
-// import required modules
-import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import SeeAllButton from "../../Components/SeeAllButton";
 import Loading from "../../Components/Loading";
 
@@ -39,7 +42,7 @@ const FeaturedEvents = ({ events }) => {
         modules={[Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
-        {events.data === "loading" && <Loading />}
+        {events.status === "loading" && <Loading />}
         {events &&
           events.data.slice(4, 16).map((event, index) => (
             <SwiperSlide key={index}>

@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from "react";
 
+//Packages
+import { useSelector } from "react-redux";
+
+//Components
 import EventTypeStatistic from "./EventTypeStatistic";
-//ICONS
+
+//Redux
+import { getEventTypes } from "../../Redux/Slices/EventSlice";
+
+//Icons
 import { BsMusicPlayer } from "react-icons/bs";
 import { FaTheaterMasks } from "react-icons/fa";
 import { GiTheater } from "react-icons/gi";
 import { MdOutlineFestival } from "react-icons/md";
 import { ImTicket } from "react-icons/im";
-import { useSelector } from "react-redux";
-import { getEventTypes } from "../../Redux/Slices/EventSlice";
 
 const FullWidthBgContent = () => {
   const { data } = useSelector(getEventTypes);

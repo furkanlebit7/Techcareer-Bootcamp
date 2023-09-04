@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import EventCard from "./EventCard";
+import React from "react";
+
+//Components
 import OtherEventsCard from "./LocationDetail/OtherEventsCard";
 import EventNotFound from "./EventNotFound";
 
@@ -14,7 +15,9 @@ const LocationEvents = ({ location }) => {
           <OtherEventsCard event={event} key={event.id} />
         ))}
       </div>
-      {location.data.events.length === 0 && <EventNotFound />}
+      {location.data.events.length === 0 && (
+        <EventNotFound text={"Yakın zamanda başka etkinlik bulunmamaktadır"} />
+      )}
     </div>
   );
 };

@@ -1,6 +1,10 @@
 import React from "react";
+
+//Packages
 import { Link } from "react-router-dom";
 import moment from "moment";
+
+//Locals
 moment.locale("tr");
 
 const OtherEventsCard = ({ event }) => {
@@ -9,7 +13,7 @@ const OtherEventsCard = ({ event }) => {
       className="border border-gray-300 dark:border-gray-600 rounded-md relative group transition-all  hover:bg-white hover:dark:bg-darkContent shadow-sm"
       to={`../event/${event.eventUrl}`}
     >
-      <div className="h-[15vh] rounded-md relative">
+      <div className="h-[20vh] md:h-[15vh] rounded-md relative">
         <img
           src={event.eventSmallPicture}
           className="w-full h-full rounded-t-md"

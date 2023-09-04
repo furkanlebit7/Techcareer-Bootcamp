@@ -1,4 +1,6 @@
 import React from "react";
+
+//Components
 import SectionHeader from "../../Components/SectionHeader";
 import LatestNewsCard from "../../Components/LatestNewsCard";
 import SeeAllButton from "../../Components/SeeAllButton";

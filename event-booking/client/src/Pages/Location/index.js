@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from "react";
+
+//Packages
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { getLocationById } from "../../Redux/Slices/LocationSlice";
-import { fetchLocationById } from "../../Redux/Services/LocationService";
+
+//Components
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Layouts/Footer";
 import LocationGeneral from "../../Components/LocationDetail/LocationGeneral";
 import LocationDetail from "../../Components/LocationDetail/LocationDetail";
 import LocationEvents from "../../Components/LocationEvents";
-import EventNotFound from "../../Components/EventNotFound";
+
+//Redux
+import { getLocationById } from "../../Redux/Slices/LocationSlice";
+import { fetchLocationById } from "../../Redux/Services/LocationService";
 const Location = () => {
   const dispatch = useDispatch();
   const { locationId } = useParams();

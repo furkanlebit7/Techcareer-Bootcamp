@@ -1,9 +1,13 @@
 import React from "react";
+
+//Components
 import Loading from "../Loading";
-import { BsFillShareFill } from "react-icons/bs";
-import { GrFacebookOption, GrTwitter } from "react-icons/gr";
-import { FaWhatsapp } from "react-icons/fa";
 import EventImageSlider from "./EventImageSlider";
+
+//Icons
+import { GrFacebookOption, GrTwitter } from "react-icons/gr";
+import { BsFillShareFill } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 
 const EventGeneral = ({ event }) => {
   return (
