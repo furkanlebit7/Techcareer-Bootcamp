@@ -61,7 +61,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Konser
+              Concert
             </label>
           </div>
           <div className="flex items-center">
@@ -76,7 +76,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Tiyatro
+              Theater
             </label>
           </div>
           <div className="flex items-center">
@@ -91,7 +91,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Sergi
+              Exhibition
             </label>
           </div>
           <div className="flex items-center">
@@ -121,7 +121,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Diğer
+              Others
             </label>
           </div>
         </div>
@@ -150,7 +150,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Hepsi
+              All
             </label>
           </div>
           <div className="flex items-center">
@@ -173,7 +173,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Gelecek
+              Future
             </label>
           </div>
           <div className="flex items-center">
@@ -196,7 +196,7 @@ const EventFilter = ({
               htmlFor="default-checkbox"
               className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
-              Geçmiş
+              Past
             </label>
           </div>
         </div>

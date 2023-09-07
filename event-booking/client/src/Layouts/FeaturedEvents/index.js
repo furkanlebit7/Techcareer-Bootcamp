@@ -14,7 +14,7 @@ const FeaturedEvents = ({ events }) => {
   return (
     <div className="container mx-auto px-5 md:px-0 my-32 ">
       <SectionHeader
-        title={"Featured Events"}
+        title={"Future Events"}
         description={
           " You can choose to display Featured, Upcoming, Past Events here"
         }

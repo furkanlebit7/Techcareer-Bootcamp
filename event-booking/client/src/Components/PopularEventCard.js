@@ -2,13 +2,13 @@ import React from "react";
 
 const PopularEventCard = ({ type, count }) => {
   let cl = "";
-  if (type === "konser") {
+  if (type === "CONCERT") {
     cl = "bg-[url('/src/assets/Images/popular_concert.jpg')]";
-  } else if (type === "tiyatro") {
+  } else if (type === "THEATER") {
     cl = "bg-[url('/src/assets/Images/popular_theater.jpg')]";
-  } else if (type === "sergi") {
+  } else if (type === "EXHIBITION") {
     cl = "bg-[url('/src/assets/Images/sergi.jpg')]";
-  } else if (type === "festival") {
+  } else if (type === "FESTIVAL") {
     cl = "bg-[url('/src/assets/Images/popular_festival.jpg')]";
   }
   return (

@@ -13,13 +13,13 @@ const EventDetail = ({ event }) => {
   return (
     <div className="bg-white dark:bg-darkContent p-6 rounded-md">
       <div className="flex items-center justify-between text-xl text-gray-600">
-        <h3 className="font-medium font-poppins">ETKİNLİK DETAYLARI</h3>
+        <h3 className="font-medium font-poppins">EVENT DETAILS</h3>
         <BiDetail className="text-gray-400" />
       </div>
       <div className="py-8 ">
         <ul className="flex flex-col gap-4">
           <li className="flex items-center justify-between gap-5">
-            <span className="text-sm font-medium ">Lokasyon</span>
+            <span className="text-sm font-medium ">Location</span>
             <Link
               to={`../location/${event.data.location.id}`}
               className="opacity-70 text-xs text-right text-blue-500"
@@ -28,37 +28,37 @@ const EventDetail = ({ event }) => {
             </Link>
           </li>
           <li className="flex items-center justify-between gap-5">
-            <span className="text-sm font-medium ">Şehir</span>
+            <span className="text-sm font-medium ">City</span>
             <span className="opacity-70 text-xs text-right">
               {event.data.location.city}
             </span>
           </li>
           <li className="flex items-center justify-between gap-5">
-            <span className="text-sm font-medium ">İlçe</span>
+            <span className="text-sm font-medium ">State</span>
             <span className="opacity-70 text-xs text-right">
               {event.data.location.state}
             </span>
           </li>
           <li className="flex items-center justify-between gap-5">
-            <span className="text-sm font-medium ">Adres</span>
+            <span className="text-sm font-medium ">Address</span>
             <span className="opacity-70 text-xs text-right">
               {event.data.location.address}
             </span>
           </li>
           <li className="flex items-center justify-between gap-5">
-            <span className="text-sm font-medium ">Başlama Tarihi:</span>
+            <span className="text-sm font-medium ">Start Date:</span>
             <span className="opacity-70 text-xs text-right">
               {moment(event.data.eventEndDate).format("LLL")}
             </span>
           </li>
           <li className="flex items-center justify-between gap-5">
-            <span className="text-sm font-medium ">Bitiş Tarihi:</span>
+            <span className="text-sm font-medium ">End Date:</span>
             <span className="opacity-70 text-xs text-right">
               {moment(event.data.eventStartDate).format("LLL")}
             </span>
           </li>
           <li>
-            <span className="text-sm font-medium w-full ">Harita:</span>
+            <span className="text-sm font-medium w-full ">Map:</span>
             <Map location={event.data.location} />
           </li>
           <li className="text-center hover:bg-pinky rounded-md">
@@ -69,7 +69,7 @@ const EventDetail = ({ event }) => {
               className="flex items-center justify-center rounded-md gap-3 font-semibold text-black hover:text-white  dark:text-white border  py-3"
             >
               <FaLocationArrow className="text-blue-800" />
-              <span>YOL TARİFİ</span>
+              <span>DIRECTION</span>
             </a>
           </li>
         </ul>

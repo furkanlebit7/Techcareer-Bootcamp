@@ -16,25 +16,25 @@ const EventDetailTabs = ({ event }) => {
           className={activeTab === 1 ? cls : ""}
           onClick={() => setActiveTab(1)}
         >
-          BİLET & FİYAT
+          TICKET & PRICE
         </li>
         <li
           className={activeTab === 2 ? cls : ""}
           onClick={() => setActiveTab(2)}
         >
-          SSS
+          FAQ
         </li>
         <li
           className={activeTab === 3 ? cls : ""}
           onClick={() => setActiveTab(3)}
         >
-          YORUMLAR
+          COMMENTS
         </li>
         <li
           className={activeTab === 4 ? cls : ""}
           onClick={() => setActiveTab(4)}
         >
-          İLETİŞİM
+          CONTACT
         </li>
       </ul>
       <div className=" p-8">

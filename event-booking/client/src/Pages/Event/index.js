@@ -67,7 +67,7 @@ const Event = () => {
           </div>
           <div className="w-full lg:w-4/12 2xl:px-2 flex flex-col gap-20">
             <button className="bg-pinky hover:bg-pink-700 w-full p-6 rounded-md text-base sm:text-lg md:text-xl  text-white">
-              ŞİMDİ BİLET AL
+              BUT TICKET NOW
             </button>
             {event && event.data && event.data.location && (
               <EventDetail event={event} />

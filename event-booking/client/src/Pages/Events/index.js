@@ -74,7 +74,7 @@ const Events = () => {
                 } text-white  font-poppins container  mx-auto px-2 sm:px-5 text-center`}
               >
                 <h1 className=" text-3xl md:text-5xl lg:text-7xl xl:text7xl xl:text-9xl text-white uppercase font-semibold  mb-5">
-                  ETKİNLİKLER
+                  EVENTS
                 </h1>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Events = () => {
           {events.status === "loading" && <Loading />}
           {filteredEvents.length === 0 && (
             <EventNotFound
-              text={"Yakın zamanda bu tarz bir etkinlik bulunmamaktadır"}
+              text={"This type of event does not exist recently"}
             />
           )}
 

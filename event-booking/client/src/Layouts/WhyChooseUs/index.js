@@ -13,44 +13,44 @@ const WhyChooseUs = () => {
       />
       <div className="lg:container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 xl:w-2/3">
         <WhyChooseCard
-          title={"Kapsamlı Etkinlik Kapsamı"}
+          title={"Comprehensive Event Coverage"}
           description={
-            "Konserlerden tiyatro gösterilerine, festivallerden daha fazlasına kadar geniş bir etkinlik listesi sunuyoruz. Favori etkinliklerinizi kaçırmayın."
+            "We provide an extensive list of concerts, theater performances, festivals, and more, ensuring you never miss out on your favorite events."
           }
           index={1}
         />
         <WhyChooseCard
-          title={"Kolay Etkinlik Keşfi"}
+          title={"Easy Event Discovery"}
           description={
-            "Kullanıcı dostu arama ve filtre seçenekleri ile etkinlikleri kolayca keşfedin. Tercihlerinize göre mükemmel etkinliği sadece birkaç tıklamayla bulun."
+            "Discover events effortlessly with our user-friendly search and filter options. Find the perfect event based on your preferences in just a few clicks."
           }
           index={2}
         />
         <WhyChooseCard
-          title={"Doğrulanmış Etkinlik Bilgileri"}
+          title={"Verified Event Information"}
           description={
-            "Etkinlik detaylarının güncel ve doğru olduğunu bilerek rahatlayın. Etkinlik bilgilerini doğrulayarak size en güvenilir bilgiyi sunuyoruz."
+            "Rest easy knowing that our event listings are accurate and up-to-date. We verify event details to give you the most reliable information."
           }
           index={3}
         />
         <WhyChooseCard
-          title={"Kullanıcı Odaklı Deneyim"}
+          title={"User-Focused Experience"}
           description={
-            "Biz sizin ihtiyaçlarınızı önemsiyoruz. Kişiselleştirilmiş bir kullanıcı profil oluşturun, favori etkinliklerinizi kaydedin ve size özel etkinlik önerileri alın."
+            "We prioritize your needs. Create a personalized user profile, save your favorite events, and receive tailored event recommendations."
           }
           index={4}
         />
         <WhyChooseCard
-          title={"Güvenli Bilet Rezervasyonu"}
+          title={"Secure Ticket Booking"}
           description={
-            "Güvenliğiniz bizim için önemlidir. Biletlerinizi platformumuz aracılığıyla güvenli bir şekilde rezerve edin ve işlemlerinizin korunduğundan emin olun."
+            "Your security matters to us. Book tickets securely through our platform, and trust that your transactions are protected."
           }
           index={5}
         />
         <WhyChooseCard
-          title={"Mobil Uyumluluk"}
+          title={"Mobile-Ready Convenience"}
           description={
-            "Her yerden platformumuza erişim sağlayın. Mobil uyumlu tasarımımız, etkinlikleri cep telefonunuz veya tabletinizden bulup rezerve etmenizi kolaylaştırır."
+            "Access our platform on the go. Our mobile-responsive design ensures you can find and book events from your smartphone or tablet."
           }
           index={6}
         />

@@ -58,7 +58,7 @@ const LocationFilter = ({
             id="countries"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-300 focus:border-gray-300 block w-full p-2.5 dark:bg-darkContent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-600 dark:focus:border-gray-600"
           >
-            <option value="">Bütün Şehirler</option>
+            <option value="">All Cities</option>
             {cities.map((city, id) => (
               <option key={id} value={city}>
                 {city}
@@ -73,7 +73,7 @@ const LocationFilter = ({
             id="countries"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-300 focus:border-gray-300 block w-full p-2.5 dark:bg-darkContent dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-600 dark:focus:border-gray-600"
           >
-            <option value="">Bütün Semtler</option>
+            <option value="">All States</option>
             {states.map((loc, id) => (
               <option key={id} value={loc}>
                 {loc}

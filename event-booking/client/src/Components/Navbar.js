@@ -60,13 +60,13 @@ const Navbar = ({ scrolled, setScrolled, white }) => {
               <AiOutlineCloseCircle />
             </li>
             <li>
-              <Link to={"/"}>Anasayfa</Link>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/events"}>Etkinlikler</Link>
+              <Link to={"/events"}>Events</Link>
             </li>
             <li>
-              <Link to={"/locations"}>Mekanlar</Link>
+              <Link to={"/locations"}>Locations</Link>
             </li>
           </ul>
 

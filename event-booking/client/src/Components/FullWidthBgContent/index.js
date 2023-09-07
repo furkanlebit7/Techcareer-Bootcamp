@@ -25,27 +25,27 @@ const FullWidthBgContent = () => {
         <div className="grid grid-cols-2 md:flex place-items-center gap-6 items-center justify-evenly container mx-auto">
           <EventTypeStatistic
             icon={<BsMusicPlayer />}
-            eventType={"KONSER"}
+            eventType={"CONCERT"}
             count={data[0]?.events?.length}
           />
           <EventTypeStatistic
             icon={<FaTheaterMasks />}
-            eventType={"TİYATRO"}
+            eventType={"THEATRE"}
             count={data[1]?.events?.length}
           />
           <EventTypeStatistic
             icon={<GiTheater />}
-            eventType={"SERGİ"}
+            eventType={"EXHIBITION"}
             count={data[2]?.events?.length}
           />
           <EventTypeStatistic
             icon={<MdOutlineFestival />}
-            eventType={"FESTİVAL"}
+            eventType={"FESTIVAL"}
             count={data[3]?.events?.length}
           />
           <EventTypeStatistic
             icon={<ImTicket />}
-            eventType={"DİĞER"}
+            eventType={"OTHERS"}
             count={data[4]?.events?.length}
           />
         </div>

@@ -50,15 +50,13 @@ const EventCard = ({ event }) => {
           moment().format("YYYY-MM-DD"),
           "h:mma"
         ) && (
-          <p className="my-5 text-blue-500 dark:text-blue-400 text-sm">
-            Yakında
-          </p>
+          <p className="my-5 text-blue-500 dark:text-blue-400 text-sm">Soon</p>
         )}
         {moment(event.eventEndDate).isBefore(
           moment().format("YYYY-MM-DD"),
           "h:mma"
         ) && (
-          <p className="my-5 text-red-500 dark:text-red-400 text-sm">Geçmiş</p>
+          <p className="my-5 text-red-500 dark:text-red-400 text-sm">Past</p>
         )}
 
         <p className="my-10 text-gray-500 text-sm">
@@ -66,7 +64,7 @@ const EventCard = ({ event }) => {
         </p>
       </div>
       <button className="absolute -bottom-5 rounded-full dark:bg-darkMain bg-whiteMain group-hover:border group-hover:border-blue-500 group-hover:dark:border-blue-400 p-3 px-10 font-medium left-1/2 -translate-x-1/2 transition-all  hover:text-pinky">
-        Bilet Al
+        Buy Ticket
       </button>
     </Link>
   );

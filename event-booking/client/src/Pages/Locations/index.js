@@ -69,7 +69,7 @@ const Locations = () => {
                 } text-white  font-poppins container  mx-auto px-2 sm:px-5 text-center`}
               >
                 <h1 className=" text-3xl md:text-5xl lg:text-7xl xl:text7xl xl:text-9xl text-white uppercase font-semibold  mb-5">
-                  MEKANLAR
+                  LOCATIONS
                 </h1>
               </div>
             </div>
@@ -88,9 +88,7 @@ const Locations = () => {
           />
           {locations.status === "loading" && <Loading />}
           {filteredLocations.length === 0 && (
-            <EventNotFound
-              text={"Aradığınız özelliklerde etkinlik alanı bulunmamaktadır"}
-            />
+            <EventNotFound text={"Event location was not found"} />
           )}
           <div className="grid px-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 gap-y-8">
             {filteredLocations.map((location) => (

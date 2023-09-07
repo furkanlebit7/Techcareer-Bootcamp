@@ -10,7 +10,7 @@ const BreadCrumb = ({ eventType, eventName }) => {
     <div className=" text-white flex items-center gap-2 text-sm md:text-base">
       <Link to="/" className="flex items-center gap-2">
         <HiHome />
-        <p>Anasayfa</p>
+        <p>Home</p>
       </Link>
       <BsChevronRight className="font-bold" />
       <Link to="/events" className="flex items-center gap-2">
